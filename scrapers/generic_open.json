@@ -2,6 +2,9 @@
   "url": "\\w+\\.\\w+",
   "name": "Generic Open",
   "generic": true,
+  "comment":"works with IOP",
+  "comment":"works with Ubiquity",
+  "comment":"works with Pensoft",
   "elements": {
     "fulltext_pdf": {
       "selector": "//meta[@name='citation_pdf_url']",
