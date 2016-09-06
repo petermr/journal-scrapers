@@ -1,5 +1,5 @@
 {
-  "url": "oxford.*\\.org|10\\.1093",
+  "url": "cambridge.*\\.org|10\\.1017",
   "headless": true,
   "elements": {
     "publisher": {

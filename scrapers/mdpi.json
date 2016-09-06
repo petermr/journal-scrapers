@@ -1,5 +1,5 @@
 {
-  "url": "mdpi\\.com",
+  "url": "mdpi\\.com|http://dx\\.doi\\.org/10\\.3390/",
   "elements": {
     "publisher": {
       "selector": "//meta[@name='citation_publisher']",

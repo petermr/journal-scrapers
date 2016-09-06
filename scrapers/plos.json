@@ -1,5 +1,5 @@
 {
-  "url": "plos.*\\.org",
+  "url": "plos\\.org|http://dx\\.doi\\.org/10\\.1371/",
   "elements": {
     "publisher": {
       "selector": "//meta[@name='citation_publisher']",
@@ -118,21 +118,21 @@
       "attribute": "html"
     },
     "fulltext_html": {
-      "selector": "//link[@rel='canonical']",
-      "attribute": "href",
+      "selector": "//meta[@property='og:url']",
+      "attribute": "content",
       "download": {
         "rename": "fulltext.html"
       }
     },
     "fulltext_pdf": {
-      "selector": "//a[@id='downloadPdf']",
-      "attribute": "href",
+      "selector": "//meta[@name='citation_pdf_url']",
+      "attribute": "content",
       "download": {
         "rename": "fulltext.pdf"
       }
     },
     "fulltext_xml": {
-      "selector": "//a[text()='XML']",
+      "selector": "//a[@id='downloadXml']",
       "attribute": "href",
       "download": {
         "rename": "fulltext.xml"

@@ -1,16 +1,16 @@
 {
-  "url": "royalsocietypublishing\\.org",
+  "url": "magonlinelibrary\\.com",
   "elements": {
     "fulltext_pdf": {
-      "selector": "//meta[@name='citation_pdf_url']",
-      "attribute": "content",
+      "selector": "//a[contains(normalize-space(.), 'PDF')]",
+      "attribute": "href",
       "download": {
         "rename": "fulltext.pdf"
       }
     },
     "fulltext_html": {
-      "selector": "//meta[@name='citation_full_html_url']",
-      "attribute": "content",
+      "selector": "//a[contains(normalize-space(.), 'Full Text')]",
+      "attribute": "href",
       "download": {
         "rename": "fulltext.html"
       }
@@ -24,7 +24,7 @@
       "attribute": "content"
     },
     "date": {
-      "selector": "//meta[@name='DC.Date']",
+      "selector": "//meta[@name='citation_date']",
       "attribute": "content"
     },
     "doi": {
@@ -44,12 +44,8 @@
       "attribute": "content"
     },
     "description": {
-      "selector": "//meta[@name='citation_abstract_html_url']",
-      "attribute": "content",
-      "download": {
-        "rename": "abstract.html"
-      }
-	  
+      "selector": "//meta[@name='description']",
+      "attribute": "content"
     }
   }
 }

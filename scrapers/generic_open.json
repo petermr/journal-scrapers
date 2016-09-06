@@ -43,9 +43,14 @@
       "selector": "//meta[@name='citation_firstpage']",
       "attribute": "content"
     },
+    "abstract_html": {
+      "selector": "//meta[@name='citation_abstract']",
+      "attribute": "html"
+    },
     "description": {
       "selector": "//meta[@name='description']",
       "attribute": "content"
     }
+	
   }
 }
