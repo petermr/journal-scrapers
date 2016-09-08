@@ -1,5 +1,6 @@
 {
   "url": "plos.*\\.org",
+  "comment":"not used",
   "elements": {
     "publisher": {
       "selector": "//meta[@name='citation_publisher']",
