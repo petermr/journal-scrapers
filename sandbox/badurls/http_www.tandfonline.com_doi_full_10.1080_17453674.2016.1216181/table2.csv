@@ -1,0 +1,12 @@
+ ,Patient-reported outcome
+ ,EQ-5D, , ,Satisfaction
+Variable,index,EQ VAS,Pain VAS,VAS
+Age, years,1.0a,1.0a,1.0a,1.0a
+Sex,0.18,0.0,0.0,0.62a
+Charnley classification,1.0a,1.0a,1.0a,1.0a
+Preoperative EQ-5D index,1.0a,0.89a,0.0,0.0
+Preoperative EQ VAS,1.0a,1.0a,1.0a,1.0a
+Preoperative pain VAS,1.0a,0.0,1.0a,0.0
+Hip order,0.0,0.07,0.0,0.49
+5th dimension of EQ-5D,1.0a,1.0a,1.0a,1.0a
+Antidepressants N06A,1.0a,1.0a,0.78a,0.0

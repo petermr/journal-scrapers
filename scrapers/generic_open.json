@@ -5,6 +5,7 @@
   "comment":"works with IOP",
   "comment":"works with Ubiquity",
   "comment":"works with Pensoft",
+  "comment": "added OR logic in fulltext_html selector PMR 20160905",
   "elements": {
     "fulltext_pdf": {
       "selector": "//meta[@name='citation_pdf_url']",
@@ -14,14 +15,17 @@
       }
     },
     "fulltext_html": {
-      "selector": "//meta[@name='citation_fulltext_html_url']",
+      "selector": "//meta[@name='citation_fulltext_html_url' or @name='citation_full_html_url'][1]",
       "attribute": "content",
       "download": {
         "rename": "fulltext.html"
       }
     },
     "title": {
-      "selector": "//meta[@name='citation_title']",
+      "selector": "//meta[@name='citation_title' 
+		  or translate(@name,
+		  'ABCDEFGHIJKLMNOPQRSTUVWXYZ' 
+		  'abcdefghijklmnopqrstuvwxyz')='dc.title'][1]",
       "attribute": "content"
     },
     "author": {
@@ -29,15 +33,24 @@
       "attribute": "content"
     },
     "date": {
-      "selector": "//meta[@name='citation_date']",
+      "selector": "//meta[@name='citation_date' 
+		  or translate(@name,
+		  'ABCDEFGHIJKLMNOPQRSTUVWXYZ' 
+		  'abcdefghijklmnopqrstuvwxyz')='dc.date'][1]",
       "attribute": "content"
     },
     "doi": {
-      "selector": "//meta[@name='citation_doi']",
+      "selector": "//meta[@name='citation_doi'
+	  or translate(@name,
+	  'ABCDEFGHIJKLMNOPQRSTUVWXYZ' 
+	  'abcdefghijklmnopqrstuvwxyz')='dc.identifier'][1]",
       "attribute": "content"
     },
     "volume": {
-      "selector": "//meta[@name='citation_volume']",
+      "selector": "//meta[@name='citation_volume'
+		  or translate(@name,
+		  'ABCDEFGHIJKLMNOPQRSTUVWXYZ' 
+		  'abcdefghijklmnopqrstuvwxyz')='dc.volume'][1]",
       "attribute": "content"
     },
     "issue": {
@@ -49,11 +62,14 @@
       "attribute": "content"
     },
     "abstract_html": {
-      "selector": "//meta[@name='citation_abstract']",
+      "selector": "//meta[@name='citation_abstract']", 
       "attribute": "html"
     },
     "description": {
-      "selector": "//meta[@name='description']",
+      "selector": "//meta[@name='description'
+	  or translate(@name,
+	  'ABCDEFGHIJKLMNOPQRSTUVWXYZ' 
+	  'abcdefghijklmnopqrstuvwxyz')='dc.description'][1]",
       "attribute": "content"
     }
 	

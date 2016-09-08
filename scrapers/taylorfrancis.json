@@ -1,10 +1,21 @@
 {
-	"url": "tandfonline.com",
-	"elements": {
-		"publisher": {
-      "selector": "//meta[@name='dc.Publisher']",
-      "attribute": "content"
+ "url": "http://www\\.tandfonline\\.com",
+ "comment":"TF have tables with HREF links and this tries messily to download up to 6. will need QS code revision to make this smoother",
+ "comment":"also requires headless",
+ "headless":true, 
+ "elements": {
+    "fulltext_pdf": {
+      "selector": "//a[@class='pdf last' or @class='show-pdf']",
+      "attribute": "href",
+      "download": {
+        "rename": "fulltext.pdf"
+      }
     },
+
+	"publisher": {
+  "selector": "//meta[@name='dc.Publisher']",
+  "attribute": "content"
+},
     
     "journal_name": {
       "selector": "//meta[@name='citation_journal_title']",
@@ -35,8 +46,7 @@
       "selector": "//meta[@name='dc.Creator']",
       "attribute": "content"
     },
-
-        "date_published": {
+    "date_published": {
       "selector": "//meta[@name='dc.Date']",
       "attribute": "text"
     },

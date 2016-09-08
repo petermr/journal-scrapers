@@ -1,6 +1,5 @@
 {
-"url": "http://ieeexplore\\.ieee\\.org",
-"headless":true,
+"url": "http://ieeexplore\\.ieee\\.org/xpl/",
 "elements": {
 "publisher": {
 "selector": "//meta[@name='citation_publisher']",

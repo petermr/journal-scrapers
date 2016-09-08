@@ -1,5 +1,5 @@
 {
-  "url": "plos\\.org|http://dx\\.doi\\.org/10\\.1371/",
+  "url": "plos.*\\.org",
   "elements": {
     "publisher": {
       "selector": "//meta[@name='citation_publisher']",
@@ -81,26 +81,70 @@
       "selector": "//div[contains(@class, 'abstract')]",
       "attribute": "html"
     },
+    "abstract_text": {
+      "selector": "//meta[@name='twitter:description']",
+      "attribute": "content"
+    },
+    "introduction_html": {
+      "selector": "//h3[text()='Introduction']/..",
+      "attribute": "html"
+    },
+    "methods_html": {
+      "selector": "//h3[text()='Materials and Methods']/..",
+      "attribute": "html"
+    },
+    "results_html": {
+      "selector": "//h3[text()='Results']/..",
+      "attribute": "html"
+    },
+    "discussion_html": {
+      "selector": "//h3[text()='Discussion']/..",
+      "attribute": "html"
+    },
+    "author_contrib_html": {
+      "selector": "//div[contains(@class, 'contributions')]//p",
+      "attribute": "html"
+    },
+    "references_html": {
+      "selector": "//ol[contains(@class, 'references')]/li",
+      "attribute": "html"
+    },
+    "figures_html": {
+      "selector": "//div[contains(@class, 'figure')]",
+      "attribute": "html"
+    },
+    "tables_html": {
+      "selector": "//div[contains(@class, 'figure')]",
+      "attribute": "html"
+    },
     "fulltext_html": {
-      "selector": "//meta[@property='og:url']",
-      "attribute": "content",
+      "selector": "//link[@rel='canonical']",
+      "attribute": "href",
       "download": {
         "rename": "fulltext.html"
       }
     },
     "fulltext_pdf": {
-      "selector": "//meta[@name='citation_pdf_url']",
-      "attribute": "content",
+      "selector": "//a[@id='downloadPdf']",
+      "attribute": "href",
       "download": {
         "rename": "fulltext.pdf"
       }
     },
     "fulltext_xml": {
-      "selector": "//a[@id='downloadXml']",
+      "selector": "//a[text()='XML']",
       "attribute": "href",
       "download": {
         "rename": "fulltext.xml"
       }
+    },
+    "supplementary_file": {
+      "selector": "//h3[text()='Supporting Information']/..//a/@href",
+      "download": true
+    },
+    "figures_image": {
+      "selector": "//div[contains(@class, 'figure-inline-download')]//a[text()[contains(., 'larger')]]",
+      "attribute": "href"
     },
     "license": {
       "selector": "//span[contains(concat(' ', normalize-space(@class), ' '), ' license-p ')]",

@@ -1,8 +1,5 @@
 {
-  "url": "cambridge\\.org",
-  "comment":"headless causes problems with runaway phantoms leading to resource/memory loss",
-  "comment":"replace by generic?",
-  ""
+  "url": "ingenta\\.com | 10\\.1891",
   "elements": {
     "fulltext_pdf": {
       "selector": "//meta[@name='citation_pdf_url']",
@@ -27,15 +24,7 @@
       "attribute": "content"
     },
     "date": {
-      "selector": "//meta[@name='DC.Date']",
-      "attribute": "content"
-    },
-    "doi": {
-      "selector": "//meta[@name='DC.Identifier']",
-      "attribute": "content"
-    },
-    "issn": {
-      "selector": "//meta[@name='citation_issn']",
+      "selector": "//meta[@name='citation_date']",
       "attribute": "content"
     },
     "doi": {
@@ -62,5 +51,6 @@
       "selector": "//meta[@name='description']",
       "attribute": "content"
     }
+	
   }
 }
