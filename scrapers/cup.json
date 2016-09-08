@@ -2,7 +2,6 @@
   "url": "cambridge\\.org",
   "comment":"headless causes problems with runaway phantoms leading to resource/memory loss",
   "comment":"replace by generic?",
-  ""
   "elements": {
     "fulltext_pdf": {
       "selector": "//meta[@name='citation_pdf_url']",

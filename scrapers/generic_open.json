@@ -22,10 +22,7 @@
       }
     },
     "title": {
-      "selector": "//meta[@name='citation_title' 
-		  or translate(@name,
-		  'ABCDEFGHIJKLMNOPQRSTUVWXYZ' 
-		  'abcdefghijklmnopqrstuvwxyz')='dc.title'][1]",
+      "selector": "//meta[@name='citation_title' or translate(@name, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='dc.title'][1]",
       "attribute": "content"
     },
     "author": {
@@ -33,24 +30,15 @@
       "attribute": "content"
     },
     "date": {
-      "selector": "//meta[@name='citation_date' 
-		  or translate(@name,
-		  'ABCDEFGHIJKLMNOPQRSTUVWXYZ' 
-		  'abcdefghijklmnopqrstuvwxyz')='dc.date'][1]",
+      "selector": "//meta[@name='citation_date' or translate(@name, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='dc.date'][1]",
       "attribute": "content"
     },
     "doi": {
-      "selector": "//meta[@name='citation_doi'
-	  or translate(@name,
-	  'ABCDEFGHIJKLMNOPQRSTUVWXYZ' 
-	  'abcdefghijklmnopqrstuvwxyz')='dc.identifier'][1]",
+      "selector": "//meta[@name='citation_doi' or translate(@name, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='dc.identifier'][1]",
       "attribute": "content"
     },
     "volume": {
-      "selector": "//meta[@name='citation_volume'
-		  or translate(@name,
-		  'ABCDEFGHIJKLMNOPQRSTUVWXYZ' 
-		  'abcdefghijklmnopqrstuvwxyz')='dc.volume'][1]",
+      "selector": "//meta[@name='citation_volume' or translate(@name, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='dc.volume'][1]",
       "attribute": "content"
     },
     "issue": {
@@ -66,10 +54,7 @@
       "attribute": "html"
     },
     "description": {
-      "selector": "//meta[@name='description'
-	  or translate(@name,
-	  'ABCDEFGHIJKLMNOPQRSTUVWXYZ' 
-	  'abcdefghijklmnopqrstuvwxyz')='dc.description'][1]",
+      "selector": "//meta[@name='description' or translate(@name, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')='dc.description'][1]",
       "attribute": "content"
     }
 	
