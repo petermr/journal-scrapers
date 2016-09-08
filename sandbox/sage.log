@@ -1,0 +1,404 @@
+dynamic-0-3:sandbox pm286$ quickscrape -o ../../scrapetest/sage -r ../test/sage_test_urls.txt  -d ../scrapers/ -i 20 -l debug --logfile sage.log
+debug: creating output directory: ../../scrapetest/sage
+info: Saving logs to ./../../scrapetest/sage/sage.log
+info: quickscrape 0.4.7 launched with...
+info: - URLs from file: undefined
+info: - Scraperdir: /Users/pm286/workspace/journal-scrapers/scrapers
+info: - Rate limit: 20 per minute
+info: - Log level: debug
+info: urls to scrape: 11
+info: processing URL: http://pss.sagepub.com/content/26/4/363.full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/sage/http_pss.sagepub.com_content_26_4_363.full
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://pss.sagepub.com/content/26/4/363.full, HTTP GET
+[debug] [phantom] Navigation requested: url=http://pss.sagepub.com/content/26/4/363.full, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://pss.sagepub.com/content/26/4/363.full"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://pss.sagepub.com/content/26/4/363.full (HTTP 200)
+debug: info [scraper]. URL rendered. http://pss.sagepub.com/content/26/4/363.full.
+debug: data [scraper]. element captured. publisher. SAGE Publications.
+debug: debug [scraper]. element results. publisher. SAGE Publications.
+debug: data [scraper]. element captured. title. Sadness Shifts to Anxiety Over Time and Distance From the National Tragedy in Newtown, Connecticut.
+debug: debug [scraper]. element results. title. Sadness Shifts to Anxiety Over Time and Distance From the National Tragedy in Newtown, Connecticut.
+debug: data [scraper]. element captured. authors. Bruce Doré.
+debug: data [scraper]. element captured. authors. Leonard Ort.
+debug: data [scraper]. element captured. authors. Ofir Braverman.
+debug: data [scraper]. element captured. authors. Kevin N. Ochsner.
+debug: debug [scraper]. element results. authors. Bruce Doré,Leonard Ort,Ofir Braverman,Kevin N. Ochsner.
+debug: data [scraper]. element captured. date. 2015-04-01.
+debug: debug [scraper]. element results. date. 2015-04-01.
+debug: data [scraper]. element captured. doi. 10.1177/0956797614562218.
+debug: debug [scraper]. element results. doi. 10.1177/0956797614562218.
+debug: data [scraper]. element captured. issn. 0956-7976.
+debug: data [scraper]. element captured. issn. 1467-9280.
+debug: debug [scraper]. element results. issn. 0956-7976,1467-9280.
+debug: data [scraper]. element captured. fulltext_pdf. http://pss.sagepub.com/content/26/4/363.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://pss.sagepub.com/content/26/4/363.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://pss.sagepub.com/content/26/4/363.full.
+debug: debug [scraper]. element results. fulltext_html. http://pss.sagepub.com/content/26/4/363.full.
+[info] [phantom] Step anonymous 3/3: done in 7737ms.
+[info] [phantom] Done 3 steps in 7737ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://jop.sagepub.com/content/25/1/111.full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/sage/http_jop.sagepub.com_content_25_1_111.full
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://jop.sagepub.com/content/25/1/111.full, HTTP GET
+[debug] [phantom] Navigation requested: url=http://jop.sagepub.com/content/25/1/111.full, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://jop.sagepub.com/content/25/1/111.full"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://jop.sagepub.com/content/25/1/111.full (HTTP 200)
+debug: info [scraper]. URL rendered. http://jop.sagepub.com/content/25/1/111.full.
+debug: data [scraper]. element captured. publisher. SAGE Publications.
+debug: debug [scraper]. element results. publisher. SAGE Publications.
+debug: data [scraper]. element captured. title. Overexpression of CB2 cannabinoid receptors decreased vulnerability to anxiety and impaired anxiolytic action of alprazolam in mice.
+debug: debug [scraper]. element results. title. Overexpression of CB2 cannabinoid receptors decreased vulnerability to anxiety and impaired anxiolytic action of alprazolam in mice.
+debug: data [scraper]. element captured. authors. María S García-Gutiérrez.
+debug: data [scraper]. element captured. authors. Jorge Manzanares.
+debug: debug [scraper]. element results. authors. María S García-Gutiérrez,Jorge Manzanares.
+debug: data [scraper]. element captured. date. 2011-01-01.
+debug: debug [scraper]. element results. date. 2011-01-01.
+debug: data [scraper]. element captured. doi. 10.1177/0269881110379507.
+debug: debug [scraper]. element results. doi. 10.1177/0269881110379507.
+debug: data [scraper]. element captured. issn. 0269-8811.
+debug: data [scraper]. element captured. issn. 1461-7285.
+debug: debug [scraper]. element results. issn. 0269-8811,1461-7285.
+debug: data [scraper]. element captured. fulltext_pdf. http://jop.sagepub.com/content/25/1/111.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://jop.sagepub.com/content/25/1/111.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://jop.sagepub.com/content/25/1/111.full.
+debug: debug [scraper]. element results. fulltext_html. http://jop.sagepub.com/content/25/1/111.full.
+[info] [phantom] Step anonymous 3/3: done in 10691ms.
+[info] [phantom] Done 3 steps in 10691ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://jbd.sagepub.com/content/37/1/1.full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/sage/http_jbd.sagepub.com_content_37_1_1.full
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://jbd.sagepub.com/content/37/1/1.full, HTTP GET
+[debug] [phantom] Navigation requested: url=http://jbd.sagepub.com/content/37/1/1.full, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://jbd.sagepub.com/content/37/1/1.full"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://jbd.sagepub.com/content/37/1/1.full (HTTP 200)
+debug: info [scraper]. URL rendered. http://jbd.sagepub.com/content/37/1/1.full.
+debug: data [scraper]. element captured. publisher. SAGE Publications.
+debug: debug [scraper]. element results. publisher. SAGE Publications.
+debug: data [scraper]. element captured. title. When the separation-individuation process goes awry.
+debug: debug [scraper]. element results. title. When the separation-individuation process goes awry.
+debug: data [scraper]. element captured. authors. Evie Kins.
+debug: data [scraper]. element captured. authors. Wim Beyers.
+debug: data [scraper]. element captured. authors. Bart Soenens.
+debug: debug [scraper]. element results. authors. Evie Kins,Wim Beyers,Bart Soenens.
+debug: data [scraper]. element captured. date. 2013-01-01.
+debug: debug [scraper]. element results. date. 2013-01-01.
+debug: data [scraper]. element captured. doi. 10.1177/0165025412454027.
+debug: debug [scraper]. element results. doi. 10.1177/0165025412454027.
+debug: data [scraper]. element captured. issn. 0165-0254.
+debug: data [scraper]. element captured. issn. 1464-0651.
+debug: debug [scraper]. element results. issn. 0165-0254,1464-0651.
+debug: data [scraper]. element captured. fulltext_pdf. http://jbd.sagepub.com/content/37/1/1.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://jbd.sagepub.com/content/37/1/1.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://jbd.sagepub.com/content/37/1/1.full.
+debug: debug [scraper]. element results. fulltext_html. http://jbd.sagepub.com/content/37/1/1.full.
+[info] [phantom] Step anonymous 3/3: done in 9680ms.
+[info] [phantom] Done 3 steps in 9681ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://jag.sagepub.com/content/34/6/797.full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/sage/http_jag.sagepub.com_content_34_6_797.full
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://jag.sagepub.com/content/34/6/797.full, HTTP GET
+[debug] [phantom] Navigation requested: url=http://jag.sagepub.com/content/34/6/797.full, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://jag.sagepub.com/content/34/6/797.full"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://jag.sagepub.com/content/34/6/797.full (HTTP 200)
+debug: info [scraper]. URL rendered. http://jag.sagepub.com/content/34/6/797.full.
+debug: data [scraper]. element captured. publisher. SAGE Publications.
+debug: debug [scraper]. element results. publisher. SAGE Publications.
+debug: data [scraper]. element captured. title. Canadian Nursing Students and the Care of Older Patients.
+debug: debug [scraper]. element results. title. Canadian Nursing Students and the Care of Older Patients.
+debug: data [scraper]. element captured. authors. Odette N. Gould.
+debug: data [scraper]. element captured. authors. Suzanne Dupuis-Blanchard.
+debug: data [scraper]. element captured. authors. Anna MacLennan.
+debug: debug [scraper]. element results. authors. Odette N. Gould,Suzanne Dupuis-Blanchard,Anna MacLennan.
+debug: data [scraper]. element captured. date. 2015-09-01.
+debug: debug [scraper]. element results. date. 2015-09-01.
+debug: data [scraper]. element captured. doi. 10.1177/0733464813500585.
+debug: debug [scraper]. element results. doi. 10.1177/0733464813500585.
+debug: data [scraper]. element captured. issn. 0733-4648.
+debug: data [scraper]. element captured. issn. 1552-4523.
+debug: debug [scraper]. element results. issn. 0733-4648,1552-4523.
+debug: data [scraper]. element captured. fulltext_pdf. http://jag.sagepub.com/content/34/6/797.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://jag.sagepub.com/content/34/6/797.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://jag.sagepub.com/content/34/6/797.full.
+debug: debug [scraper]. element results. fulltext_html. http://jag.sagepub.com/content/34/6/797.full.
+[info] [phantom] Step anonymous 3/3: done in 9608ms.
+[info] [phantom] Done 3 steps in 9608ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://smh.sagepub.com/content/1/1/4.full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/sage/http_smh.sagepub.com_content_1_1_4.full
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://smh.sagepub.com/content/1/1/4.full, HTTP GET
+[debug] [phantom] Navigation requested: url=http://smh.sagepub.com/content/1/1/4.full, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://smh.sagepub.com/content/1/1/4.full"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://smh.sagepub.com/content/1/1/4.full (HTTP 200)
+debug: info [scraper]. URL rendered. http://smh.sagepub.com/content/1/1/4.full.
+debug: data [scraper]. element captured. publisher. SAGE Publications.
+debug: debug [scraper]. element results. publisher. SAGE Publications.
+debug: data [scraper]. element captured. title. Perceived Social Support and the Voluntary, Mixed, or Pressured Use of Mental Health Services.
+debug: debug [scraper]. element results. title. Perceived Social Support and the Voluntary, Mixed, or Pressured Use of Mental Health Services.
+debug: data [scraper]. element captured. authors. Peggy A. Thoits.
+debug: debug [scraper]. element results. authors. Peggy A. Thoits.
+debug: data [scraper]. element captured. date. 2011-03-01.
+debug: debug [scraper]. element results. date. 2011-03-01.
+debug: data [scraper]. element captured. doi. 10.1177/2156869310392793.
+debug: debug [scraper]. element results. doi. 10.1177/2156869310392793.
+debug: data [scraper]. element captured. issn. 2156-8693.
+debug: data [scraper]. element captured. issn. 2156-8731.
+debug: debug [scraper]. element results. issn. 2156-8693,2156-8731.
+debug: data [scraper]. element captured. fulltext_pdf. http://smh.sagepub.com/content/1/1/4.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://smh.sagepub.com/content/1/1/4.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://smh.sagepub.com/content/1/1/4.full.
+debug: debug [scraper]. element results. fulltext_html. http://smh.sagepub.com/content/1/1/4.full.
+[info] [phantom] Step anonymous 3/3: done in 8740ms.
+[info] [phantom] Done 3 steps in 8740ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://psi.sagepub.com/content/8/1/1.full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/sage/http_psi.sagepub.com_content_8_1_1.full
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://psi.sagepub.com/content/8/1/1.full, HTTP GET
+[debug] [phantom] Navigation requested: url=http://psi.sagepub.com/content/8/1/1.full, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://psi.sagepub.com/content/8/1/1.full"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://psi.sagepub.com/content/8/1/1.full (HTTP 200)
+debug: info [scraper]. URL rendered. http://psi.sagepub.com/content/8/1/1.full.
+debug: data [scraper]. element captured. publisher. SAGE Publications.
+debug: debug [scraper]. element results. publisher. SAGE Publications.
+debug: data [scraper]. element captured. title. The Science of Sex Differences in Science and Mathematics.
+debug: debug [scraper]. element results. title. The Science of Sex Differences in Science and Mathematics.
+debug: data [scraper]. element captured. authors. Diane F. Halpern.
+debug: data [scraper]. element captured. authors. Camilla P. Benbow.
+debug: data [scraper]. element captured. authors. David C. Geary.
+debug: data [scraper]. element captured. authors. Ruben C. Gur.
+debug: data [scraper]. element captured. authors. Janet Shibley Hyde.
+debug: data [scraper]. element captured. authors. Morton Ann Gernsbacher.
+debug: debug [scraper]. element results. authors. Diane F. Halpern,Camilla P. Benbow,David C. Geary,Ruben C. Gur,Janet Shibley Hyde,Morton Ann Gernsbacher.
+debug: data [scraper]. element captured. date. 2007-08-01.
+debug: debug [scraper]. element results. date. 2007-08-01.
+debug: data [scraper]. element captured. doi. 10.1111/j.1529-1006.2007.00032.x.
+debug: debug [scraper]. element results. doi. 10.1111/j.1529-1006.2007.00032.x.
+debug: data [scraper]. element captured. issn. 1529-1006.
+debug: data [scraper]. element captured. issn. 1539-6053.
+debug: debug [scraper]. element results. issn. 1529-1006,1539-6053.
+debug: data [scraper]. element captured. fulltext_pdf. http://psi.sagepub.com/content/8/1/1.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://psi.sagepub.com/content/8/1/1.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://psi.sagepub.com/content/8/1/1.full.
+debug: debug [scraper]. element results. fulltext_html. http://psi.sagepub.com/content/8/1/1.full.
+[info] [phantom] Step anonymous 3/3: done in 17159ms.
+[info] [phantom] Done 3 steps in 17159ms
+debug: info [scraper]. download started. fulltext.pdf.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://pwq.sagepub.com/content/28/2/136.full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/sage/http_pwq.sagepub.com_content_28_2_136.full
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://pwq.sagepub.com/content/28/2/136.full, HTTP GET
+[debug] [phantom] Navigation requested: url=http://pwq.sagepub.com/content/28/2/136.full, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://pwq.sagepub.com/content/28/2/136.full"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://pwq.sagepub.com/content/28/2/136.full (HTTP 200)
+debug: info [scraper]. URL rendered. http://pwq.sagepub.com/content/28/2/136.full.
+debug: data [scraper]. element captured. publisher. SAGE Publications.
+debug: debug [scraper]. element results. publisher. SAGE Publications.
+debug: data [scraper]. element captured. title. Juveniles' Motivations for Remaining in Prostitution.
+debug: debug [scraper]. element results. title. Juveniles' Motivations for Remaining in Prostitution.
+debug: data [scraper]. element captured. authors. Shu-Ling Hwang.
+debug: data [scraper]. element captured. authors. Olwen Bedford.
+debug: debug [scraper]. element results. authors. Shu-Ling Hwang,Olwen Bedford.
+debug: data [scraper]. element captured. date. 2004-06-01.
+debug: debug [scraper]. element results. date. 2004-06-01.
+debug: data [scraper]. element captured. doi. 10.1111/j.1471-6402.2004.00130.x.
+debug: debug [scraper]. element results. doi. 10.1111/j.1471-6402.2004.00130.x.
+debug: data [scraper]. element captured. issn. 0361-6843.
+debug: data [scraper]. element captured. issn.
+debug: debug [scraper]. element results. issn. 0361-6843,.
+debug: data [scraper]. element captured. fulltext_pdf. http://pwq.sagepub.com/content/28/2/136.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://pwq.sagepub.com/content/28/2/136.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://pwq.sagepub.com/content/28/2/136.full.
+debug: debug [scraper]. element results. fulltext_html. http://pwq.sagepub.com/content/28/2/136.full.
+[info] [phantom] Step anonymous 3/3: done in 8342ms.
+[info] [phantom] Done 3 steps in 8342ms
+debug: info [scraper]. download started. fulltext.pdf.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://psr.sagepub.com/content/19/2/148.full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/sage/http_psr.sagepub.com_content_19_2_148.full
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://psr.sagepub.com/content/19/2/148.full, HTTP GET
+[debug] [phantom] Navigation requested: url=http://psr.sagepub.com/content/19/2/148.full, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://psr.sagepub.com/content/19/2/148.full"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://psr.sagepub.com/content/19/2/148.full (HTTP 200)
+debug: info [scraper]. URL rendered. http://psr.sagepub.com/content/19/2/148.full.
+debug: data [scraper]. element captured. publisher. SAGE Publications.
+debug: debug [scraper]. element results. publisher. SAGE Publications.
+debug: data [scraper]. element captured. title. Modeling the Dynamics of Evaluation.
+debug: debug [scraper]. element results. title. Modeling the Dynamics of Evaluation.
+debug: data [scraper]. element captured. authors. Phillip J. Ehret.
+debug: data [scraper]. element captured. authors. Brian M. Monroe.
+debug: data [scraper]. element captured. authors. Stephen J. Read.
+debug: debug [scraper]. element results. authors. Phillip J. Ehret,Brian M. Monroe,Stephen J. Read.
+debug: data [scraper]. element captured. date. 2015-05-01.
+debug: debug [scraper]. element results. date. 2015-05-01.
+debug: data [scraper]. element captured. doi. 10.1177/1088868314544221.
+debug: debug [scraper]. element results. doi. 10.1177/1088868314544221.
+debug: data [scraper]. element captured. issn. 1088-8683.
+debug: data [scraper]. element captured. issn. 1532-7957.
+debug: debug [scraper]. element results. issn. 1088-8683,1532-7957.
+debug: data [scraper]. element captured. fulltext_pdf. http://psr.sagepub.com/content/19/2/148.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://psr.sagepub.com/content/19/2/148.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://psr.sagepub.com/content/19/2/148.full.
+debug: debug [scraper]. element results. fulltext_html. http://psr.sagepub.com/content/19/2/148.full.
+[info] [phantom] Step anonymous 3/3: done in 9136ms.
+[info] [phantom] Done 3 steps in 9136ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://psp.sagepub.com/content/39/3/279.full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/sage/http_psp.sagepub.com_content_39_3_279.full
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://psp.sagepub.com/content/39/3/279.full, HTTP GET
+[debug] [phantom] Navigation requested: url=http://psp.sagepub.com/content/39/3/279.full, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://psp.sagepub.com/content/39/3/279.full"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://psp.sagepub.com/content/39/3/279.full (HTTP 200)
+debug: info [scraper]. URL rendered. http://psp.sagepub.com/content/39/3/279.full.
+debug: data [scraper]. element captured. publisher. SAGE Publications.
+debug: debug [scraper]. element results. publisher. SAGE Publications.
+debug: data [scraper]. element captured. title. Implicit Theories of Relationships and Close Relationship Violence.
+debug: debug [scraper]. element results. title. Implicit Theories of Relationships and Close Relationship Violence.
+debug: data [scraper]. element captured. authors. Rebecca A. Cobb.
+debug: data [scraper]. element captured. authors. C. Nathan DeWall.
+debug: data [scraper]. element captured. authors. Nathaniel M. Lambert.
+debug: data [scraper]. element captured. authors. Frank D. Fincham.
+debug: debug [scraper]. element results. authors. Rebecca A. Cobb,C. Nathan DeWall,Nathaniel M. Lambert,Frank D. Fincham.
+debug: data [scraper]. element captured. date. 2013-03-01.
+debug: debug [scraper]. element results. date. 2013-03-01.
+debug: data [scraper]. element captured. doi. 10.1177/0146167212473159.
+debug: debug [scraper]. element results. doi. 10.1177/0146167212473159.
+debug: data [scraper]. element captured. issn. 0146-1672.
+debug: data [scraper]. element captured. issn. 1552-7433.
+debug: debug [scraper]. element results. issn. 0146-1672,1552-7433.
+debug: data [scraper]. element captured. fulltext_pdf. http://psp.sagepub.com/content/39/3/279.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://psp.sagepub.com/content/39/3/279.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://psp.sagepub.com/content/39/3/279.full.
+debug: debug [scraper]. element results. fulltext_html. http://psp.sagepub.com/content/39/3/279.full.
+[info] [phantom] Step anonymous 3/3: done in 9567ms.
+[info] [phantom] Done 3 steps in 9567ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://pec.sagepub.com/content/44/6/613.full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/sage/http_pec.sagepub.com_content_44_6_613.full
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://pec.sagepub.com/content/44/6/613.full, HTTP GET
+[debug] [phantom] Navigation requested: url=http://pec.sagepub.com/content/44/6/613.full, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://pec.sagepub.com/content/44/6/613.full"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://pec.sagepub.com/content/44/6/613.full (HTTP 200)
+debug: info [scraper]. URL rendered. http://pec.sagepub.com/content/44/6/613.full.
+debug: data [scraper]. element captured. publisher. SAGE Publications.
+debug: debug [scraper]. element results. publisher. SAGE Publications.
+debug: data [scraper]. element captured. title. Depth-of-Focus Affects 3D Perception in Stereoscopic Displays.
+debug: debug [scraper]. element results. title. Depth-of-Focus Affects 3D Perception in Stereoscopic Displays.
+debug: data [scraper]. element captured. authors. Cyril Vienne.
+debug: data [scraper]. element captured. authors. Laurent Blondé.
+debug: data [scraper]. element captured. authors. Pascal Mamassian.
+debug: debug [scraper]. element results. authors. Cyril Vienne,Laurent Blondé,Pascal Mamassian.
+debug: data [scraper]. element captured. date. 2015-06-01.
+debug: debug [scraper]. element results. date. 2015-06-01.
+debug: data [scraper]. element captured. doi. 10.1177/0301006615594261.
+debug: debug [scraper]. element results. doi. 10.1177/0301006615594261.
+debug: data [scraper]. element captured. issn. 0301-0066.
+debug: data [scraper]. element captured. issn. 1468-4233.
+debug: debug [scraper]. element results. issn. 0301-0066,1468-4233.
+debug: data [scraper]. element captured. fulltext_pdf. http://pec.sagepub.com/content/44/6/613.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://pec.sagepub.com/content/44/6/613.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://pec.sagepub.com/content/44/6/613.full.
+debug: debug [scraper]. element results. fulltext_html. http://pec.sagepub.com/content/44/6/613.full.
+[info] [phantom] Step anonymous 3/3: done in 18810ms.
+[info] [phantom] Done 3 steps in 18810ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://top.sagepub.com/content/39/1/24.full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/sage/http_top.sagepub.com_content_39_1_24.full
+info: all tasks completed
+
+

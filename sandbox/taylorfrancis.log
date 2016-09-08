@@ -1,0 +1,654 @@
+debug: creating output directory: /Users/pm286/workspace/scrapetest/taylorfrancis/http_www.tandfonline.com_doi_full_10.1080_17470911003708032
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://www.tandfonline.com/doi/full/10.1080/17470911003708032, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/17470911003708032, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/17470911003708032?cookieSet=1, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/17470911003708032, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.tandfonline.com/doi/full/10.1080/17470911003708032"
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[debug] [phantom] Navigation requested: url=https://www.colwiz.com/js/webpdf/pages/ireader.html?v=16.09.08-1290-129, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[info] [phantom] Step anonymous 3/3 http://www.tandfonline.com/doi/full/10.1080/17470911003708032 (HTTP 200)
+debug: info [scraper]. URL rendered. http://www.tandfonline.com/doi/full/10.1080/17470911003708032.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //a[text()='PDF']. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: data [scraper]. element captured. publisher.  Taylor & Francis .
+debug: debug [scraper]. element results. publisher.  Taylor & Francis .
+debug: data [scraper]. element captured. journal_name. Social Neuroscience.
+debug: debug [scraper]. element results. journal_name. Social Neuroscience.
+debug: data [scraper]. element capture failed. volume.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[1]. volume.
+debug: debug [scraper]. element results. volume. .
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[2]. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. title. Dysfunctions in brain networks supporting empathy: An fMRI study in adults with autism spectrum disorders.
+debug: debug [scraper]. element results. title. Dysfunctions in brain networks supporting empathy: An fMRI study in adults with autism spectrum disorders.
+debug: data [scraper]. element captured. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name.  Martin   Schulte-Rüther .
+debug: data [scraper]. element captured. author_name.  Ellen   Greimel .
+debug: data [scraper]. element captured. author_name.  Hans J.   Markowitsch .
+debug: data [scraper]. element captured. author_name.  Inge   Kamp-Becker .
+debug: data [scraper]. element captured. author_name.  Helmut   Remschmidt .
+debug: data [scraper]. element captured. author_name.  Gereon R.   Fink .
+debug: data [scraper]. element captured. author_name.  Martina   Piefke .
+debug: debug [scraper]. element results. author_name.  Martin   Schulte-Rüther , Ellen   Greimel , Hans J.   Markowitsch , Inge   Kamp-Becker , Helmut   Remschmidt , Gereon R.   Fink , Martina   Piefke .
+debug: data [scraper]. element captured. date_published.
+debug: debug [scraper]. element results. date_published. .
+debug: data [scraper]. element captured. doi. 471325.
+debug: data [scraper]. element captured. doi. 10.1080/17470911003708032.
+debug: data [scraper]. element captured. doi. Social Neuroscience, Vol. 6, No. 1, February 2011, pp. 1–21.
+debug: debug [scraper]. element results. doi. 471325,10.1080/17470911003708032,Social Neuroscience, Vol. 6, No. 1, February 2011, pp. 1–21.
+debug: data [scraper]. element captured. csv1. http://www.tandfonline.com/action/downloadTable?id=T0001&doi=10.1080%2F17470911003708032&downloadType=CSV.
+debug: debug [scraper]. element results. csv1. http://www.tandfonline.com/action/downloadTable?id=T0001&doi=10.1080%2F17470911003708032&downloadType=CSV.
+debug: data [scraper]. element capture failed. csv2.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][2]. csv2.
+debug: debug [scraper]. element results. csv2. .
+debug: data [scraper]. element capture failed. csv3.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][3]. csv3.
+debug: debug [scraper]. element results. csv3. .
+debug: data [scraper]. element capture failed. csv4.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][4]. csv4.
+debug: debug [scraper]. element results. csv4. .
+debug: data [scraper]. element capture failed. csv5.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][5]. csv5.
+debug: debug [scraper]. element results. csv5. .
+debug: data [scraper]. element capture failed. csv6.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][6]. csv6.
+debug: debug [scraper]. element results. csv6. .
+debug: data [scraper]. element captured. fulltext_html. http://dx.doi.org/10.1080/17470911003708032.
+debug: debug [scraper]. element results. fulltext_html. http://dx.doi.org/10.1080/17470911003708032.
+[info] [phantom] Step anonymous 3/3: done in 9069ms.
+[info] [phantom] Done 3 steps in 9088ms
+debug: info [scraper]. download started. table1.csv.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 9/17 elements (8 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.tandfonline.com/doi/full/10.1080/17586801.2014.893862
+debug: creating output directory: /Users/pm286/workspace/scrapetest/taylorfrancis/http_www.tandfonline.com_doi_full_10.1080_17586801.2014.893862
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://www.tandfonline.com/doi/full/10.1080/17586801.2014.893862, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/17586801.2014.893862, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/17586801.2014.893862?cookieSet=1, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/17586801.2014.893862, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.tandfonline.com/doi/full/10.1080/17586801.2014.893862"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=https://www.colwiz.com/js/webpdf/pages/ireader.html?v=16.09.08-1290-129, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://www.tandfonline.com/doi/full/10.1080/17586801.2014.893862 (HTTP 200)
+debug: info [scraper]. URL rendered. http://www.tandfonline.com/doi/full/10.1080/17586801.2014.893862.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //a[text()='PDF']. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: data [scraper]. element captured. publisher. Routledge.
+debug: debug [scraper]. element results. publisher. Routledge.
+debug: data [scraper]. element captured. journal_name. Writing Systems Research.
+debug: debug [scraper]. element results. journal_name. Writing Systems Research.
+debug: data [scraper]. element capture failed. volume.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[1]. volume.
+debug: debug [scraper]. element results. volume. .
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[2]. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. title. Varieties of developmental dyslexia in Greek children.
+debug: debug [scraper]. element results. title. Varieties of developmental dyslexia in Greek children.
+debug: data [scraper]. element captured. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name. Georgia Z. Niolaki.
+debug: data [scraper]. element captured. author_name. Aris R. Terzopoulos.
+debug: data [scraper]. element captured. author_name. Jackie Masterson.
+debug: debug [scraper]. element results. author_name. Georgia Z. Niolaki,Aris R. Terzopoulos,Jackie Masterson.
+debug: data [scraper]. element captured. date_published.
+debug: debug [scraper]. element results. date_published. .
+debug: data [scraper]. element captured. doi. 893862.
+debug: data [scraper]. element captured. doi. 10.1080/17586801.2014.893862.
+debug: debug [scraper]. element results. doi. 893862,10.1080/17586801.2014.893862.
+debug: data [scraper]. element captured. csv1. http://www.tandfonline.com/action/downloadTable?id=t0001&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: debug [scraper]. element results. csv1. http://www.tandfonline.com/action/downloadTable?id=t0001&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: data [scraper]. element captured. csv2. http://www.tandfonline.com/action/downloadTable?id=t0002&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: debug [scraper]. element results. csv2. http://www.tandfonline.com/action/downloadTable?id=t0002&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: data [scraper]. element captured. csv3. http://www.tandfonline.com/action/downloadTable?id=t0003&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: debug [scraper]. element results. csv3. http://www.tandfonline.com/action/downloadTable?id=t0003&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: data [scraper]. element captured. csv4. http://www.tandfonline.com/action/downloadTable?id=t0004&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: debug [scraper]. element results. csv4. http://www.tandfonline.com/action/downloadTable?id=t0004&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: data [scraper]. element captured. csv5. http://www.tandfonline.com/action/downloadTable?id=t0005&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: debug [scraper]. element results. csv5. http://www.tandfonline.com/action/downloadTable?id=t0005&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: data [scraper]. element captured. csv6. http://www.tandfonline.com/action/downloadTable?id=t0006&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: debug [scraper]. element results. csv6. http://www.tandfonline.com/action/downloadTable?id=t0006&doi=10.1080%2F17586801.2014.893862&downloadType=CSV.
+debug: data [scraper]. element captured. fulltext_html. http://dx.doi.org/10.1080/17586801.2014.893862.
+debug: debug [scraper]. element results. fulltext_html. http://dx.doi.org/10.1080/17586801.2014.893862.
+[info] [phantom] Step anonymous 3/3: done in 10893ms.
+[info] [phantom] Done 3 steps in 10901ms
+debug: info [scraper]. download started. table2.csv.
+debug: info [scraper]. download started. table5.csv.
+debug: info [scraper]. download started. table1.csv.
+debug: info [scraper]. download started. table4.csv.
+debug: info [scraper]. download started. table6.csv.
+debug: info [scraper]. download started. table3.csv.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 14/17 elements (3 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.tandfonline.com/doi/full/10.1080/13506285.2013.823140
+debug: creating output directory: /Users/pm286/workspace/scrapetest/taylorfrancis/http_www.tandfonline.com_doi_full_10.1080_13506285.2013.823140
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://www.tandfonline.com/doi/full/10.1080/13506285.2013.823140, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/13506285.2013.823140, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/13506285.2013.823140?cookieSet=1, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/13506285.2013.823140, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.tandfonline.com/doi/full/10.1080/13506285.2013.823140"
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=https://www.colwiz.com/js/webpdf/pages/ireader.html?v=16.09.08-1290-129, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://www.tandfonline.com/doi/full/10.1080/13506285.2013.823140 (HTTP 200)
+debug: info [scraper]. URL rendered. http://www.tandfonline.com/doi/full/10.1080/13506285.2013.823140.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //a[text()='PDF']. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: data [scraper]. element captured. publisher. Routledge.
+debug: debug [scraper]. element results. publisher. Routledge.
+debug: data [scraper]. element captured. journal_name. Visual Cognition.
+debug: debug [scraper]. element results. journal_name. Visual Cognition.
+debug: data [scraper]. element capture failed. volume.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[1]. volume.
+debug: debug [scraper]. element results. volume. .
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[2]. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. title. Sex differences and the own-gender bias in face recognition: A meta-analytic review.
+debug: debug [scraper]. element results. title. Sex differences and the own-gender bias in face recognition: A meta-analytic review.
+debug: data [scraper]. element captured. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name. Agneta Herlitz.
+debug: data [scraper]. element captured. author_name. Johanna Lovén.
+debug: debug [scraper]. element results. author_name. Agneta Herlitz,Johanna Lovén.
+debug: data [scraper]. element captured. date_published.
+debug: debug [scraper]. element results. date_published. .
+debug: data [scraper]. element captured. doi. 823140.
+debug: data [scraper]. element captured. doi. 10.1080/13506285.2013.823140.
+debug: debug [scraper]. element results. doi. 823140,10.1080/13506285.2013.823140.
+debug: data [scraper]. element captured. csv1. http://www.tandfonline.com/action/downloadTable?id=t0001&doi=10.1080%2F13506285.2013.823140&downloadType=CSV.
+debug: debug [scraper]. element results. csv1. http://www.tandfonline.com/action/downloadTable?id=t0001&doi=10.1080%2F13506285.2013.823140&downloadType=CSV.
+debug: data [scraper]. element captured. csv2. http://www.tandfonline.com/action/downloadTable?id=t0002&doi=10.1080%2F13506285.2013.823140&downloadType=CSV.
+debug: debug [scraper]. element results. csv2. http://www.tandfonline.com/action/downloadTable?id=t0002&doi=10.1080%2F13506285.2013.823140&downloadType=CSV.
+debug: data [scraper]. element captured. csv3. http://www.tandfonline.com/action/downloadTable?id=ut0001&doi=10.1080%2F13506285.2013.823140&downloadType=CSV.
+debug: debug [scraper]. element results. csv3. http://www.tandfonline.com/action/downloadTable?id=ut0001&doi=10.1080%2F13506285.2013.823140&downloadType=CSV.
+debug: data [scraper]. element capture failed. csv4.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][4]. csv4.
+debug: debug [scraper]. element results. csv4. .
+debug: data [scraper]. element capture failed. csv5.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][5]. csv5.
+debug: debug [scraper]. element results. csv5. .
+debug: data [scraper]. element capture failed. csv6.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][6]. csv6.
+debug: debug [scraper]. element results. csv6. .
+debug: data [scraper]. element captured. fulltext_html. http://dx.doi.org/10.1080/13506285.2013.823140.
+debug: debug [scraper]. element results. fulltext_html. http://dx.doi.org/10.1080/13506285.2013.823140.
+[info] [phantom] Step anonymous 3/3: done in 8187ms.
+[info] [phantom] Done 3 steps in 8188ms
+debug: info [scraper]. download started. table2.csv.
+debug: info [scraper]. download started. table1.csv.
+debug: info [scraper]. download started. table3.csv.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 11/17 elements (6 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.tandfonline.com/doi/full/10.1080/15298868.2015.1036918
+debug: creating output directory: /Users/pm286/workspace/scrapetest/taylorfrancis/http_www.tandfonline.com_doi_full_10.1080_15298868.2015.1036918
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://www.tandfonline.com/doi/full/10.1080/15298868.2015.1036918, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/15298868.2015.1036918, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/15298868.2015.1036918?cookieSet=1, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/15298868.2015.1036918, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.tandfonline.com/doi/full/10.1080/15298868.2015.1036918"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[debug] [phantom] Navigation requested: url=https://www.colwiz.com/js/webpdf/pages/ireader.html?v=16.09.08-1290-129, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[info] [phantom] Step anonymous 3/3 http://www.tandfonline.com/doi/full/10.1080/15298868.2015.1036918 (HTTP 200)
+debug: info [scraper]. URL rendered. http://www.tandfonline.com/doi/full/10.1080/15298868.2015.1036918.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //a[text()='PDF']. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: data [scraper]. element captured. publisher. Routledge.
+debug: debug [scraper]. element results. publisher. Routledge.
+debug: data [scraper]. element captured. journal_name. Self and Identity.
+debug: debug [scraper]. element results. journal_name. Self and Identity.
+debug: data [scraper]. element capture failed. volume.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[1]. volume.
+debug: debug [scraper]. element results. volume. .
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[2]. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. title. Three Decades Later: The Life Experiences and Mid-Life Functioning of 1980s Heavy Metal Groupies, Musicians, and Fans.
+debug: debug [scraper]. element results. title. Three Decades Later: The Life Experiences and Mid-Life Functioning of 1980s Heavy Metal Groupies, Musicians, and Fans.
+debug: data [scraper]. element captured. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name. Tasha R. Howe.
+debug: data [scraper]. element captured. author_name. Christopher L. Aberson.
+debug: data [scraper]. element captured. author_name. Howard S. Friedman.
+debug: data [scraper]. element captured. author_name. Sarah E. Murphy.
+debug: data [scraper]. element captured. author_name. Esperanza Alcazar.
+debug: data [scraper]. element captured. author_name. Edwin J. Vazquez.
+debug: data [scraper]. element captured. author_name. Rebekah Becker.
+debug: debug [scraper]. element results. author_name. Tasha R. Howe,Christopher L. Aberson,Howard S. Friedman,Sarah E. Murphy,Esperanza Alcazar,Edwin J. Vazquez,Rebekah Becker.
+debug: data [scraper]. element captured. date_published.
+debug: debug [scraper]. element results. date_published. .
+debug: data [scraper]. element captured. doi. 10.1080/15298868.2015.1036918.
+debug: data [scraper]. element captured. doi. 1036918.
+debug: debug [scraper]. element results. doi. 10.1080/15298868.2015.1036918,1036918.
+debug: data [scraper]. element captured. csv1. http://www.tandfonline.com/action/downloadTable?id=t0001&doi=10.1080%2F15298868.2015.1036918&downloadType=CSV.
+debug: debug [scraper]. element results. csv1. http://www.tandfonline.com/action/downloadTable?id=t0001&doi=10.1080%2F15298868.2015.1036918&downloadType=CSV.
+debug: data [scraper]. element captured. csv2. http://www.tandfonline.com/action/downloadTable?id=t0002&doi=10.1080%2F15298868.2015.1036918&downloadType=CSV.
+debug: debug [scraper]. element results. csv2. http://www.tandfonline.com/action/downloadTable?id=t0002&doi=10.1080%2F15298868.2015.1036918&downloadType=CSV.
+debug: data [scraper]. element captured. csv3. http://www.tandfonline.com/action/downloadTable?id=t0003&doi=10.1080%2F15298868.2015.1036918&downloadType=CSV.
+debug: debug [scraper]. element results. csv3. http://www.tandfonline.com/action/downloadTable?id=t0003&doi=10.1080%2F15298868.2015.1036918&downloadType=CSV.
+debug: data [scraper]. element captured. csv4. http://www.tandfonline.com/action/downloadTable?id=t0004&doi=10.1080%2F15298868.2015.1036918&downloadType=CSV.
+debug: debug [scraper]. element results. csv4. http://www.tandfonline.com/action/downloadTable?id=t0004&doi=10.1080%2F15298868.2015.1036918&downloadType=CSV.
+debug: data [scraper]. element captured. csv5. http://www.tandfonline.com/action/downloadTable?id=t0005&doi=10.1080%2F15298868.2015.1036918&downloadType=CSV.
+debug: debug [scraper]. element results. csv5. http://www.tandfonline.com/action/downloadTable?id=t0005&doi=10.1080%2F15298868.2015.1036918&downloadType=CSV.
+debug: data [scraper]. element capture failed. csv6.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][6]. csv6.
+debug: debug [scraper]. element results. csv6. .
+debug: data [scraper]. element captured. fulltext_html. http://dx.doi.org/10.1080/15298868.2015.1036918.
+debug: debug [scraper]. element results. fulltext_html. http://dx.doi.org/10.1080/15298868.2015.1036918.
+[info] [phantom] Step anonymous 3/3: done in 8403ms.
+[info] [phantom] Done 3 steps in 8422ms
+debug: info [scraper]. download started. table3.csv.
+debug: info [scraper]. download started. table4.csv.
+debug: info [scraper]. download started. table2.csv.
+debug: info [scraper]. download started. table5.csv.
+debug: info [scraper]. download started. table1.csv.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 13/17 elements (4 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.tandfonline.com/doi/full/10.1080/10463280701489053
+debug: creating output directory: /Users/pm286/workspace/scrapetest/taylorfrancis/http_www.tandfonline.com_doi_full_10.1080_10463280701489053
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://www.tandfonline.com/doi/full/10.1080/10463280701489053, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/10463280701489053, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/10463280701489053?cookieSet=1, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/10463280701489053, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.tandfonline.com/doi/full/10.1080/10463280701489053"
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=https://www.colwiz.com/js/webpdf/pages/ireader.html?v=16.09.08-1290-129, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://www.tandfonline.com/doi/full/10.1080/10463280701489053 (HTTP 200)
+debug: info [scraper]. URL rendered. http://www.tandfonline.com/doi/full/10.1080/10463280701489053.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //a[text()='PDF']. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: data [scraper]. element captured. publisher.  Psychology Press .
+debug: debug [scraper]. element results. publisher.  Psychology Press .
+debug: data [scraper]. element captured. journal_name. European Review of Social Psychology.
+debug: debug [scraper]. element results. journal_name. European Review of Social Psychology.
+debug: data [scraper]. element capture failed. volume.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[1]. volume.
+debug: debug [scraper]. element results. volume. .
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[2]. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. title. Pervasiveness and correlates of implicit attitudes and stereotypes.
+debug: debug [scraper]. element results. title. Pervasiveness and correlates of implicit attitudes and stereotypes.
+debug: data [scraper]. element capture failed. keywords.
+debug: debug [scraper]. selector had no results. //meta[@name='dc.Subject']. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name.  Brian A.   Nosek .
+debug: data [scraper]. element captured. author_name.  Frederick L.   Smyth .
+debug: data [scraper]. element captured. author_name.  Jeffrey J.   Hansen .
+debug: data [scraper]. element captured. author_name.  Thierry   Devos .
+debug: data [scraper]. element captured. author_name.  Nicole M.   Lindner .
+debug: data [scraper]. element captured. author_name.  Kate A.   Ranganath .
+debug: data [scraper]. element captured. author_name.  Colin   Tucker   Smith .
+debug: data [scraper]. element captured. author_name.  Kristina R.   Olson .
+debug: data [scraper]. element captured. author_name.  Dolly   Chugh .
+debug: data [scraper]. element captured. author_name.  Anthony G.   Greenwald .
+debug: data [scraper]. element captured. author_name.  Mahzarin R.   Banaji .
+debug: debug [scraper]. element results. author_name.  Brian A.   Nosek , Frederick L.   Smyth , Jeffrey J.   Hansen , Thierry   Devos , Nicole M.   Lindner , Kate A.   Ranganath , Colin   Tucker   Smith , Kristina R.   Olson , Dolly   Chugh , Anthony G.   Greenwald , Mahzarin R.   Banaji .
+debug: data [scraper]. element captured. date_published.
+debug: debug [scraper]. element results. date_published. .
+debug: data [scraper]. element captured. doi. 248782.
+debug: data [scraper]. element captured. doi. 10.1080/10463280701489053.
+debug: data [scraper]. element captured. doi. European Review of Social Psychology, Vol. 18, No. 1, 2007, pp. 36–88.
+debug: debug [scraper]. element results. doi. 248782,10.1080/10463280701489053,European Review of Social Psychology, Vol. 18, No. 1, 2007, pp. 36–88.
+debug: data [scraper]. element captured. csv1. http://www.tandfonline.com/action/downloadTable?id=T0002&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: debug [scraper]. element results. csv1. http://www.tandfonline.com/action/downloadTable?id=T0002&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: data [scraper]. element captured. csv2. http://www.tandfonline.com/action/downloadTable?id=T0003&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: debug [scraper]. element results. csv2. http://www.tandfonline.com/action/downloadTable?id=T0003&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: data [scraper]. element captured. csv3. http://www.tandfonline.com/action/downloadTable?id=T0004&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: debug [scraper]. element results. csv3. http://www.tandfonline.com/action/downloadTable?id=T0004&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: data [scraper]. element captured. csv4. http://www.tandfonline.com/action/downloadTable?id=T0005&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: debug [scraper]. element results. csv4. http://www.tandfonline.com/action/downloadTable?id=T0005&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: data [scraper]. element captured. csv5. http://www.tandfonline.com/action/downloadTable?id=T0006&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: debug [scraper]. element results. csv5. http://www.tandfonline.com/action/downloadTable?id=T0006&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: data [scraper]. element captured. csv6. http://www.tandfonline.com/action/downloadTable?id=T0007&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: debug [scraper]. element results. csv6. http://www.tandfonline.com/action/downloadTable?id=T0007&doi=10.1080%2F10463280701489053&downloadType=CSV.
+debug: data [scraper]. element captured. fulltext_html. http://dx.doi.org/10.1080/10463280701489053.
+debug: debug [scraper]. element results. fulltext_html. http://dx.doi.org/10.1080/10463280701489053.
+[info] [phantom] Step anonymous 3/3: done in 10347ms.
+[info] [phantom] Done 3 steps in 10358ms
+debug: info [scraper]. download started. table2.csv.
+debug: info [scraper]. download started. table1.csv.
+debug: info [scraper]. download started. table5.csv.
+debug: info [scraper]. download started. table4.csv.
+debug: info [scraper]. download started. table3.csv.
+debug: info [scraper]. download started. table6.csv.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 13/17 elements (4 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.tandfonline.com/doi/full/10.1080/09602010701748644
+debug: creating output directory: /Users/pm286/workspace/scrapetest/taylorfrancis/http_www.tandfonline.com_doi_full_10.1080_09602010701748644
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://www.tandfonline.com/doi/full/10.1080/09602010701748644, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/09602010701748644, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/09602010701748644?cookieSet=1, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/09602010701748644, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.tandfonline.com/doi/full/10.1080/09602010701748644"
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=https://www.colwiz.com/js/webpdf/pages/ireader.html?v=16.09.08-1290-129, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://www.tandfonline.com/doi/full/10.1080/09602010701748644 (HTTP 200)
+debug: info [scraper]. URL rendered. http://www.tandfonline.com/doi/full/10.1080/09602010701748644.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //a[text()='PDF']. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: data [scraper]. element captured. publisher.  Psychology Press .
+debug: debug [scraper]. element results. publisher.  Psychology Press .
+debug: data [scraper]. element captured. journal_name. Neuropsychological Rehabilitation.
+debug: debug [scraper]. element results. journal_name. Neuropsychological Rehabilitation.
+debug: data [scraper]. element capture failed. volume.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[1]. volume.
+debug: debug [scraper]. element results. volume. .
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[2]. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. title. Intervention for executive functions after traumatic brain injury: A systematic review, meta-analysis and clinical recommendations.
+debug: debug [scraper]. element results. title. Intervention for executive functions after traumatic brain injury: A systematic review, meta-analysis and clinical recommendations.
+debug: data [scraper]. element captured. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name.  Mary R. T.   Kennedy .
+debug: data [scraper]. element captured. author_name.  Carl   Coelho .
+debug: data [scraper]. element captured. author_name.  Lyn   Turkstra .
+debug: data [scraper]. element captured. author_name.  Mark   Ylvisaker .
+debug: data [scraper]. element captured. author_name.  Mckay   Moore Sohlberg .
+debug: data [scraper]. element captured. author_name.  Kathryn   Yorkston .
+debug: data [scraper]. element captured. author_name.  Hsin-Huei   Chiou .
+debug: data [scraper]. element captured. author_name.  Pui-Fong   Kan .
+debug: debug [scraper]. element results. author_name.  Mary R. T.   Kennedy , Carl   Coelho , Lyn   Turkstra , Mark   Ylvisaker , Mckay   Moore Sohlberg , Kathryn   Yorkston , Hsin-Huei   Chiou , Pui-Fong   Kan .
+debug: data [scraper]. element captured. date_published.
+debug: debug [scraper]. element results. date_published. .
+debug: data [scraper]. element captured. doi. 274825.
+debug: data [scraper]. element captured. doi. 10.1080/09602010701748644.
+debug: data [scraper]. element captured. doi. Neuropsychological Rehabilitation, Vol. 18, No. 3, June 2008, pp. 257–299.
+debug: debug [scraper]. element results. doi. 274825,10.1080/09602010701748644,Neuropsychological Rehabilitation, Vol. 18, No. 3, June 2008, pp. 257–299.
+debug: data [scraper]. element captured. csv1. http://www.tandfonline.com/action/downloadTable?id=T0001&doi=10.1080%2F09602010701748644&downloadType=CSV.
+debug: debug [scraper]. element results. csv1. http://www.tandfonline.com/action/downloadTable?id=T0001&doi=10.1080%2F09602010701748644&downloadType=CSV.
+debug: data [scraper]. element captured. csv2. http://www.tandfonline.com/action/downloadTable?id=T0002&doi=10.1080%2F09602010701748644&downloadType=CSV.
+debug: debug [scraper]. element results. csv2. http://www.tandfonline.com/action/downloadTable?id=T0002&doi=10.1080%2F09602010701748644&downloadType=CSV.
+debug: data [scraper]. element captured. csv3. http://www.tandfonline.com/action/downloadTable?id=T0003&doi=10.1080%2F09602010701748644&downloadType=CSV.
+debug: debug [scraper]. element results. csv3. http://www.tandfonline.com/action/downloadTable?id=T0003&doi=10.1080%2F09602010701748644&downloadType=CSV.
+debug: data [scraper]. element captured. csv4. http://www.tandfonline.com/action/downloadTable?id=T0004&doi=10.1080%2F09602010701748644&downloadType=CSV.
+debug: debug [scraper]. element results. csv4. http://www.tandfonline.com/action/downloadTable?id=T0004&doi=10.1080%2F09602010701748644&downloadType=CSV.
+debug: data [scraper]. element capture failed. csv5.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][5]. csv5.
+debug: debug [scraper]. element results. csv5. .
+debug: data [scraper]. element capture failed. csv6.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][6]. csv6.
+debug: debug [scraper]. element results. csv6. .
+debug: data [scraper]. element captured. fulltext_html. http://dx.doi.org/10.1080/09602010701748644.
+debug: debug [scraper]. element results. fulltext_html. http://dx.doi.org/10.1080/09602010701748644.
+[info] [phantom] Step anonymous 3/3: done in 11286ms.
+[info] [phantom] Done 3 steps in 11297ms
+debug: info [scraper]. download started. table4.csv.
+debug: info [scraper]. download started. table3.csv.
+debug: info [scraper]. download started. table1.csv.
+debug: info [scraper]. download started. table2.csv.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 12/17 elements (5 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.tandfonline.com/doi/full/10.1080/1357650X.2013.783045
+debug: creating output directory: /Users/pm286/workspace/scrapetest/taylorfrancis/http_www.tandfonline.com_doi_full_10.1080_1357650X.2013.783045
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://www.tandfonline.com/doi/full/10.1080/1357650X.2013.783045, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/1357650X.2013.783045, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/1357650X.2013.783045?cookieSet=1, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/1357650X.2013.783045, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.tandfonline.com/doi/full/10.1080/1357650X.2013.783045"
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=https://www.colwiz.com/js/webpdf/pages/ireader.html?v=16.09.08-1290-129, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://www.tandfonline.com/doi/full/10.1080/1357650X.2013.783045 (HTTP 200)
+debug: info [scraper]. URL rendered. http://www.tandfonline.com/doi/full/10.1080/1357650X.2013.783045.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //a[text()='PDF']. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: data [scraper]. element captured. publisher. Routledge.
+debug: debug [scraper]. element results. publisher. Routledge.
+debug: data [scraper]. element captured. journal_name. Laterality: Asymmetries of Body, Brain and Cognition.
+debug: debug [scraper]. element results. journal_name. Laterality: Asymmetries of Body, Brain and Cognition.
+debug: data [scraper]. element capture failed. volume.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[1]. volume.
+debug: debug [scraper]. element results. volume. .
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[2]. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. title. Edinburgh Handedness Inventory – Short Form: A revised version based on confirmatory factor analysis.
+debug: debug [scraper]. element results. title. Edinburgh Handedness Inventory – Short Form: A revised version based on confirmatory factor analysis.
+debug: data [scraper]. element captured. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name. Jaimie F. Veale.
+debug: debug [scraper]. element results. author_name. Jaimie F. Veale.
+debug: data [scraper]. element captured. date_published.
+debug: debug [scraper]. element results. date_published. .
+debug: data [scraper]. element captured. doi. 783045.
+debug: data [scraper]. element captured. doi. 10.1080/1357650X.2013.783045.
+debug: debug [scraper]. element results. doi. 783045,10.1080/1357650X.2013.783045.
+debug: data [scraper]. element captured. csv1. http://www.tandfonline.com/action/downloadTable?id=t0001&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: debug [scraper]. element results. csv1. http://www.tandfonline.com/action/downloadTable?id=t0001&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: data [scraper]. element captured. csv2. http://www.tandfonline.com/action/downloadTable?id=t0002&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: debug [scraper]. element results. csv2. http://www.tandfonline.com/action/downloadTable?id=t0002&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: data [scraper]. element captured. csv3. http://www.tandfonline.com/action/downloadTable?id=t0003&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: debug [scraper]. element results. csv3. http://www.tandfonline.com/action/downloadTable?id=t0003&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: data [scraper]. element captured. csv4. http://www.tandfonline.com/action/downloadTable?id=t0004&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: debug [scraper]. element results. csv4. http://www.tandfonline.com/action/downloadTable?id=t0004&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: data [scraper]. element captured. csv5. http://www.tandfonline.com/action/downloadTable?id=t0005&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: debug [scraper]. element results. csv5. http://www.tandfonline.com/action/downloadTable?id=t0005&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: data [scraper]. element captured. csv6. http://www.tandfonline.com/action/downloadTable?id=t0006&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: debug [scraper]. element results. csv6. http://www.tandfonline.com/action/downloadTable?id=t0006&doi=10.1080%2F1357650X.2013.783045&downloadType=CSV.
+debug: data [scraper]. element captured. fulltext_html. http://dx.doi.org/10.1080/1357650X.2013.783045.
+debug: debug [scraper]. element results. fulltext_html. http://dx.doi.org/10.1080/1357650X.2013.783045.
+[info] [phantom] Step anonymous 3/3: done in 7376ms.
+[info] [phantom] Done 3 steps in 7381ms
+debug: info [scraper]. download started. table6.csv.
+debug: info [scraper]. download started. table3.csv.
+debug: info [scraper]. download started. table4.csv.
+debug: info [scraper]. download started. table5.csv.
+debug: info [scraper]. download started. table2.csv.
+debug: info [scraper]. download started. table1.csv.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 14/17 elements (3 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.tandfonline.com/doi/full/10.1080/02699930903132496
+debug: creating output directory: /Users/pm286/workspace/scrapetest/taylorfrancis/http_www.tandfonline.com_doi_full_10.1080_02699930903132496
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://www.tandfonline.com/doi/full/10.1080/02699930903132496, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/02699930903132496, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/02699930903132496?cookieSet=1, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/02699930903132496, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.tandfonline.com/doi/full/10.1080/02699930903132496"
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] Navigation requested: url=https://www.colwiz.com/js/webpdf/pages/ireader.html?v=16.09.08-1290-129, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://www.tandfonline.com/doi/full/10.1080/02699930903132496 (HTTP 200)
+debug: info [scraper]. URL rendered. http://www.tandfonline.com/doi/full/10.1080/02699930903132496.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //a[text()='PDF']. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: data [scraper]. element captured. publisher.  Taylor & Francis Group .
+debug: debug [scraper]. element results. publisher.  Taylor & Francis Group .
+debug: data [scraper]. element captured. journal_name. Cognition &amp; Emotion.
+debug: debug [scraper]. element results. journal_name. Cognition &amp; Emotion.
+debug: data [scraper]. element capture failed. volume.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[1]. volume.
+debug: debug [scraper]. element results. volume. .
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[2]. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. title. The influence of affect on higher level cognition: A review of research on interpretation, judgement, decision making and reasoning.
+debug: debug [scraper]. element results. title. The influence of affect on higher level cognition: A review of research on interpretation, judgement, decision making and reasoning.
+debug: data [scraper]. element captured. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name.  Isabelle   Blanchette .
+debug: data [scraper]. element captured. author_name.  Anne   Richards .
+debug: debug [scraper]. element results. author_name.  Isabelle   Blanchette , Anne   Richards .
+debug: data [scraper]. element captured. date_published.
+debug: debug [scraper]. element results. date_published. .
+debug: data [scraper]. element captured. doi. 413422.
+debug: data [scraper]. element captured. doi. 10.1080/02699930903132496.
+debug: data [scraper]. element captured. doi. COGNITION AND EMOTION, Vol. 24, No. 4, June 2010, pp. 561–595.
+debug: debug [scraper]. element results. doi. 413422,10.1080/02699930903132496,COGNITION AND EMOTION, Vol. 24, No. 4, June 2010, pp. 561–595.
+debug: data [scraper]. element capture failed. csv1.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][1]. csv1.
+debug: debug [scraper]. element results. csv1. .
+debug: data [scraper]. element capture failed. csv2.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][2]. csv2.
+debug: debug [scraper]. element results. csv2. .
+debug: data [scraper]. element capture failed. csv3.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][3]. csv3.
+debug: debug [scraper]. element results. csv3. .
+debug: data [scraper]. element capture failed. csv4.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][4]. csv4.
+debug: debug [scraper]. element results. csv4. .
+debug: data [scraper]. element capture failed. csv5.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][5]. csv5.
+debug: debug [scraper]. element results. csv5. .
+debug: data [scraper]. element capture failed. csv6.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][6]. csv6.
+debug: debug [scraper]. element results. csv6. .
+debug: data [scraper]. element captured. fulltext_html. http://dx.doi.org/10.1080/02699930903132496.
+debug: debug [scraper]. element results. fulltext_html. http://dx.doi.org/10.1080/02699930903132496.
+[info] [phantom] Step anonymous 3/3: done in 10409ms.
+[info] [phantom] Done 3 steps in 10412ms
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 8/17 elements (9 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.tandfonline.com/doi/full/10.1080/13554794.2011.556128
+debug: creating output directory: /Users/pm286/workspace/scrapetest/taylorfrancis/http_www.tandfonline.com_doi_full_10.1080_13554794.2011.556128
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://www.tandfonline.com/doi/full/10.1080/13554794.2011.556128, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/13554794.2011.556128, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/13554794.2011.556128?cookieSet=1, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.tandfonline.com/doi/full/10.1080/13554794.2011.556128, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.tandfonline.com/doi/full/10.1080/13554794.2011.556128"
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=https://www.colwiz.com/js/webpdf/pages/ireader.html?v=16.09.08-1290-129, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://www.tandfonline.com/doi/full/10.1080/13554794.2011.556128 (HTTP 200)
+debug: info [scraper]. URL rendered. http://www.tandfonline.com/doi/full/10.1080/13554794.2011.556128.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //a[text()='PDF']. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: data [scraper]. element captured. publisher.  Taylor & Francis Group .
+debug: debug [scraper]. element results. publisher.  Taylor & Francis Group .
+debug: data [scraper]. element captured. journal_name. Neurocase.
+debug: debug [scraper]. element results. journal_name. Neurocase.
+debug: data [scraper]. element capture failed. volume.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[1]. volume.
+debug: debug [scraper]. element results. volume. .
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //*[@id='unit2']/div[1]/div/div/table/tbody/tr/td[1]/h3/a[2]. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. title. The appearance of new phantom fingers post-amputation in a phocomelus.
+debug: debug [scraper]. element results. title. The appearance of new phantom fingers post-amputation in a phocomelus.
+debug: data [scraper]. element captured. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name.  Paul   D.   McGeoch .
+debug: data [scraper]. element captured. author_name.  V. S.   Ramachandran .
+debug: debug [scraper]. element results. author_name.  Paul   D.   McGeoch , V. S.   Ramachandran .
+debug: data [scraper]. element captured. date_published.
+debug: debug [scraper]. element results. date_published. .
+debug: data [scraper]. element captured. doi. 556128.
+debug: data [scraper]. element captured. doi. 10.1080/13554794.2011.556128.
+debug: data [scraper]. element captured. doi. Neurocase, Vol. 18, No. 2, April 2012: pp. 95–97.
+debug: debug [scraper]. element results. doi. 556128,10.1080/13554794.2011.556128,Neurocase, Vol. 18, No. 2, April 2012: pp. 95–97.
+debug: data [scraper]. element capture failed. csv1.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][1]. csv1.
+debug: debug [scraper]. element results. csv1. .
+debug: data [scraper]. element capture failed. csv2.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][2]. csv2.
+debug: debug [scraper]. element results. csv2. .
+debug: data [scraper]. element capture failed. csv3.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][3]. csv3.
+debug: debug [scraper]. element results. csv3. .
+debug: data [scraper]. element capture failed. csv4.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][4]. csv4.
+debug: debug [scraper]. element results. csv4. .
+debug: data [scraper]. element capture failed. csv5.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][5]. csv5.
+debug: debug [scraper]. element results. csv5. .
+debug: data [scraper]. element capture failed. csv6.
+debug: debug [scraper]. selector had no results. //a[@id='CSVdownloadButton'][6]. csv6.
+debug: debug [scraper]. element results. csv6. .
+debug: data [scraper]. element captured. fulltext_html. http://dx.doi.org/10.1080/13554794.2011.556128.
+debug: debug [scraper]. element results. fulltext_html. http://dx.doi.org/10.1080/13554794.2011.556128.
+[info] [phantom] Step anonymous 3/3: done in 8308ms.
+[debug] [phantom] Navigation requested: url=http://s7.addthis.com/static/sh.70a42bd59f68e6caa20cf9f5.html#rand=0.4581426854711026&iit=1473354083796&tmr=load=1473354083126&core=1473354083213&main=1473354083793&ifr=1473354083799&cb=0&cdn=0&md=0&kw=Body image,Phantom limb,Phantom pain,Phocomelia,Mirror visual feedback&ab=-&dh=www.tandfonline.com&dr=&du=http://www.tandfonline.com/doi/full/10.1080/13554794.2011.556128&href=http://www.tandfonline.com/doi/full/10.1080/13554794.2011.556128&dt=The appearance of new phantom fingers post-amputation in a phocomelus&dbg=0&cap=tc=0&ab=0&inst=1&jsl=1&prod=undefined&lng=en&ogt=description,site_name,image,type=article,title&pc=men&pub=&ssl=0&sid=57d19963f0d8faaa&srpl=1&srf=0.01&srx=1&ver=300&xck=0&xtr=0&og=&csi=undefined&rev=v7.5.1-wp&ct=1&xld=1&xd=1, type=Other, willNavigate=true, isMainFrame=false
+[info] [phantom] Done 3 steps in 8390ms
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 8/17 elements (9 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.tandfonline.com/doi/full/10.1080/13825585.2013.795514
+debug: creating output directory: /Users/pm286/workspace/scrapetest/taylorfrancis/http_www.tandfonline.com_doi_full_10.1080_13825585.2013.795514
+info: all tasks completed
+dynamic-0-3:sandbox pm286$ 
+

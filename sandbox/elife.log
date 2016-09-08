@@ -1,0 +1,262 @@
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elife/http_elifesciences.org_content_3_e03080
+debug: info [scraper]. URL rendered. http://elifesciences.org/content/3/e03080.
+debug: data [scraper]. element captured. publisher. eLife Sciences Publications Limited.
+debug: debug [scraper]. element results. publisher. eLife Sciences Publications Limited.
+debug: data [scraper]. element captured. journal. eLife.
+debug: debug [scraper]. element results. journal. eLife.
+debug: data [scraper]. element captured. title. Cryo-EM structure of the Plasmodium falciparum 80S ribosome bound to the anti-protozoan drug emetine.
+debug: debug [scraper]. element results. title. Cryo-EM structure of the Plasmodium falciparum 80S ribosome bound to the anti-protozoan drug emetine.
+debug: data [scraper]. element captured. authors. Wilson Wong.
+debug: data [scraper]. element captured. authors. Xiao-chen Bai.
+debug: data [scraper]. element captured. authors. Alan Brown.
+debug: data [scraper]. element captured. authors. Israel S Fernandez.
+debug: data [scraper]. element captured. authors. Eric Hanssen.
+debug: data [scraper]. element captured. authors. Melanie Condron.
+debug: data [scraper]. element captured. authors. Yan Hong Tan.
+debug: data [scraper]. element captured. authors. Jake Baum.
+debug: data [scraper]. element captured. authors. Sjors HW Scheres.
+debug: debug [scraper]. element results. authors. Wilson Wong,Xiao-chen Bai,Alan Brown,Israel S Fernandez,Eric Hanssen,Melanie Condron,Yan Hong Tan,Jake Baum,Sjors HW Scheres.
+debug: data [scraper]. element capture failed. date.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_date']. date.
+debug: debug [scraper]. element results. date. .
+debug: data [scraper]. element captured. doi. 10.7554/eLife.03080.
+debug: debug [scraper]. element results. doi. 10.7554/eLife.03080.
+debug: data [scraper]. element captured. volume. 3.
+debug: debug [scraper]. element results. volume. 3.
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_issue']. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. firstpage. e03080.
+debug: debug [scraper]. element results. firstpage. e03080.
+debug: data [scraper]. element captured. description. Cryo-EM structure of the Plasmodium falciparum 80S ribosome bound to the anti-protozoan drug emetine | The molecular mechanism behind how emetine inhibits the ribosome of the human malaria parasite, along with structural details of the complex formed, is revealed at high resolution using cryo-electron microscopy..
+debug: debug [scraper]. element results. description. Cryo-EM structure of the Plasmodium falciparum 80S ribosome bound to the anti-protozoan drug emetine | The molecular mechanism behind how emetine inhibits the ribosome of the human malaria parasite, along with structural details of the complex formed, is revealed at high resolution using cryo-electron microscopy..
+debug: data [scraper]. element capture failed. abstract.
+debug: debug [scraper]. selector had no results. //div[contains(class, 'abstract')]//p[1]. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element capture failed. fulltext_html.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_fulltext_html_url']. fulltext_html.
+debug: debug [scraper]. element results. fulltext_html. .
+debug: data [scraper]. element captured. fulltext_pdf. https://elifesciences.org/content/3/e03080.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. https://elifesciences.org/content/3/e03080.pdf.
+debug: data [scraper]. element captured. fulltext_xml. https://elife-publishing-cdn.s3.amazonaws.com/03080/elife-03080-v2.xml.
+debug: debug [scraper]. element results. fulltext_xml. https://elife-publishing-cdn.s3.amazonaws.com/03080/elife-03080-v2.xml.
+debug: data [scraper]. element capture failed. supplementary_material.
+debug: debug [scraper]. selector had no results. //a[contains(concat(' ', normalize-space(@class), ' '), ' article-supporting-download ')]. supplementary_material.
+debug: debug [scraper]. element results. supplementary_material. .
+debug: data [scraper]. element capture failed. figure.
+debug: debug [scraper]. selector had no results. //div[contains(concat(' ', normalize-space(@class), ' '), ' elife-figure-link-download ')]/a. figure.
+debug: debug [scraper]. element results. figure. .
+debug: data [scraper]. element capture failed. figure_caption.
+debug: debug [scraper]. selector had no results. //div[contains(class, 'fig-caption')]. figure_caption.
+debug: debug [scraper]. element results. figure_caption. .
+debug: data [scraper]. element captured. license.
+debug: debug [scraper]. element results. license. .
+debug: data [scraper]. element captured. copyright.
+debug: debug [scraper]. element results. copyright. .
+debug: info [scraper]. download started. fulltext.xml.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 12/19 elements (7 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://elifesciences.org/content/3/e02137
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elife/http_elifesciences.org_content_3_e02137
+debug: info [scraper]. URL rendered. http://elifesciences.org/content/3/e02137.
+debug: data [scraper]. element captured. publisher. eLife Sciences Publications Limited.
+debug: debug [scraper]. element results. publisher. eLife Sciences Publications Limited.
+debug: data [scraper]. element captured. journal. eLife.
+debug: debug [scraper]. element results. journal. eLife.
+debug: data [scraper]. element captured. title. The quantitative architecture of centromeric chromatin.
+debug: debug [scraper]. element results. title. The quantitative architecture of centromeric chromatin.
+debug: data [scraper]. element captured. authors. Dani L Bodor.
+debug: data [scraper]. element captured. authors. João F Mata.
+debug: data [scraper]. element captured. authors. Mikhail Sergeev.
+debug: data [scraper]. element captured. authors. Ana Filipa David.
+debug: data [scraper]. element captured. authors. Kevan J Salimian.
+debug: data [scraper]. element captured. authors. Tanya Panchenko.
+debug: data [scraper]. element captured. authors. Don W Cleveland.
+debug: data [scraper]. element captured. authors. Ben E Black.
+debug: data [scraper]. element captured. authors. Jagesh V Shah.
+debug: data [scraper]. element captured. authors. Lars ET Jansen.
+debug: debug [scraper]. element results. authors. Dani L Bodor,João F Mata,Mikhail Sergeev,Ana Filipa David,Kevan J Salimian,Tanya Panchenko,Don W Cleveland,Ben E Black,Jagesh V Shah,Lars ET Jansen.
+debug: data [scraper]. element capture failed. date.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_date']. date.
+debug: debug [scraper]. element results. date. .
+debug: data [scraper]. element captured. doi. 10.7554/eLife.02137.
+debug: debug [scraper]. element results. doi. 10.7554/eLife.02137.
+debug: data [scraper]. element captured. volume. 3.
+debug: debug [scraper]. element results. volume. 3.
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_issue']. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. firstpage. e02137.
+debug: debug [scraper]. element results. firstpage. e02137.
+debug: data [scraper]. element captured. description. The quantitative architecture of centromeric chromatin | The number of CENP-A molecules at human centromeres helps to explain how this structure is built and epigenetically inherited..
+debug: debug [scraper]. element results. description. The quantitative architecture of centromeric chromatin | The number of CENP-A molecules at human centromeres helps to explain how this structure is built and epigenetically inherited..
+debug: data [scraper]. element capture failed. abstract.
+debug: debug [scraper]. selector had no results. //div[contains(class, 'abstract')]//p[1]. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element capture failed. fulltext_html.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_fulltext_html_url']. fulltext_html.
+debug: debug [scraper]. element results. fulltext_html. .
+debug: data [scraper]. element captured. fulltext_pdf. https://elifesciences.org/content/3/e02137.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. https://elifesciences.org/content/3/e02137.pdf.
+debug: data [scraper]. element captured. fulltext_xml. https://elife-publishing-cdn.s3.amazonaws.com/02137/elife-02137-v1.xml.
+debug: debug [scraper]. element results. fulltext_xml. https://elife-publishing-cdn.s3.amazonaws.com/02137/elife-02137-v1.xml.
+debug: data [scraper]. element capture failed. supplementary_material.
+debug: debug [scraper]. selector had no results. //a[contains(concat(' ', normalize-space(@class), ' '), ' article-supporting-download ')]. supplementary_material.
+debug: debug [scraper]. element results. supplementary_material. .
+debug: data [scraper]. element capture failed. figure.
+debug: debug [scraper]. selector had no results. //div[contains(concat(' ', normalize-space(@class), ' '), ' elife-figure-link-download ')]/a. figure.
+debug: debug [scraper]. element results. figure. .
+debug: data [scraper]. element capture failed. figure_caption.
+debug: debug [scraper]. selector had no results. //div[contains(class, 'fig-caption')]. figure_caption.
+debug: debug [scraper]. element results. figure_caption. .
+debug: data [scraper]. element captured. license.
+debug: debug [scraper]. element results. license. .
+debug: data [scraper]. element captured. copyright.
+debug: debug [scraper]. element results. copyright. .
+debug: info [scraper]. download started. fulltext.xml.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 12/19 elements (7 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://elifesciences.org/content/3/e02349
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elife/http_elifesciences.org_content_3_e02349
+debug: info [scraper]. URL rendered. http://elifesciences.org/content/3/e02349.
+debug: data [scraper]. element captured. publisher. eLife Sciences Publications Limited.
+debug: debug [scraper]. element results. publisher. eLife Sciences Publications Limited.
+debug: data [scraper]. element captured. journal. eLife.
+debug: debug [scraper]. element results. journal. eLife.
+debug: data [scraper]. element captured. title. tRNA synthetase counteracts c-Myc to develop functional vasculature.
+debug: debug [scraper]. element results. title. tRNA synthetase counteracts c-Myc to develop functional vasculature.
+debug: data [scraper]. element captured. authors. Yi Shi.
+debug: data [scraper]. element captured. authors. Xiaoling Xu.
+debug: data [scraper]. element captured. authors. Qian Zhang.
+debug: data [scraper]. element captured. authors. Guangsen Fu.
+debug: data [scraper]. element captured. authors. Zhongying Mo.
+debug: data [scraper]. element captured. authors. George S Wang.
+debug: data [scraper]. element captured. authors. Shuji Kishi.
+debug: data [scraper]. element captured. authors. Xiang-Lei Yang.
+debug: debug [scraper]. element results. authors. Yi Shi,Xiaoling Xu,Qian Zhang,Guangsen Fu,Zhongying Mo,George S Wang,Shuji Kishi,Xiang-Lei Yang.
+debug: data [scraper]. element capture failed. date.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_date']. date.
+debug: debug [scraper]. element results. date. .
+debug: data [scraper]. element captured. doi. 10.7554/eLife.02349.
+debug: debug [scraper]. element results. doi. 10.7554/eLife.02349.
+debug: data [scraper]. element captured. volume. 3.
+debug: debug [scraper]. element results. volume. 3.
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_issue']. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. firstpage. e02349.
+debug: debug [scraper]. element results. firstpage. e02349.
+debug: data [scraper]. element captured. description. tRNA synthetase counteracts c-Myc to develop functional vasculature | In addition to its cytoplasmic role for translation, the seryl-tRNA synthetase also antagonizes the c-Myc transcription factor in the nucleus to transcriptionally repress the growth factor VEGFA and ensure proper development of the vasculature in vertebrates..
+debug: debug [scraper]. element results. description. tRNA synthetase counteracts c-Myc to develop functional vasculature | In addition to its cytoplasmic role for translation, the seryl-tRNA synthetase also antagonizes the c-Myc transcription factor in the nucleus to transcriptionally repress the growth factor VEGFA and ensure proper development of the vasculature in vertebrates..
+debug: data [scraper]. element capture failed. abstract.
+debug: debug [scraper]. selector had no results. //div[contains(class, 'abstract')]//p[1]. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element capture failed. fulltext_html.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_fulltext_html_url']. fulltext_html.
+debug: debug [scraper]. element results. fulltext_html. .
+debug: data [scraper]. element captured. fulltext_pdf. https://elifesciences.org/content/3/e02349.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. https://elifesciences.org/content/3/e02349.pdf.
+debug: data [scraper]. element captured. fulltext_xml. https://elife-publishing-cdn.s3.amazonaws.com/02349/elife-02349-v1.xml.
+debug: debug [scraper]. element results. fulltext_xml. https://elife-publishing-cdn.s3.amazonaws.com/02349/elife-02349-v1.xml.
+debug: data [scraper]. element capture failed. supplementary_material.
+debug: debug [scraper]. selector had no results. //a[contains(concat(' ', normalize-space(@class), ' '), ' article-supporting-download ')]. supplementary_material.
+debug: debug [scraper]. element results. supplementary_material. .
+debug: data [scraper]. element capture failed. figure.
+debug: debug [scraper]. selector had no results. //div[contains(concat(' ', normalize-space(@class), ' '), ' elife-figure-link-download ')]/a. figure.
+debug: debug [scraper]. element results. figure. .
+debug: data [scraper]. element capture failed. figure_caption.
+debug: debug [scraper]. selector had no results. //div[contains(class, 'fig-caption')]. figure_caption.
+debug: debug [scraper]. element results. figure_caption. .
+debug: data [scraper]. element captured. license.
+debug: debug [scraper]. element results. license. .
+debug: data [scraper]. element captured. copyright.
+debug: debug [scraper]. element results. copyright. .
+debug: info [scraper]. download started. fulltext.xml.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 12/19 elements (7 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://elifesciences.org/content/3/e00590
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elife/http_elifesciences.org_content_3_e00590
+debug: info [scraper]. URL rendered. http://elifesciences.org/content/3/e00590.
+debug: data [scraper]. element captured. publisher. eLife Sciences Publications Limited.
+debug: debug [scraper]. element results. publisher. eLife Sciences Publications Limited.
+debug: data [scraper]. element captured. journal. eLife.
+debug: debug [scraper]. element results. journal. eLife.
+debug: data [scraper]. element captured. title. Extinction risk and conservation of the world’s sharks and rays.
+debug: debug [scraper]. element results. title. Extinction risk and conservation of the world’s sharks and rays.
+debug: data [scraper]. element captured. authors. Nicholas K Dulvy.
+debug: data [scraper]. element captured. authors. Sarah L Fowler.
+debug: data [scraper]. element captured. authors. John A Musick.
+debug: data [scraper]. element captured. authors. Rachel D Cavanagh.
+debug: data [scraper]. element captured. authors. Peter M Kyne.
+debug: data [scraper]. element captured. authors. Lucy R Harrison.
+debug: data [scraper]. element captured. authors. John K Carlson.
+debug: data [scraper]. element captured. authors. Lindsay NK Davidson.
+debug: data [scraper]. element captured. authors. Sonja V Fordham.
+debug: data [scraper]. element captured. authors. Malcolm P Francis.
+debug: data [scraper]. element captured. authors. Caroline M Pollock.
+debug: data [scraper]. element captured. authors. Colin A Simpfendorfer.
+debug: data [scraper]. element captured. authors. George H Burgess.
+debug: data [scraper]. element captured. authors. Kent E Carpenter.
+debug: data [scraper]. element captured. authors. Leonard JV Compagno.
+debug: data [scraper]. element captured. authors. David A Ebert.
+debug: data [scraper]. element captured. authors. Claudine Gibson.
+debug: data [scraper]. element captured. authors. Michelle R Heupel.
+debug: data [scraper]. element captured. authors. Suzanne R Livingstone.
+debug: data [scraper]. element captured. authors. Jonnell C Sanciangco.
+debug: data [scraper]. element captured. authors. John D Stevens.
+debug: data [scraper]. element captured. authors. Sarah Valenti.
+debug: data [scraper]. element captured. authors. William T White.
+debug: debug [scraper]. element results. authors. Nicholas K Dulvy,Sarah L Fowler,John A Musick,Rachel D Cavanagh,Peter M Kyne,Lucy R Harrison,John K Carlson,Lindsay NK Davidson,Sonja V Fordham,Malcolm P Francis,Caroline M Pollock,Colin A Simpfendorfer,George H Burgess,Kent E Carpenter,Leonard JV Compagno,David A Ebert,Claudine Gibson,Michelle R Heupel,Suzanne R Livingstone,Jonnell C Sanciangco,John D Stevens,Sarah Valenti,William T White.
+debug: data [scraper]. element capture failed. date.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_date']. date.
+debug: debug [scraper]. element results. date. .
+debug: data [scraper]. element captured. doi. 10.7554/eLife.00590.
+debug: debug [scraper]. element results. doi. 10.7554/eLife.00590.
+debug: data [scraper]. element captured. volume. 3.
+debug: debug [scraper]. element results. volume. 3.
+debug: data [scraper]. element capture failed. issue.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_issue']. issue.
+debug: debug [scraper]. element results. issue. .
+debug: data [scraper]. element captured. firstpage. e00590.
+debug: debug [scraper]. element results. firstpage. e00590.
+debug: data [scraper]. element captured. description. Extinction risk and conservation of the world’s sharks and rays | One-quarter of the Chondrichthyes have an elevated risk of extinction, mainly as a result of overfishing..
+debug: debug [scraper]. element results. description. Extinction risk and conservation of the world’s sharks and rays | One-quarter of the Chondrichthyes have an elevated risk of extinction, mainly as a result of overfishing..
+debug: data [scraper]. element capture failed. abstract.
+debug: debug [scraper]. selector had no results. //div[contains(class, 'abstract')]//p[1]. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element capture failed. fulltext_html.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_fulltext_html_url']. fulltext_html.
+debug: debug [scraper]. element results. fulltext_html. .
+debug: data [scraper]. element captured. fulltext_pdf. https://elifesciences.org/content/3/e00590.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. https://elifesciences.org/content/3/e00590.pdf.
+debug: data [scraper]. element captured. fulltext_xml. https://elife-publishing-cdn.s3.amazonaws.com/00590/elife-00590-v1.xml.
+debug: debug [scraper]. element results. fulltext_xml. https://elife-publishing-cdn.s3.amazonaws.com/00590/elife-00590-v1.xml.
+debug: data [scraper]. element capture failed. supplementary_material.
+debug: debug [scraper]. selector had no results. //a[contains(concat(' ', normalize-space(@class), ' '), ' article-supporting-download ')]. supplementary_material.
+debug: debug [scraper]. element results. supplementary_material. .
+debug: data [scraper]. element capture failed. figure.
+debug: debug [scraper]. selector had no results. //div[contains(concat(' ', normalize-space(@class), ' '), ' elife-figure-link-download ')]/a. figure.
+debug: debug [scraper]. element results. figure. .
+debug: data [scraper]. element capture failed. figure_caption.
+debug: debug [scraper]. selector had no results. //div[contains(class, 'fig-caption')]. figure_caption.
+debug: debug [scraper]. element results. figure_caption. .
+debug: data [scraper]. element captured. license.
+debug: debug [scraper]. element results. license. .
+debug: data [scraper]. element captured. copyright.
+debug: debug [scraper]. element results. copyright. .
+debug: info [scraper]. download started. fulltext.xml.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 12/19 elements (7 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://elifesciences.org/content/2/e00747
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elife/http_elifesciences.org_content_2_e00747
+info: all tasks completed
+dynamic-0-3:sandbox pm286$ 
+

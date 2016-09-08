@@ -1,0 +1,387 @@
+dynamic-0-3:sandbox pm286$ quickscrape -o ../../scrapetest/rsc -r ../test/rsc_test_urls.txt  -d ../scrapers/ -i 20 -l debug --logfile rsc.log
+debug: creating output directory: ../../scrapetest/rsc
+info: Saving logs to ./../../scrapetest/rsc/rsc.log
+info: quickscrape 0.4.7 launched with...
+info: - URLs from file: undefined
+info: - Scraperdir: /Users/pm286/workspace/journal-scrapers/scrapers
+info: - Rate limit: 20 per minute
+info: - Log level: debug
+info: urls to scrape: 9
+info: processing URL: http://pubs.rsc.org/en/content/articlelanding/2014/dt/c4dt01397b
+debug: creating output directory: /Users/pm286/workspace/scrapetest/rsc/http_pubs.rsc.org_en_content_articlelanding_2014_dt_c4dt01397b
+debug: info [scraper]. URL rendered. http://pubs.rsc.org/en/content/articlelanding/2014/dt/c4dt01397b.
+debug: data [scraper]. element captured. publisher. The Royal Society of Chemistry.
+debug: debug [scraper]. element results. publisher. The Royal Society of Chemistry.
+debug: data [scraper]. element captured. title. Synthesis and photoinduced electron transfer in platinum(II) bis(N-(4-ethynylphenyl)carbazole)bipyridine fullerene complexes.
+debug: debug [scraper]. element results. title. Synthesis and photoinduced electron transfer in platinum(II) bis(N-(4-ethynylphenyl)carbazole)bipyridine fullerene complexes.
+debug: data [scraper]. element captured. authors. Sai-Ho Lee.
+debug: data [scraper]. element captured. authors. Chris Tsz-Leung Chan.
+debug: data [scraper]. element captured. authors. Keith Man-Chung Wong.
+debug: data [scraper]. element captured. authors. Wai Han Lam.
+debug: data [scraper]. element captured. authors. Wai-Ming Kwok.
+debug: data [scraper]. element captured. authors. Vivian Wing-Wah Yam.
+debug: debug [scraper]. element results. authors. Sai-Ho Lee,Chris Tsz-Leung Chan,Keith Man-Chung Wong,Wai Han Lam,Wai-Ming Kwok,Vivian Wing-Wah Yam.
+debug: data [scraper]. element captured. date. 2014/11/11.
+debug: debug [scraper]. element results. date. 2014/11/11.
+debug: data [scraper]. element captured. volume. 43.
+debug: debug [scraper]. element results. volume. 43.
+debug: data [scraper]. element captured. issue. 47.
+debug: debug [scraper]. element results. issue. 47.
+debug: data [scraper]. element captured. firstpage. 17624.
+debug: debug [scraper]. element results. firstpage. 17624.
+debug: data [scraper]. element captured. lastpage. 17634.
+debug: debug [scraper]. element results. lastpage. 17634.
+debug: data [scraper]. element captured. doi. 10.1039/C4DT01397B.
+debug: debug [scraper]. element results. doi. 10.1039/C4DT01397B.
+debug: data [scraper]. element captured. journal. Dalton Transactions.
+debug: debug [scraper]. element results. journal. Dalton Transactions.
+debug: data [scraper]. element captured. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element captured. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2014/dt/c4dt01397b.
+debug: debug [scraper]. element results. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2014/dt/c4dt01397b.
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2014/dt/c4dt01397b.
+debug: debug [scraper]. element results. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2014/dt/c4dt01397b.
+debug: data [scraper]. element captured. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2014/dt/c4dt01397b.
+debug: debug [scraper]. element results. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2014/dt/c4dt01397b.
+debug: data [scraper]. element captured. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: debug [scraper]. element results. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: data [scraper]. element captured. caption. Graphical abstract: Synthesis and photoinduced electron transfer in platinum(ii) bis(N-(4-ethynylphenyl)carbazole)bipyridine fullerene complexes.
+debug: debug [scraper]. element results. caption. Graphical abstract: Synthesis and photoinduced electron transfer in platinum(ii) bis(N-(4-ethynylphenyl)carbazole)bipyridine fullerene complexes.
+debug: info [scraper]. download started. Ajax-GA-Loader.gif.
+debug: info [scraper]. download started. c4dt01397b.
+debug: info [scraper]. download started. c4dt01397b.
+debug: info [scraper]. download started. c4dt01397b.
+info: URL processed: captured 17/17 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://pubs.rsc.org/en/Content/ArticleLanding/2014/CC/C4CC04440A
+debug: creating output directory: /Users/pm286/workspace/scrapetest/rsc/http_pubs.rsc.org_en_Content_ArticleLanding_2014_CC_C4CC04440A
+debug: info [scraper]. URL rendered. http://pubs.rsc.org/en/Content/ArticleLanding/2014/CC/C4CC04440A.
+debug: data [scraper]. element captured. publisher. The Royal Society of Chemistry.
+debug: debug [scraper]. element results. publisher. The Royal Society of Chemistry.
+debug: data [scraper]. element captured. title. Facile assembly of light-driven molecular motors onto a solid surface.
+debug: debug [scraper]. element results. title. Facile assembly of light-driven molecular motors onto a solid surface.
+debug: data [scraper]. element captured. authors. Jiawen Chen.
+debug: data [scraper]. element captured. authors. Kuang-Yen Chen.
+debug: data [scraper]. element captured. authors. Gregory T. Carroll.
+debug: data [scraper]. element captured. authors. Ben L. Feringa.
+debug: debug [scraper]. element results. authors. Jiawen Chen,Kuang-Yen Chen,Gregory T. Carroll,Ben L. Feringa.
+debug: data [scraper]. element captured. date. 2014/09/25.
+debug: debug [scraper]. element results. date. 2014/09/25.
+debug: data [scraper]. element captured. volume. 50.
+debug: debug [scraper]. element results. volume. 50.
+debug: data [scraper]. element captured. issue. 84.
+debug: debug [scraper]. element results. issue. 84.
+debug: data [scraper]. element captured. firstpage. 12641.
+debug: debug [scraper]. element results. firstpage. 12641.
+debug: data [scraper]. element captured. lastpage. 12644.
+debug: debug [scraper]. element results. lastpage. 12644.
+debug: data [scraper]. element captured. doi. 10.1039/C4CC04440A.
+debug: debug [scraper]. element results. doi. 10.1039/C4CC04440A.
+debug: data [scraper]. element captured. journal. Chemical Communications.
+debug: debug [scraper]. element results. journal. Chemical Communications.
+debug: data [scraper]. element captured. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element captured. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc04440a.
+debug: debug [scraper]. element results. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2014/cc/c4cc04440a.
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2014/cc/c4cc04440a.
+debug: debug [scraper]. element results. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2014/cc/c4cc04440a.
+debug: data [scraper]. element captured. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2014/cc/c4cc04440a.
+debug: debug [scraper]. element results. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2014/cc/c4cc04440a.
+debug: data [scraper]. element captured. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: debug [scraper]. element results. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: data [scraper]. element captured. caption. Graphical abstract: Facile assembly of light-driven molecular motors onto a solid surface.
+debug: debug [scraper]. element results. caption. Graphical abstract: Facile assembly of light-driven molecular motors onto a solid surface.
+debug: info [scraper]. download started. Ajax-GA-Loader.gif.
+debug: info [scraper]. download started. c4cc04440a.
+debug: info [scraper]. download started. c4cc04440a.
+debug: info [scraper]. download started. c4cc04440a.
+info: URL processed: captured 17/17 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://pubs.rsc.org/en/content/articlelanding/1877/js/js8773200001
+debug: creating output directory: /Users/pm286/workspace/scrapetest/rsc/http_pubs.rsc.org_en_content_articlelanding_1877_js_js8773200001
+debug: info [scraper]. URL rendered. http://pubs.rsc.org/en/content/articlelanding/1877/js/js8773200001.
+debug: data [scraper]. element captured. publisher. The Royal Society of Chemistry.
+debug: debug [scraper]. element results. publisher. The Royal Society of Chemistry.
+debug: data [scraper]. element captured. title. I.—On the estimation of manganese in spiegeleisen, and of manganese and iron in manganiferous iron ores.
+debug: debug [scraper]. element results. title. I.—On the estimation of manganese in spiegeleisen, and of manganese and iron in manganiferous iron ores.
+debug: data [scraper]. element captured. authors. Edward Riley.
+debug: debug [scraper]. element results. authors. Edward Riley.
+debug: data [scraper]. element captured. date. 1877/01/01.
+debug: debug [scraper]. element results. date. 1877/01/01.
+debug: data [scraper]. element captured. volume. 32.
+debug: debug [scraper]. element results. volume. 32.
+debug: data [scraper]. element captured. issue. 0.
+debug: debug [scraper]. element results. issue. 0.
+debug: data [scraper]. element captured. firstpage. 1.
+debug: debug [scraper]. element results. firstpage. 1.
+debug: data [scraper]. element captured. lastpage. 28.
+debug: debug [scraper]. element results. lastpage. 28.
+debug: data [scraper]. element captured. doi. 10.1039/JS8773200001.
+debug: debug [scraper]. element results. doi. 10.1039/JS8773200001.
+debug: data [scraper]. element captured. journal. Journal of the Chemical Society.
+debug: debug [scraper]. element results. journal. Journal of the Chemical Society.
+debug: data [scraper]. element captured. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element captured. abstract_html. http://pubs.rsc.org/en/content/articlelanding/1877/js/js8773200001.
+debug: debug [scraper]. element results. abstract_html. http://pubs.rsc.org/en/content/articlelanding/1877/js/js8773200001.
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/1877/js/js8773200001.
+debug: debug [scraper]. element results. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/1877/js/js8773200001.
+debug: data [scraper]. element captured. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/1877/js/js8773200001.
+debug: debug [scraper]. element results. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/1877/js/js8773200001.
+debug: data [scraper]. element capture failed. figure.
+debug: debug [scraper]. selector had no results. //img[@title='Graphical abstract']. figure.
+debug: debug [scraper]. element results. figure. .
+debug: data [scraper]. element capture failed. caption.
+debug: debug [scraper]. selector had no results. //img[@title='Graphical abstract']. caption.
+debug: debug [scraper]. element results. caption. .
+debug: info [scraper]. download started. js8773200001.
+debug: info [scraper]. download started. js8773200001.
+debug: info [scraper]. download started. js8773200001.
+info: URL processed: captured 15/17 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://pubs.rsc.org/en/content/articlelanding/2002/p2/b208395g
+debug: creating output directory: /Users/pm286/workspace/scrapetest/rsc/http_pubs.rsc.org_en_content_articlelanding_2002_p2_b208395g
+debug: info [scraper]. URL rendered. http://pubs.rsc.org/en/content/articlelanding/2002/p2/b208395g.
+debug: data [scraper]. element captured. publisher. The Royal Society of Chemistry.
+debug: debug [scraper]. element results. publisher. The Royal Society of Chemistry.
+debug: data [scraper]. element captured. title. Stereoelectronic substituent effects on intramolecular H-bonding in crowded o-anisic acids.
+debug: debug [scraper]. element results. title. Stereoelectronic substituent effects on intramolecular H-bonding in crowded o-anisic acids.
+debug: data [scraper]. element captured. authors. Ingeborg I. Schuster.
+debug: debug [scraper]. element results. authors. Ingeborg I. Schuster.
+debug: data [scraper]. element captured. date. 2002/12/06.
+debug: debug [scraper]. element results. date. 2002/12/06.
+debug: data [scraper]. element capture failed. volume.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_volume']. volume.
+debug: debug [scraper]. element results. volume. .
+debug: data [scraper]. element captured. issue. 12.
+debug: debug [scraper]. element results. issue. 12.
+debug: data [scraper]. element captured. firstpage. 1961.
+debug: debug [scraper]. element results. firstpage. 1961.
+debug: data [scraper]. element captured. lastpage. 1966.
+debug: debug [scraper]. element results. lastpage. 1966.
+debug: data [scraper]. element captured. doi. 10.1039/B208395G.
+debug: debug [scraper]. element results. doi. 10.1039/B208395G.
+debug: data [scraper]. element captured. journal. Journal of the Chemical Society, Perkin Transactions 2.
+debug: debug [scraper]. element results. journal. Journal of the Chemical Society, Perkin Transactions 2.
+debug: data [scraper]. element captured. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element captured. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2002/p2/b208395g.
+debug: debug [scraper]. element results. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2002/p2/b208395g.
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2002/p2/b208395g.
+debug: debug [scraper]. element results. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2002/p2/b208395g.
+debug: data [scraper]. element captured. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2002/p2/b208395g.
+debug: debug [scraper]. element results. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2002/p2/b208395g.
+debug: data [scraper]. element captured. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: debug [scraper]. element results. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: data [scraper]. element captured. caption. Graphical abstract: Stereoelectronic substituent effects on intramolecular H-bonding in crowded o-anisic acids.
+debug: debug [scraper]. element results. caption. Graphical abstract: Stereoelectronic substituent effects on intramolecular H-bonding in crowded o-anisic acids.
+debug: info [scraper]. download started. Ajax-GA-Loader.gif.
+debug: info [scraper]. download started. b208395g.
+debug: info [scraper]. download started. b208395g.
+debug: info [scraper]. download started. b208395g.
+info: URL processed: captured 16/17 elements (1 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://pubs.rsc.org/en/content/articlelanding/2014/ob/c4ob01156b
+debug: creating output directory: /Users/pm286/workspace/scrapetest/rsc/http_pubs.rsc.org_en_content_articlelanding_2014_ob_c4ob01156b
+debug: info [scraper]. URL rendered. http://pubs.rsc.org/en/content/articlelanding/2014/ob/c4ob01156b.
+debug: data [scraper]. element captured. publisher. The Royal Society of Chemistry.
+debug: debug [scraper]. element results. publisher. The Royal Society of Chemistry.
+debug: data [scraper]. element captured. title. Selective transamidation of 3-oxo-N-acyl homoserine lactones by hydrazine derivatives.
+debug: debug [scraper]. element results. title. Selective transamidation of 3-oxo-N-acyl homoserine lactones by hydrazine derivatives.
+debug: data [scraper]. element captured. authors. Michael A. Bertucci.
+debug: data [scraper]. element captured. authors. Stephen J. Lee.
+debug: data [scraper]. element captured. authors. Michel R. Gagné.
+debug: debug [scraper]. element results. authors. Michael A. Bertucci,Stephen J. Lee,Michel R. Gagné.
+debug: data [scraper]. element captured. date. 2014/08/27.
+debug: debug [scraper]. element results. date. 2014/08/27.
+debug: data [scraper]. element captured. volume. 12.
+debug: debug [scraper]. element results. volume. 12.
+debug: data [scraper]. element captured. issue. 37.
+debug: debug [scraper]. element results. issue. 37.
+debug: data [scraper]. element captured. firstpage. 7197.
+debug: debug [scraper]. element results. firstpage. 7197.
+debug: data [scraper]. element captured. lastpage. 7200.
+debug: debug [scraper]. element results. lastpage. 7200.
+debug: data [scraper]. element captured. doi. 10.1039/C4OB01156B.
+debug: debug [scraper]. element results. doi. 10.1039/C4OB01156B.
+debug: data [scraper]. element captured. journal. Organic & Biomolecular Chemistry.
+debug: debug [scraper]. element results. journal. Organic & Biomolecular Chemistry.
+debug: data [scraper]. element captured. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element captured. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2014/ob/c4ob01156b.
+debug: debug [scraper]. element results. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2014/ob/c4ob01156b.
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2014/ob/c4ob01156b.
+debug: debug [scraper]. element results. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2014/ob/c4ob01156b.
+debug: data [scraper]. element captured. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2014/ob/c4ob01156b.
+debug: debug [scraper]. element results. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2014/ob/c4ob01156b.
+debug: data [scraper]. element captured. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: debug [scraper]. element results. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: data [scraper]. element captured. caption. Graphical abstract: Selective transamidation of 3-oxo-N-acyl homoserine lactones by hydrazine derivatives.
+debug: debug [scraper]. element results. caption. Graphical abstract: Selective transamidation of 3-oxo-N-acyl homoserine lactones by hydrazine derivatives.
+debug: info [scraper]. download started. Ajax-GA-Loader.gif.
+debug: info [scraper]. download started. c4ob01156b.
+debug: info [scraper]. download started. c4ob01156b.
+debug: info [scraper]. download started. c4ob01156b.
+info: URL processed: captured 17/17 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://pubs.rsc.org/en/content/articlelanding/2012/jm/c2jm35601e
+debug: creating output directory: /Users/pm286/workspace/scrapetest/rsc/http_pubs.rsc.org_en_content_articlelanding_2012_jm_c2jm35601e
+debug: info [scraper]. URL rendered. http://pubs.rsc.org/en/content/articlelanding/2012/jm/c2jm35601e.
+debug: data [scraper]. element captured. publisher. The Royal Society of Chemistry.
+debug: debug [scraper]. element results. publisher. The Royal Society of Chemistry.
+debug: data [scraper]. element captured. title. Nanonet as a scaffold with targeted functionalities.
+debug: debug [scraper]. element results. title. Nanonet as a scaffold with targeted functionalities.
+debug: data [scraper]. element captured. authors. Yanli Zhao.
+debug: data [scraper]. element captured. authors. George Grüner.
+debug: debug [scraper]. element results. authors. Yanli Zhao,George Grüner.
+debug: data [scraper]. element captured. date. 2012/11/20.
+debug: debug [scraper]. element results. date. 2012/11/20.
+debug: data [scraper]. element captured. volume. 22.
+debug: debug [scraper]. element results. volume. 22.
+debug: data [scraper]. element captured. issue. 48.
+debug: debug [scraper]. element results. issue. 48.
+debug: data [scraper]. element captured. firstpage. 24983.
+debug: debug [scraper]. element results. firstpage. 24983.
+debug: data [scraper]. element captured. lastpage. 24991.
+debug: debug [scraper]. element results. lastpage. 24991.
+debug: data [scraper]. element captured. doi. 10.1039/C2JM35601E.
+debug: debug [scraper]. element results. doi. 10.1039/C2JM35601E.
+debug: data [scraper]. element captured. journal. Journal of Materials Chemistry.
+debug: debug [scraper]. element results. journal. Journal of Materials Chemistry.
+debug: data [scraper]. element captured. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element captured. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2012/jm/c2jm35601e.
+debug: debug [scraper]. element results. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2012/jm/c2jm35601e.
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2012/jm/c2jm35601e.
+debug: debug [scraper]. element results. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2012/jm/c2jm35601e.
+debug: data [scraper]. element captured. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2012/jm/c2jm35601e.
+debug: debug [scraper]. element results. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2012/jm/c2jm35601e.
+debug: data [scraper]. element captured. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: debug [scraper]. element results. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: data [scraper]. element captured. caption. Graphical abstract: Nanonet as a scaffold with targeted functionalities.
+debug: debug [scraper]. element results. caption. Graphical abstract: Nanonet as a scaffold with targeted functionalities.
+debug: info [scraper]. download started. Ajax-GA-Loader.gif.
+debug: info [scraper]. download started. c2jm35601e.
+debug: info [scraper]. download started. c2jm35601e.
+debug: info [scraper]. download started. c2jm35601e.
+info: URL processed: captured 17/17 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://pubs.rsc.org/en/content/articlelanding/2014/ja/c4ja00172a
+debug: creating output directory: /Users/pm286/workspace/scrapetest/rsc/http_pubs.rsc.org_en_content_articlelanding_2014_ja_c4ja00172a
+debug: info [scraper]. URL rendered. http://pubs.rsc.org/en/content/articlelanding/2014/ja/c4ja00172a.
+debug: data [scraper]. element captured. publisher. The Royal Society of Chemistry.
+debug: debug [scraper]. element results. publisher. The Royal Society of Chemistry.
+debug: data [scraper]. element captured. title. Studies of rare earth elements to distinguish nephrite samples from different deposits using direct current glow discharge mass spectrometry.
+debug: debug [scraper]. element results. title. Studies of rare earth elements to distinguish nephrite samples from different deposits using direct current glow discharge mass spectrometry.
+debug: data [scraper]. element captured. authors. Bilige Siqin.
+debug: data [scraper]. element captured. authors. Rong Qian.
+debug: data [scraper]. element captured. authors. Shangjun Zhuo.
+debug: data [scraper]. element captured. authors. Jie Gao.
+debug: data [scraper]. element captured. authors. Jun Jin.
+debug: data [scraper]. element captured. authors. Zhaoyin Wen.
+debug: debug [scraper]. element results. authors. Bilige Siqin,Rong Qian,Shangjun Zhuo,Jie Gao,Jun Jin,Zhaoyin Wen.
+debug: data [scraper]. element captured. date. 2014/10/09.
+debug: debug [scraper]. element results. date. 2014/10/09.
+debug: data [scraper]. element captured. volume. 29.
+debug: debug [scraper]. element results. volume. 29.
+debug: data [scraper]. element captured. issue. 11.
+debug: debug [scraper]. element results. issue. 11.
+debug: data [scraper]. element captured. firstpage. 2064.
+debug: debug [scraper]. element results. firstpage. 2064.
+debug: data [scraper]. element captured. lastpage. 2071.
+debug: debug [scraper]. element results. lastpage. 2071.
+debug: data [scraper]. element captured. doi. 10.1039/C4JA00172A.
+debug: debug [scraper]. element results. doi. 10.1039/C4JA00172A.
+debug: data [scraper]. element captured. journal. Journal of Analytical Atomic Spectrometry.
+debug: debug [scraper]. element results. journal. Journal of Analytical Atomic Spectrometry.
+debug: data [scraper]. element captured. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element captured. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2014/ja/c4ja00172a.
+debug: debug [scraper]. element results. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2014/ja/c4ja00172a.
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2014/ja/c4ja00172a.
+debug: debug [scraper]. element results. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2014/ja/c4ja00172a.
+debug: data [scraper]. element captured. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2014/ja/c4ja00172a.
+debug: debug [scraper]. element results. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2014/ja/c4ja00172a.
+debug: data [scraper]. element captured. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: debug [scraper]. element results. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: data [scraper]. element captured. caption. Graphical abstract: Studies of rare earth elements to distinguish nephrite samples from different deposits using direct current glow discharge mass spectrometry.
+debug: debug [scraper]. element results. caption. Graphical abstract: Studies of rare earth elements to distinguish nephrite samples from different deposits using direct current glow discharge mass spectrometry.
+debug: info [scraper]. download started. Ajax-GA-Loader.gif.
+debug: info [scraper]. download started. c4ja00172a.
+debug: info [scraper]. download started. c4ja00172a.
+debug: info [scraper]. download started. c4ja00172a.
+info: URL processed: captured 17/17 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://pubs.rsc.org/en/content/articlelanding/2014/ra/c4ra05382f
+debug: creating output directory: /Users/pm286/workspace/scrapetest/rsc/http_pubs.rsc.org_en_content_articlelanding_2014_ra_c4ra05382f
+debug: info [scraper]. URL rendered. http://pubs.rsc.org/en/content/articlelanding/2014/ra/c4ra05382f.
+debug: data [scraper]. element captured. publisher. The Royal Society of Chemistry.
+debug: debug [scraper]. element results. publisher. The Royal Society of Chemistry.
+debug: data [scraper]. element captured. title. A co-precipitated Mg–Ti nano-composite with high capacity and rapid hydrogen absorption kinetics at room temperature.
+debug: debug [scraper]. element results. title. A co-precipitated Mg–Ti nano-composite with high capacity and rapid hydrogen absorption kinetics at room temperature.
+debug: data [scraper]. element captured. authors. Yana Liu.
+debug: data [scraper]. element captured. authors. Jinxin Zou.
+debug: data [scraper]. element captured. authors. Xiaoqin Zeng.
+debug: data [scraper]. element captured. authors. Wenjiang Ding.
+debug: debug [scraper]. element results. authors. Yana Liu,Jinxin Zou,Xiaoqin Zeng,Wenjiang Ding.
+debug: data [scraper]. element captured. date. 2014/09/10.
+debug: debug [scraper]. element results. date. 2014/09/10.
+debug: data [scraper]. element captured. volume. 4.
+debug: debug [scraper]. element results. volume. 4.
+debug: data [scraper]. element captured. issue. 81.
+debug: debug [scraper]. element results. issue. 81.
+debug: data [scraper]. element captured. firstpage. 42764.
+debug: debug [scraper]. element results. firstpage. 42764.
+debug: data [scraper]. element captured. lastpage. 42771.
+debug: debug [scraper]. element results. lastpage. 42771.
+debug: data [scraper]. element captured. doi. 10.1039/C4RA05382F.
+debug: debug [scraper]. element results. doi. 10.1039/C4RA05382F.
+debug: data [scraper]. element captured. journal. RSC Advances.
+debug: debug [scraper]. element results. journal. RSC Advances.
+debug: data [scraper]. element captured. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element captured. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2014/ra/c4ra05382f.
+debug: debug [scraper]. element results. abstract_html. http://pubs.rsc.org/en/content/articlelanding/2014/ra/c4ra05382f.
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2014/ra/c4ra05382f.
+debug: debug [scraper]. element results. fulltext_pdf. http://pubs.rsc.org/en/content/articlepdf/2014/ra/c4ra05382f.
+debug: data [scraper]. element captured. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2014/ra/c4ra05382f.
+debug: debug [scraper]. element results. fulltext_html. http://pubs.rsc.org/en/content/articlehtml/2014/ra/c4ra05382f.
+debug: data [scraper]. element captured. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: debug [scraper]. element results. figure. http://sod-a.rsc-cdn.org/pubs-core/21.5.1.320/content/NewImages/Ajax-GA-Loader.gif.
+debug: data [scraper]. element captured. caption. Graphical abstract: A co-precipitated Mg–Ti nano-composite with high capacity and rapid hydrogen absorption kinetics at room temperature.
+debug: debug [scraper]. element results. caption. Graphical abstract: A co-precipitated Mg–Ti nano-composite with high capacity and rapid hydrogen absorption kinetics at room temperature.
+debug: info [scraper]. download started. Ajax-GA-Loader.gif.
+debug: info [scraper]. download started. c4ra05382f.
+debug: info [scraper]. download started. c4ra05382f.
+debug: info [scraper]. download started. c4ra05382f.
+info: URL processed: captured 17/17 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://pubs.rsc.org/en/content/articlelanding/2014/lc/c4lc00443d
+debug: creating output directory: /Users/pm286/workspace/scrapetest/rsc/http_pubs.rsc.org_en_content_articlelanding_2014_lc_c4lc00443d
+info: all tasks completed
+dynamic-0-3:sandbox pm286$ 
+

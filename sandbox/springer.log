@@ -1,0 +1,374 @@
+dynamic-0-3:sandbox pm286$ quickscrape -o ../../scrapetest/springer -r ../test/springer_test_urls.txt  -d ../scrapers/ -i 20 -l debug --logfile springer.log
+debug: creating output directory: ../../scrapetest/springer
+info: Saving logs to ./../../scrapetest/springer/springer.log
+info: quickscrape 0.4.7 launched with...
+info: - URLs from file: undefined
+info: - Scraperdir: /Users/pm286/workspace/journal-scrapers/scrapers
+info: - Rate limit: 20 per minute
+info: - Log level: debug
+info: urls to scrape: 10
+info: processing URL: http://link.springer.com/article/10.1007/s10802-011-9571-x
+debug: creating output directory: /Users/pm286/workspace/scrapetest/springer/http_link.springer.com_article_10.1007_s10802-011-9571-x
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://link.springer.com/article/10.1007/s10802-011-9571-x, HTTP GET
+[debug] [phantom] Navigation requested: url=http://link.springer.com/article/10.1007/s10802-011-9571-x, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://link.springer.com/article/10.1007/s10802-011-9571-x"
+[debug] [phantom] Navigation requested: url=http://cdn.krxd.net/partnerjs/xdi/proxy.3f15cbee8bc1f61769b0afb3ddd03631.html#!kxsrc=http://cdn.krxd.net/controltag/KDqyaFZ_.js&kxtarget=http://link.springer.com, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://link.springer.com/article/10.1007/s10802-011-9571-x (HTTP 200)
+debug: info [scraper]. URL rendered. http://link.springer.com/article/10.1007/s10802-011-9571-x.
+debug: data [scraper]. element captured. publisher. Springer US.
+debug: debug [scraper]. element results. publisher. Springer US.
+debug: data [scraper]. element captured. title. Is the Continuity of Externalizing Psychopathology the Same in Adolescents and Middle–Aged Adults? A Test of the Externalizing Spectrum’s Developmental Coherence.
+debug: debug [scraper]. element results. title. Is the Continuity of Externalizing Psychopathology the Same in Adolescents and Middle–Aged Adults? A Test of the Externalizing Spectrum’s Developmental Coherence.
+debug: data [scraper]. element captured. authors. Scott I. Vrieze.
+debug: data [scraper]. element captured. authors. Greg Perlman.
+debug: data [scraper]. element captured. authors. Robert F. Krueger.
+debug: data [scraper]. element captured. authors. William G. Iacono.
+debug: debug [scraper]. element results. authors. Scott I. Vrieze,Greg Perlman,Robert F. Krueger,William G. Iacono.
+debug: data [scraper]. element captured. date. 2011/09/20.
+debug: debug [scraper]. element results. date. 2011/09/20.
+debug: data [scraper]. element captured. doi. 10.1007/s10802-011-9571-x.
+debug: debug [scraper]. element results. doi. 10.1007/s10802-011-9571-x.
+debug: data [scraper]. element captured. issn. 0091-0627.
+debug: data [scraper]. element captured. issn. 1573-2835.
+debug: debug [scraper]. element results. issn. 0091-0627,1573-2835.
+debug: data [scraper]. element captured. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2Fs10802-011-9571-x.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2Fs10802-011-9571-x.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://link.springer.com/article/10.1007/s10802-011-9571-x.
+debug: debug [scraper]. element results. fulltext_html. http://link.springer.com/article/10.1007/s10802-011-9571-x.
+[info] [phantom] Step anonymous 3/3: done in 7913ms.
+[info] [phantom] Done 3 steps in 7913ms
+debug: info [scraper]. download started. fulltext.pdf.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://link.springer.com/article/10.1023/B%3AIJSM.0000008709.11196.19
+debug: creating output directory: /Users/pm286/workspace/scrapetest/springer/http_link.springer.com_article_10.1023_B%3AIJSM.0000008709.11196.19
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://link.springer.com/article/10.1023/B%3AIJSM.0000008709.11196.19, HTTP GET
+[debug] [phantom] Navigation requested: url=http://link.springer.com/article/10.1023/B:IJSM.0000008709.11196.19, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://link.springer.com/article/10.1023/B:IJSM.0000008709.11196.19"
+[debug] [phantom] Navigation requested: url=http://cdn.krxd.net/partnerjs/xdi/proxy.3f15cbee8bc1f61769b0afb3ddd03631.html#!kxsrc=http://cdn.krxd.net/controltag/KDqyaFZ_.js&kxtarget=http://link.springer.com, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://link.springer.com/article/10.1023/B:IJSM.0000008709.11196.19 (HTTP 200)
+debug: info [scraper]. URL rendered. http://link.springer.com/article/10.1023/B%3AIJSM.0000008709.11196.19.
+debug: data [scraper]. element captured. publisher. Kluwer Academic Publishers-Plenum Publishers.
+debug: debug [scraper]. element results. publisher. Kluwer Academic Publishers-Plenum Publishers.
+debug: data [scraper]. element captured. title. Stress Management in Bus Drivers: A Pilot Study Based on the Model of Effort–Reward Imbalance.
+debug: debug [scraper]. element results. title. Stress Management in Bus Drivers: A Pilot Study Based on the Model of Effort–Reward Imbalance.
+debug: data [scraper]. element captured. authors. Birgit Aust.
+debug: data [scraper]. element captured. authors. Richard Peter.
+debug: data [scraper]. element captured. authors. Johannes Siegrist.
+debug: debug [scraper]. element results. authors. Birgit Aust,Richard Peter,Johannes Siegrist.
+debug: data [scraper]. element capture failed. date.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_online_date']. date.
+debug: debug [scraper]. element results. date. .
+debug: data [scraper]. element captured. doi. 10.1023/B:IJSM.0000008709.11196.19.
+debug: debug [scraper]. element results. doi. 10.1023/B:IJSM.0000008709.11196.19.
+debug: data [scraper]. element captured. issn. 1072-5245.
+debug: data [scraper]. element captured. issn. 1573-3424.
+debug: debug [scraper]. element results. issn. 1072-5245,1573-3424.
+debug: data [scraper]. element captured. fulltext_pdf. http://link.springer.com/content/pdf/10.1023%2FB%3AIJSM.0000008709.11196.19.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://link.springer.com/content/pdf/10.1023%2FB%3AIJSM.0000008709.11196.19.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://link.springer.com/article/10.1023/B:IJSM.0000008709.11196.19.
+debug: debug [scraper]. element results. fulltext_html. http://link.springer.com/article/10.1023/B:IJSM.0000008709.11196.19.
+[info] [phantom] Step anonymous 3/3: done in 2318ms.
+[info] [phantom] Done 3 steps in 2324ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 7/8 elements (1 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://link.springer.com/article/10.1007/BF01786044
+debug: creating output directory: /Users/pm286/workspace/scrapetest/springer/http_link.springer.com_article_10.1007_BF01786044
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://link.springer.com/article/10.1007/BF01786044, HTTP GET
+[debug] [phantom] Navigation requested: url=http://link.springer.com/article/10.1007/BF01786044, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://link.springer.com/article/10.1007/BF01786044"
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://cdn.krxd.net/partnerjs/xdi/proxy.3f15cbee8bc1f61769b0afb3ddd03631.html#!kxsrc=http://cdn.krxd.net/controltag/KDqyaFZ_.js&kxtarget=http://link.springer.com, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://link.springer.com/article/10.1007/BF01786044 (HTTP 200)
+debug: info [scraper]. URL rendered. http://link.springer.com/article/10.1007/BF01786044.
+debug: data [scraper]. element captured. publisher. Kluwer Academic Publishers.
+debug: debug [scraper]. element results. publisher. Kluwer Academic Publishers.
+debug: data [scraper]. element captured. title. Paraprofessionals: An unromantic view of the hazards.
+debug: debug [scraper]. element results. title. Paraprofessionals: An unromantic view of the hazards.
+debug: data [scraper]. element captured. authors. Shirley Cooper.
+debug: debug [scraper]. element results. authors. Shirley Cooper.
+debug: data [scraper]. element capture failed. date.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_online_date']. date.
+debug: debug [scraper]. element results. date. .
+debug: data [scraper]. element captured. doi. 10.1007/BF01786044.
+debug: debug [scraper]. element results. doi. 10.1007/BF01786044.
+debug: data [scraper]. element captured. issn. 0091-1674.
+debug: data [scraper]. element captured. issn. 1573-3343.
+debug: debug [scraper]. element results. issn. 0091-1674,1573-3343.
+debug: data [scraper]. element captured. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2FBF01786044.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2FBF01786044.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://link.springer.com/article/10.1007/BF01786044.
+debug: debug [scraper]. element results. fulltext_html. http://link.springer.com/article/10.1007/BF01786044.
+[info] [phantom] Step anonymous 3/3: done in 2354ms.
+[info] [phantom] Done 3 steps in 2360ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 7/8 elements (1 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://link.springer.com/article/10.1007/s10567-008-0035-y
+debug: creating output directory: /Users/pm286/workspace/scrapetest/springer/http_link.springer.com_article_10.1007_s10567-008-0035-y
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://link.springer.com/article/10.1007/s10567-008-0035-y, HTTP GET
+[debug] [phantom] Navigation requested: url=http://link.springer.com/article/10.1007/s10567-008-0035-y, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://link.springer.com/article/10.1007/s10567-008-0035-y"
+[debug] [phantom] Navigation requested: url=http://cdn.krxd.net/partnerjs/xdi/proxy.3f15cbee8bc1f61769b0afb3ddd03631.html#!kxsrc=http://cdn.krxd.net/controltag/KDqyaFZ_.js&kxtarget=http://link.springer.com, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://link.springer.com/article/10.1007/s10567-008-0035-y (HTTP 200)
+debug: info [scraper]. URL rendered. http://link.springer.com/article/10.1007/s10567-008-0035-y.
+debug: data [scraper]. element captured. publisher. Springer US.
+debug: debug [scraper]. element results. publisher. Springer US.
+debug: data [scraper]. element captured. title. Parents Who Abuse: What Are They Thinking?.
+debug: debug [scraper]. element results. title. Parents Who Abuse: What Are They Thinking?.
+debug: data [scraper]. element captured. authors. Alexandra C. Seng.
+debug: data [scraper]. element captured. authors. Ronald J. Prinz.
+debug: debug [scraper]. element results. authors. Alexandra C. Seng,Ronald J. Prinz.
+debug: data [scraper]. element captured. date. 2008/06/12.
+debug: debug [scraper]. element results. date. 2008/06/12.
+debug: data [scraper]. element captured. doi. 10.1007/s10567-008-0035-y.
+debug: debug [scraper]. element results. doi. 10.1007/s10567-008-0035-y.
+debug: data [scraper]. element captured. issn. 1096-4037.
+debug: data [scraper]. element captured. issn. 1573-2827.
+debug: debug [scraper]. element results. issn. 1096-4037,1573-2827.
+debug: data [scraper]. element captured. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2Fs10567-008-0035-y.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2Fs10567-008-0035-y.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://link.springer.com/article/10.1007/s10567-008-0035-y.
+debug: debug [scraper]. element results. fulltext_html. http://link.springer.com/article/10.1007/s10567-008-0035-y.
+[info] [phantom] Step anonymous 3/3: done in 2407ms.
+[info] [phantom] Done 3 steps in 2407ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://link.springer.com/article/10.1007/BF00709379
+debug: creating output directory: /Users/pm286/workspace/scrapetest/springer/http_link.springer.com_article_10.1007_BF00709379
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://link.springer.com/article/10.1007/BF00709379, HTTP GET
+[debug] [phantom] Navigation requested: url=http://link.springer.com/article/10.1007/BF00709379, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://link.springer.com/article/10.1007/BF00709379"
+[debug] [phantom] Navigation requested: url=http://cdn.krxd.net/partnerjs/xdi/proxy.3f15cbee8bc1f61769b0afb3ddd03631.html#!kxsrc=http://cdn.krxd.net/controltag/KDqyaFZ_.js&kxtarget=http://link.springer.com, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://link.springer.com/article/10.1007/BF00709379 (HTTP 200)
+debug: info [scraper]. URL rendered. http://link.springer.com/article/10.1007/BF00709379.
+debug: data [scraper]. element captured. publisher. Kluwer Academic Publishers-Human Sciences Press.
+debug: debug [scraper]. element results. publisher. Kluwer Academic Publishers-Human Sciences Press.
+debug: data [scraper]. element captured. title. Language patterns of opponents to a child protection program.
+debug: debug [scraper]. element results. title. Language patterns of opponents to a child protection program.
+debug: data [scraper]. element captured. authors. Paul L. Adams.
+debug: data [scraper]. element captured. authors. Gloria J. Roddey.
+debug: debug [scraper]. element results. authors. Paul L. Adams,Gloria J. Roddey.
+debug: data [scraper]. element capture failed. date.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_online_date']. date.
+debug: debug [scraper]. element results. date. .
+debug: data [scraper]. element captured. doi. 10.1007/BF00709379.
+debug: debug [scraper]. element results. doi. 10.1007/BF00709379.
+debug: data [scraper]. element captured. issn. 0009-398X.
+debug: data [scraper]. element captured. issn. 1573-3327.
+debug: debug [scraper]. element results. issn. 0009-398X,1573-3327.
+debug: data [scraper]. element captured. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2FBF00709379.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2FBF00709379.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://link.springer.com/article/10.1007/BF00709379.
+debug: debug [scraper]. element results. fulltext_html. http://link.springer.com/article/10.1007/BF00709379.
+[info] [phantom] Step anonymous 3/3: done in 2379ms.
+[info] [phantom] Done 3 steps in 2391ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 7/8 elements (1 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://link.springer.com/article/10.1007/s10566-006-9010-2
+debug: creating output directory: /Users/pm286/workspace/scrapetest/springer/http_link.springer.com_article_10.1007_s10566-006-9010-2
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://link.springer.com/article/10.1007/s10566-006-9010-2, HTTP GET
+[debug] [phantom] Navigation requested: url=http://link.springer.com/article/10.1007/s10566-006-9010-2, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://link.springer.com/article/10.1007/s10566-006-9010-2"
+[debug] [phantom] Navigation requested: url=http://cdn.krxd.net/partnerjs/xdi/proxy.3f15cbee8bc1f61769b0afb3ddd03631.html#!kxsrc=http://cdn.krxd.net/controltag/KDqyaFZ_.js&kxtarget=http://link.springer.com, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://link.springer.com/article/10.1007/s10566-006-9010-2 (HTTP 200)
+debug: info [scraper]. URL rendered. http://link.springer.com/article/10.1007/s10566-006-9010-2.
+debug: data [scraper]. element captured. publisher. Springer US.
+debug: debug [scraper]. element results. publisher. Springer US.
+debug: data [scraper]. element captured. title. Radical Youth Work: Becoming Visible.
+debug: debug [scraper]. element results. title. Radical Youth Work: Becoming Visible.
+debug: data [scraper]. element captured. authors. Hans Skott-Myhre.
+debug: debug [scraper]. element results. authors. Hans Skott-Myhre.
+debug: data [scraper]. element captured. date. 2006/06/13.
+debug: debug [scraper]. element results. date. 2006/06/13.
+debug: data [scraper]. element captured. doi. 10.1007/s10566-006-9010-2.
+debug: debug [scraper]. element results. doi. 10.1007/s10566-006-9010-2.
+debug: data [scraper]. element captured. issn. 1053-1890.
+debug: data [scraper]. element captured. issn. 1573-3319.
+debug: debug [scraper]. element results. issn. 1053-1890,1573-3319.
+debug: data [scraper]. element captured. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2Fs10566-006-9010-2.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2Fs10566-006-9010-2.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://link.springer.com/article/10.1007/s10566-006-9010-2.
+debug: debug [scraper]. element results. fulltext_html. http://link.springer.com/article/10.1007/s10566-006-9010-2.
+[info] [phantom] Step anonymous 3/3: done in 2269ms.
+[info] [phantom] Done 3 steps in 2274ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://link.springer.com/article/10.1007/s10560-013-0312-6
+debug: creating output directory: /Users/pm286/workspace/scrapetest/springer/http_link.springer.com_article_10.1007_s10560-013-0312-6
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://link.springer.com/article/10.1007/s10560-013-0312-6, HTTP GET
+[debug] [phantom] Navigation requested: url=http://link.springer.com/article/10.1007/s10560-013-0312-6, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://link.springer.com/article/10.1007/s10560-013-0312-6"
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://cdn.krxd.net/partnerjs/xdi/proxy.3f15cbee8bc1f61769b0afb3ddd03631.html#!kxsrc=http://cdn.krxd.net/controltag/KDqyaFZ_.js&kxtarget=http://link.springer.com, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://link.springer.com/article/10.1007/s10560-013-0312-6 (HTTP 200)
+debug: info [scraper]. URL rendered. http://link.springer.com/article/10.1007/s10560-013-0312-6.
+debug: data [scraper]. element captured. publisher. Springer US.
+debug: debug [scraper]. element results. publisher. Springer US.
+debug: data [scraper]. element captured. title. Different Histories, Different Stories: Using a Narrative Tool to Assess Children’s Internal Worlds.
+debug: debug [scraper]. element results. title. Different Histories, Different Stories: Using a Narrative Tool to Assess Children’s Internal Worlds.
+debug: data [scraper]. element captured. authors. Brad W. Lundahl.
+debug: data [scraper]. element captured. authors. Joanna E. Bettmann.
+debug: data [scraper]. element captured. authors. Marcella Hurtado.
+debug: data [scraper]. element captured. authors. Douglas Goldsmith.
+debug: debug [scraper]. element results. authors. Brad W. Lundahl,Joanna E. Bettmann,Marcella Hurtado,Douglas Goldsmith.
+debug: data [scraper]. element captured. date. 2013/08/20.
+debug: debug [scraper]. element results. date. 2013/08/20.
+debug: data [scraper]. element captured. doi. 10.1007/s10560-013-0312-6.
+debug: debug [scraper]. element results. doi. 10.1007/s10560-013-0312-6.
+debug: data [scraper]. element captured. issn. 0738-0151.
+debug: data [scraper]. element captured. issn. 1573-2797.
+debug: debug [scraper]. element results. issn. 0738-0151,1573-2797.
+debug: data [scraper]. element captured. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2Fs10560-013-0312-6.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2Fs10560-013-0312-6.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://link.springer.com/article/10.1007/s10560-013-0312-6.
+debug: debug [scraper]. element results. fulltext_html. http://link.springer.com/article/10.1007/s10560-013-0312-6.
+[info] [phantom] Step anonymous 3/3: done in 3388ms.
+[info] [phantom] Done 3 steps in 3388ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://link.springer.com/article/10.1007/BF01014524
+debug: creating output directory: /Users/pm286/workspace/scrapetest/springer/http_link.springer.com_article_10.1007_BF01014524
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://link.springer.com/article/10.1007/BF01014524, HTTP GET
+[debug] [phantom] Navigation requested: url=http://link.springer.com/article/10.1007/BF01014524, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://link.springer.com/article/10.1007/BF01014524"
+[debug] [phantom] Navigation requested: url=http://cdn.krxd.net/partnerjs/xdi/proxy.3f15cbee8bc1f61769b0afb3ddd03631.html#!kxsrc=http://cdn.krxd.net/controltag/KDqyaFZ_.js&kxtarget=http://link.springer.com, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://link.springer.com/article/10.1007/BF01014524 (HTTP 200)
+debug: info [scraper]. URL rendered. http://link.springer.com/article/10.1007/BF01014524.
+debug: data [scraper]. element captured. publisher. Kluwer Academic Publishers-Human Sciences Press.
+debug: debug [scraper]. element results. publisher. Kluwer Academic Publishers-Human Sciences Press.
+debug: data [scraper]. element captured. title. Lottery expenditure in a non-lottery state.
+debug: debug [scraper]. element results. title. Lottery expenditure in a non-lottery state.
+debug: data [scraper]. element captured. authors. John L. Mikesell.
+debug: debug [scraper]. element results. authors. John L. Mikesell.
+debug: data [scraper]. element capture failed. date.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_online_date']. date.
+debug: debug [scraper]. element results. date. .
+debug: data [scraper]. element captured. doi. 10.1007/BF01014524.
+debug: debug [scraper]. element results. doi. 10.1007/BF01014524.
+debug: data [scraper]. element captured. issn. 1050-5350.
+debug: data [scraper]. element captured. issn. 1573-3602.
+debug: debug [scraper]. element results. issn. 1050-5350,1573-3602.
+debug: data [scraper]. element captured. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2FBF01014524.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2FBF01014524.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://link.springer.com/article/10.1007/BF01014524.
+debug: debug [scraper]. element results. fulltext_html. http://link.springer.com/article/10.1007/BF01014524.
+[info] [phantom] Step anonymous 3/3: done in 4917ms.
+[info] [phantom] Done 3 steps in 4924ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 7/8 elements (1 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://link.springer.com/article/10.1007/s10900-015-0023-3
+debug: creating output directory: /Users/pm286/workspace/scrapetest/springer/http_link.springer.com_article_10.1007_s10900-015-0023-3
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://link.springer.com/article/10.1007/s10900-015-0023-3, HTTP GET
+[debug] [phantom] Navigation requested: url=http://link.springer.com/article/10.1007/s10900-015-0023-3, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://link.springer.com/article/10.1007/s10900-015-0023-3"
+[debug] [phantom] Navigation requested: url=http://cdn.krxd.net/partnerjs/xdi/proxy.3f15cbee8bc1f61769b0afb3ddd03631.html#!kxsrc=http://cdn.krxd.net/controltag/KDqyaFZ_.js&kxtarget=http://link.springer.com, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://link.springer.com/article/10.1007/s10900-015-0023-3 (HTTP 200)
+debug: info [scraper]. URL rendered. http://link.springer.com/article/10.1007/s10900-015-0023-3.
+debug: data [scraper]. element captured. publisher. Springer US.
+debug: debug [scraper]. element results. publisher. Springer US.
+debug: data [scraper]. element captured. title. Comparison of Socio-Demographic Characteristics of a Computer Based Breastfeeding Educational Intervention Among Rural Hispanic Women.
+debug: debug [scraper]. element results. title. Comparison of Socio-Demographic Characteristics of a Computer Based Breastfeeding Educational Intervention Among Rural Hispanic Women.
+debug: data [scraper]. element captured. authors. Ashish Joshi.
+debug: data [scraper]. element captured. authors. Chioma Amadi.
+debug: data [scraper]. element captured. authors. Jane Meza.
+debug: data [scraper]. element captured. authors. Trina Aguirre.
+debug: data [scraper]. element captured. authors. Sue Wilhelm.
+debug: debug [scraper]. element results. authors. Ashish Joshi,Chioma Amadi,Jane Meza,Trina Aguirre,Sue Wilhelm.
+debug: data [scraper]. element captured. date. 2015/04/14.
+debug: debug [scraper]. element results. date. 2015/04/14.
+debug: data [scraper]. element captured. doi. 10.1007/s10900-015-0023-3.
+debug: debug [scraper]. element results. doi. 10.1007/s10900-015-0023-3.
+debug: data [scraper]. element captured. issn. 0094-5145.
+debug: data [scraper]. element captured. issn. 1573-3610.
+debug: debug [scraper]. element results. issn. 0094-5145,1573-3610.
+debug: data [scraper]. element captured. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2Fs10900-015-0023-3.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://link.springer.com/content/pdf/10.1007%2Fs10900-015-0023-3.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://link.springer.com/article/10.1007/s10900-015-0023-3.
+debug: debug [scraper]. element results. fulltext_html. http://link.springer.com/article/10.1007/s10900-015-0023-3.
+[info] [phantom] Step anonymous 3/3: done in 2393ms.
+[info] [phantom] Done 3 steps in 2396ms
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 8/8 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://link.springer.com/article/10.1007/BF02578420
+debug: creating output directory: /Users/pm286/workspace/scrapetest/springer/http_link.springer.com_article_10.1007_BF02578420
+info: all tasks completed
+dynamic-0-3:sandbox pm286$ 
+

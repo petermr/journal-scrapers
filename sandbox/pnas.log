@@ -1,0 +1,555 @@
+dynamic-0-3:sandbox pm286$ quickscrape -o ../../scrapetest/pnas -r ../test/pnas_test_urls.txt  -d ../scrapers/ -i 20 -l debug --logfile pnas.log
+debug: creating output directory: ../../scrapetest/pnas
+info: Saving logs to ./../../scrapetest/pnas/pnas.log
+info: quickscrape 0.4.7 launched with...
+info: - URLs from file: undefined
+info: - Scraperdir: /Users/pm286/workspace/journal-scrapers/scrapers
+info: - Rate limit: 20 per minute
+info: - Log level: debug
+info: urls to scrape: 9
+info: processing URL: http://www.pnas.org/content/111/33/12019
+debug: creating output directory: /Users/pm286/workspace/scrapetest/pnas/http_www.pnas.org_content_111_33_12019
+debug: info [scraper]. URL rendered. http://www.pnas.org/content/111/33/12019.
+debug: data [scraper]. element captured. publisher. National Acad Sciences.
+debug: debug [scraper]. element results. publisher. National Acad Sciences.
+debug: data [scraper]. element captured. title. Disassembly of mitotic checkpoint complexes by the joint action of the AAA-ATPase TRIP13 and p31comet.
+debug: debug [scraper]. element results. title. Disassembly of mitotic checkpoint complexes by the joint action of the AAA-ATPase TRIP13 and p31comet.
+debug: data [scraper]. element captured. authors. Esther Eytan.
+debug: data [scraper]. element captured. authors. Kexi Wang.
+debug: data [scraper]. element captured. authors. Shirly Miniowitz-Shemtov.
+debug: data [scraper]. element captured. authors. Danielle Sitry-Shevah.
+debug: data [scraper]. element captured. authors. Sharon Kaisari.
+debug: data [scraper]. element captured. authors. Tim J. Yen.
+debug: data [scraper]. element captured. authors. Song-Tao Liu.
+debug: data [scraper]. element captured. authors. Avram Hershko.
+debug: debug [scraper]. element results. authors. Esther Eytan,Kexi Wang,Shirly Miniowitz-Shemtov,Danielle Sitry-Shevah,Sharon Kaisari,Tim J. Yen,Song-Tao Liu,Avram Hershko.
+debug: data [scraper]. element captured. date. 08/19/2014.
+debug: debug [scraper]. element results. date. 08/19/2014.
+debug: data [scraper]. element captured. volume. 111.
+debug: debug [scraper]. element results. volume. 111.
+debug: data [scraper]. element captured. issue. 33.
+debug: debug [scraper]. element results. issue. 33.
+debug: data [scraper]. element captured. firstpage. 12019.
+debug: debug [scraper]. element results. firstpage. 12019.
+debug: data [scraper]. element captured. lastpage. 12024.
+debug: debug [scraper]. element results. lastpage. 12024.
+debug: data [scraper]. element captured. doi. 10.1073/pnas.1412901111.
+debug: debug [scraper]. element results. doi. 10.1073/pnas.1412901111.
+debug: data [scraper]. element captured. journal. Proceedings of the National Academy of Sciences.
+debug: debug [scraper]. element results. journal. Proceedings of the National Academy of Sciences.
+debug: data [scraper]. element captured. abstract. 
+                           Abstract
+                           The mitotic (or spindle assembly) checkpoint system delays anaphase until all chromosomes are correctly attached to the mitotic
+                              spindle. When the checkpoint is active, a Mitotic Checkpoint Complex (MCC) assembles and inhibits the ubiquitin ligase Anaphase-Promoting
+                              Complex/Cyclosome (APC/C). MCC is composed of the checkpoint proteins Mad2, BubR1, and Bub3 associated with the APC/C activator
+                              Cdc20. When the checkpoint signal is turned off, MCC is disassembled and the checkpoint is inactivated. The mechanisms of
+                              the disassembly of MCC are not sufficiently understood. We have previously observed that ATP hydrolysis is required for the
+                              action of the Mad2-binding protein p31comet to disassemble MCC. We now show that HeLa cell extracts contain a factor that promotes ATP- and p31comet-dependent disassembly of a Cdc20–Mad2 subcomplex and identify it as Thyroid Receptor Interacting Protein 13 (TRIP13), an
+                              AAA-ATPase known to interact with p31comet. The joint action of TRIP13 and p31comet also promotes the release of Mad2 from MCC, participates in the complete disassembly of MCC and abrogates checkpoint inhibition
+                              of APC/C. We propose that TRIP13 plays centrally important roles in the sequence of events leading to MCC disassembly and
+                              checkpoint inactivation.
+                           
+                        .
+debug: debug [scraper]. element results. abstract. 
+                           Abstract
+                           The mitotic (or spindle assembly) checkpoint system delays anaphase until all chromosomes are correctly attached to the mitotic
+                              spindle. When the checkpoint is active, a Mitotic Checkpoint Complex (MCC) assembles and inhibits the ubiquitin ligase Anaphase-Promoting
+                              Complex/Cyclosome (APC/C). MCC is composed of the checkpoint proteins Mad2, BubR1, and Bub3 associated with the APC/C activator
+                              Cdc20. When the checkpoint signal is turned off, MCC is disassembled and the checkpoint is inactivated. The mechanisms of
+                              the disassembly of MCC are not sufficiently understood. We have previously observed that ATP hydrolysis is required for the
+                              action of the Mad2-binding protein p31comet to disassemble MCC. We now show that HeLa cell extracts contain a factor that promotes ATP- and p31comet-dependent disassembly of a Cdc20–Mad2 subcomplex and identify it as Thyroid Receptor Interacting Protein 13 (TRIP13), an
+                              AAA-ATPase known to interact with p31comet. The joint action of TRIP13 and p31comet also promotes the release of Mad2 from MCC, participates in the complete disassembly of MCC and abrogates checkpoint inhibition
+                              of APC/C. We propose that TRIP13 plays centrally important roles in the sequence of events leading to MCC disassembly and
+                              checkpoint inactivation.
+                           
+                        .
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://www.pnas.org/content/111/33/12019.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://www.pnas.org/content/111/33/12019.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://www.pnas.org/content/111/33/12019.
+debug: debug [scraper]. element results. fulltext_html. http://www.pnas.org/content/111/33/12019.
+debug: data [scraper]. element captured. supplementary_material. http://www.pnas.org/content/111/33/12019/suppl/DCSupplemental.
+debug: debug [scraper]. element results. supplementary_material. http://www.pnas.org/content/111/33/12019/suppl/DCSupplemental.
+debug: info [scraper]. download started. DCSupplemental.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 15/15 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.pnas.org/content/111/34/12396
+debug: creating output directory: /Users/pm286/workspace/scrapetest/pnas/http_www.pnas.org_content_111_34_12396
+debug: info [scraper]. URL rendered. http://www.pnas.org/content/111/34/12396.
+debug: data [scraper]. element captured. publisher. National Acad Sciences.
+debug: debug [scraper]. element results. publisher. National Acad Sciences.
+debug: data [scraper]. element captured. title. Microbial-induced meprin β cleavage in MUC2 mucin and a functional CFTR channel are required to release anchored small intestinal mucus.
+debug: debug [scraper]. element results. title. Microbial-induced meprin β cleavage in MUC2 mucin and a functional CFTR channel are required to release anchored small intestinal mucus.
+debug: data [scraper]. element captured. authors. André Schütte.
+debug: data [scraper]. element captured. authors. Anna Ermund.
+debug: data [scraper]. element captured. authors. Christoph Becker-Pauly.
+debug: data [scraper]. element captured. authors. Malin E. V. Johansson.
+debug: data [scraper]. element captured. authors. Ana M. Rodriguez-Pineiro.
+debug: data [scraper]. element captured. authors. Fredrik Bäckhed.
+debug: data [scraper]. element captured. authors. Stefan Müller.
+debug: data [scraper]. element captured. authors. Daniel Lottaz.
+debug: data [scraper]. element captured. authors. Judith S. Bond.
+debug: data [scraper]. element captured. authors. Gunnar C. Hansson.
+debug: debug [scraper]. element results. authors. André Schütte,Anna Ermund,Christoph Becker-Pauly,Malin E. V. Johansson,Ana M. Rodriguez-Pineiro,Fredrik Bäckhed,Stefan Müller,Daniel Lottaz,Judith S. Bond,Gunnar C. Hansson.
+debug: data [scraper]. element captured. date. 08/26/2014.
+debug: debug [scraper]. element results. date. 08/26/2014.
+debug: data [scraper]. element captured. volume. 111.
+debug: debug [scraper]. element results. volume. 111.
+debug: data [scraper]. element captured. issue. 34.
+debug: debug [scraper]. element results. issue. 34.
+debug: data [scraper]. element captured. firstpage. 12396.
+debug: debug [scraper]. element results. firstpage. 12396.
+debug: data [scraper]. element captured. lastpage. 12401.
+debug: debug [scraper]. element results. lastpage. 12401.
+debug: data [scraper]. element captured. doi. 10.1073/pnas.1407597111.
+debug: debug [scraper]. element results. doi. 10.1073/pnas.1407597111.
+debug: data [scraper]. element captured. journal. Proceedings of the National Academy of Sciences.
+debug: debug [scraper]. element results. journal. Proceedings of the National Academy of Sciences.
+debug: data [scraper]. element captured. abstract. 
+                           Abstract
+                           The mucus that covers and protects the epithelium of the intestine is built around its major structural component, the gel-forming
+                              MUC2 mucin. The gel-forming mucins have traditionally been assumed to be secreted as nonattached. The colon has a two-layered
+                              mucus system where the inner mucus is attached to the epithelium, whereas the small intestine normally has a nonattached mucus.
+                              However, the mucus of the small intestine of meprin β-deficient mice was now found to be attached. Meprin β is an endogenous
+                              zinc-dependent metalloprotease now shown to cleave the N-terminal region of the MUC2 mucin at two specific sites. When recombinant
+                              meprin β was added to the attached mucus of meprin β-deficient mice, the mucus was detached from the epithelium. Similar to
+                              meprin β-deficient mice, germ-free mice have attached mucus as they did not shed the membrane-anchored meprin β into the luminal
+                              mucus. The ileal mucus of cystic fibrosis (CF) mice with a nonfunctional cystic fibrosis transmembrane conductance regulator
+                              (CFTR) channel was recently shown to be attached to the epithelium. Addition of recombinant meprin β to CF mucus did not release
+                              the mucus, but further addition of bicarbonate rendered the CF mucus normal, suggesting that MUC2 unfolding exposed the meprin
+                              β cleavage sites. Mucus is thus secreted attached to the goblet cells and requires an enzyme, meprin β in the small intestine,
+                              to be detached and released into the intestinal lumen. This process regulates mucus properties, can be triggered by bacterial
+                              contact, and is nonfunctional in CF due to poor mucin unfolding.
+                           
+                        .
+debug: debug [scraper]. element results. abstract. 
+                           Abstract
+                           The mucus that covers and protects the epithelium of the intestine is built around its major structural component, the gel-forming
+                              MUC2 mucin. The gel-forming mucins have traditionally been assumed to be secreted as nonattached. The colon has a two-layered
+                              mucus system where the inner mucus is attached to the epithelium, whereas the small intestine normally has a nonattached mucus.
+                              However, the mucus of the small intestine of meprin β-deficient mice was now found to be attached. Meprin β is an endogenous
+                              zinc-dependent metalloprotease now shown to cleave the N-terminal region of the MUC2 mucin at two specific sites. When recombinant
+                              meprin β was added to the attached mucus of meprin β-deficient mice, the mucus was detached from the epithelium. Similar to
+                              meprin β-deficient mice, germ-free mice have attached mucus as they did not shed the membrane-anchored meprin β into the luminal
+                              mucus. The ileal mucus of cystic fibrosis (CF) mice with a nonfunctional cystic fibrosis transmembrane conductance regulator
+                              (CFTR) channel was recently shown to be attached to the epithelium. Addition of recombinant meprin β to CF mucus did not release
+                              the mucus, but further addition of bicarbonate rendered the CF mucus normal, suggesting that MUC2 unfolding exposed the meprin
+                              β cleavage sites. Mucus is thus secreted attached to the goblet cells and requires an enzyme, meprin β in the small intestine,
+                              to be detached and released into the intestinal lumen. This process regulates mucus properties, can be triggered by bacterial
+                              contact, and is nonfunctional in CF due to poor mucin unfolding.
+                           
+                        .
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://www.pnas.org/content/111/34/12396.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://www.pnas.org/content/111/34/12396.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://www.pnas.org/content/111/34/12396.
+debug: debug [scraper]. element results. fulltext_html. http://www.pnas.org/content/111/34/12396.
+debug: data [scraper]. element captured. supplementary_material. http://www.pnas.org/content/111/34/12396/suppl/DCSupplemental.
+debug: debug [scraper]. element results. supplementary_material. http://www.pnas.org/content/111/34/12396/suppl/DCSupplemental.
+debug: info [scraper]. download started. DCSupplemental.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 15/15 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.pnas.org/content/111/34/12390
+debug: creating output directory: /Users/pm286/workspace/scrapetest/pnas/http_www.pnas.org_content_111_34_12390
+debug: info [scraper]. URL rendered. http://www.pnas.org/content/111/34/12390.
+debug: data [scraper]. element captured. publisher. National Acad Sciences.
+debug: debug [scraper]. element results. publisher. National Acad Sciences.
+debug: data [scraper]. element captured. title. Chaperone-enhanced purification of unconventional myosin 15, a molecular motor specialized for stereocilia protein trafficking.
+debug: debug [scraper]. element results. title. Chaperone-enhanced purification of unconventional myosin 15, a molecular motor specialized for stereocilia protein trafficking.
+debug: data [scraper]. element captured. authors. Jonathan E. Bird.
+debug: data [scraper]. element captured. authors. Yasuharu Takagi.
+debug: data [scraper]. element captured. authors. Neil Billington.
+debug: data [scraper]. element captured. authors. Marie-Paule Strub.
+debug: data [scraper]. element captured. authors. James R. Sellers.
+debug: data [scraper]. element captured. authors. Thomas B. Friedman.
+debug: debug [scraper]. element results. authors. Jonathan E. Bird,Yasuharu Takagi,Neil Billington,Marie-Paule Strub,James R. Sellers,Thomas B. Friedman.
+debug: data [scraper]. element captured. date. 08/26/2014.
+debug: debug [scraper]. element results. date. 08/26/2014.
+debug: data [scraper]. element captured. volume. 111.
+debug: debug [scraper]. element results. volume. 111.
+debug: data [scraper]. element captured. issue. 34.
+debug: debug [scraper]. element results. issue. 34.
+debug: data [scraper]. element captured. firstpage. 12390.
+debug: debug [scraper]. element results. firstpage. 12390.
+debug: data [scraper]. element captured. lastpage. 12395.
+debug: debug [scraper]. element results. lastpage. 12395.
+debug: data [scraper]. element captured. doi. 10.1073/pnas.1409459111.
+debug: debug [scraper]. element results. doi. 10.1073/pnas.1409459111.
+debug: data [scraper]. element captured. journal. Proceedings of the National Academy of Sciences.
+debug: debug [scraper]. element results. journal. Proceedings of the National Academy of Sciences.
+debug: data [scraper]. element captured. abstract. 
+                           Abstract
+                           Unconventional myosin 15 is a molecular motor expressed in inner ear hair cells that transports protein cargos within developing
+                              mechanosensory stereocilia. Mutations of myosin 15 cause profound hearing loss in humans and mice; however, the properties
+                              of this motor and its regulation within the stereocilia organelle are unknown. To address these questions, we expressed a
+                              subfragment 1-like (S1) truncation of mouse myosin 15, comprising the predicted motor domain plus three light-chain binding
+                              sites. Following unsuccessful attempts to express functional myosin 15-S1 using the Spodoptera frugiperda (Sf9)-baculovirus system, we discovered that coexpression of the muscle-myosin–specific chaperone UNC45B, in addition to
+                              the chaperone heat-shock protein 90 (HSP90) significantly increased the yield of functional protein. Surprisingly, myosin
+                              15-S1 did not bind calmodulin with high affinity. Instead, the IQ domains bound essential and regulatory light chains that
+                              are normally associated with class II myosins. We show that myosin 15-S1 is a barbed-end–directed motor that moves actin filaments
+                              in a gliding assay (∼430 nm·s−1 at 30 °C), using a power stroke of 7.9 nm. The maximum ATPase rate (kcat ∼6 s−1) was similar to the actin-detachment rate (kdet = 6.2 s−1) determined in single molecule optical trapping experiments, indicating that myosin 15-S1 was rate limited by transit through
+                              strongly actin-bound states, similar to other processive myosin motors. Our data further indicate that in addition to folding
+                              muscle myosin, UNC45B facilitates maturation of an unconventional myosin. We speculate that chaperone coexpression may be
+                              a simple method to optimize the purification of other myosin motors from Sf9 insect cells.
+                           
+                        .
+debug: debug [scraper]. element results. abstract. 
+                           Abstract
+                           Unconventional myosin 15 is a molecular motor expressed in inner ear hair cells that transports protein cargos within developing
+                              mechanosensory stereocilia. Mutations of myosin 15 cause profound hearing loss in humans and mice; however, the properties
+                              of this motor and its regulation within the stereocilia organelle are unknown. To address these questions, we expressed a
+                              subfragment 1-like (S1) truncation of mouse myosin 15, comprising the predicted motor domain plus three light-chain binding
+                              sites. Following unsuccessful attempts to express functional myosin 15-S1 using the Spodoptera frugiperda (Sf9)-baculovirus system, we discovered that coexpression of the muscle-myosin–specific chaperone UNC45B, in addition to
+                              the chaperone heat-shock protein 90 (HSP90) significantly increased the yield of functional protein. Surprisingly, myosin
+                              15-S1 did not bind calmodulin with high affinity. Instead, the IQ domains bound essential and regulatory light chains that
+                              are normally associated with class II myosins. We show that myosin 15-S1 is a barbed-end–directed motor that moves actin filaments
+                              in a gliding assay (∼430 nm·s−1 at 30 °C), using a power stroke of 7.9 nm. The maximum ATPase rate (kcat ∼6 s−1) was similar to the actin-detachment rate (kdet = 6.2 s−1) determined in single molecule optical trapping experiments, indicating that myosin 15-S1 was rate limited by transit through
+                              strongly actin-bound states, similar to other processive myosin motors. Our data further indicate that in addition to folding
+                              muscle myosin, UNC45B facilitates maturation of an unconventional myosin. We speculate that chaperone coexpression may be
+                              a simple method to optimize the purification of other myosin motors from Sf9 insect cells.
+                           
+                        .
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://www.pnas.org/content/111/34/12390.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://www.pnas.org/content/111/34/12390.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://www.pnas.org/content/111/34/12390.
+debug: debug [scraper]. element results. fulltext_html. http://www.pnas.org/content/111/34/12390.
+debug: data [scraper]. element captured. supplementary_material. http://www.pnas.org/content/111/34/12390/suppl/DCSupplemental.
+debug: debug [scraper]. element results. supplementary_material. http://www.pnas.org/content/111/34/12390/suppl/DCSupplemental.
+debug: info [scraper]. download started. DCSupplemental.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 15/15 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.pnas.org/content/101/34/12520
+debug: creating output directory: /Users/pm286/workspace/scrapetest/pnas/http_www.pnas.org_content_101_34_12520
+debug: info [scraper]. URL rendered. http://www.pnas.org/content/101/34/12520.
+debug: data [scraper]. element captured. publisher. National Acad Sciences.
+debug: debug [scraper]. element results. publisher. National Acad Sciences.
+debug: data [scraper]. element captured. title. Cell mechanosensitivity controls the anisotropy of focal adhesions.
+debug: debug [scraper]. element results. title. Cell mechanosensitivity controls the anisotropy of focal adhesions.
+debug: data [scraper]. element captured. authors. Alice Nicolas.
+debug: data [scraper]. element captured. authors. Benjamin Geiger.
+debug: data [scraper]. element captured. authors. Samuel A. Safran.
+debug: debug [scraper]. element results. authors. Alice Nicolas,Benjamin Geiger,Samuel A. Safran.
+debug: data [scraper]. element captured. date. 08/24/2004.
+debug: debug [scraper]. element results. date. 08/24/2004.
+debug: data [scraper]. element captured. volume. 101.
+debug: debug [scraper]. element results. volume. 101.
+debug: data [scraper]. element captured. issue. 34.
+debug: debug [scraper]. element results. issue. 34.
+debug: data [scraper]. element captured. firstpage. 12520.
+debug: debug [scraper]. element results. firstpage. 12520.
+debug: data [scraper]. element captured. lastpage. 12525.
+debug: debug [scraper]. element results. lastpage. 12525.
+debug: data [scraper]. element captured. doi. 10.1073/pnas.0403539101.
+debug: debug [scraper]. element results. doi. 10.1073/pnas.0403539101.
+debug: data [scraper]. element captured. journal. Proceedings of the National Academy of Sciences of the United States of America.
+debug: debug [scraper]. element results. journal. Proceedings of the National Academy of Sciences of the United States of America.
+debug: data [scraper]. element captured. abstract. 
+                           
+                           Abstract
+                           
+                           Cellular adhesions are modulated by cytoskeletal forces or external stresses and adapt to the mechanical properties of the
+                              extracellular matrix. We propose that this mechanosensitivity can be driven at least in part by the elastic, cell-contractility-induced
+                              deformations of protein molecules that form the adhesion. The model accounts for observations of anisotropic growth and shrinkage
+                              of focal adhesions in the direction of the force and predicts that focal adhesions only grow within a range of force that
+                              is determined by the composition and matrix properties. This prediction is consistent with the observations of a force threshold
+                              for the appearance of elongated focal adhesions and the disruption of adhesions into fibrils on a mobile extracellular matrix.
+                              The growth dynamics is calculated and the predicted sliding of focal adhesions is consistent with several experiments.
+                           
+                           
+                        .
+debug: debug [scraper]. element results. abstract. 
+                           
+                           Abstract
+                           
+                           Cellular adhesions are modulated by cytoskeletal forces or external stresses and adapt to the mechanical properties of the
+                              extracellular matrix. We propose that this mechanosensitivity can be driven at least in part by the elastic, cell-contractility-induced
+                              deformations of protein molecules that form the adhesion. The model accounts for observations of anisotropic growth and shrinkage
+                              of focal adhesions in the direction of the force and predicts that focal adhesions only grow within a range of force that
+                              is determined by the composition and matrix properties. This prediction is consistent with the observations of a force threshold
+                              for the appearance of elongated focal adhesions and the disruption of adhesions into fibrils on a mobile extracellular matrix.
+                              The growth dynamics is calculated and the predicted sliding of focal adhesions is consistent with several experiments.
+                           
+                           
+                        .
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://www.pnas.org/content/101/34/12520.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://www.pnas.org/content/101/34/12520.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://www.pnas.org/content/101/34/12520.
+debug: debug [scraper]. element results. fulltext_html. http://www.pnas.org/content/101/34/12520.
+debug: data [scraper]. element captured. supplementary_material. http://www.pnas.org/content/101/34/12520/suppl/DC1.
+debug: debug [scraper]. element results. supplementary_material. http://www.pnas.org/content/101/34/12520/suppl/DC1.
+debug: info [scraper]. download started. DC1.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 15/15 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.pnas.org/content/71/2/302
+debug: creating output directory: /Users/pm286/workspace/scrapetest/pnas/http_www.pnas.org_content_71_2_302
+debug: info [scraper]. URL rendered. http://www.pnas.org/content/71/2/302.
+debug: data [scraper]. element captured. publisher. National Acad Sciences.
+debug: debug [scraper]. element results. publisher. National Acad Sciences.
+debug: data [scraper]. element captured. title. Cell-Free Translation of Messenger RNA of Simian Virus 40: Synthesis of the Major Capsid Protein.
+debug: debug [scraper]. element results. title. Cell-Free Translation of Messenger RNA of Simian Virus 40: Synthesis of the Major Capsid Protein.
+debug: data [scraper]. element captured. authors. Carol L. Prives.
+debug: data [scraper]. element captured. authors. Haim Aviv.
+debug: data [scraper]. element captured. authors. Bruce M. Paterson.
+debug: data [scraper]. element captured. authors. Bryan E. Roberts.
+debug: data [scraper]. element captured. authors. Shmuel Rozenblatt.
+debug: data [scraper]. element captured. authors. Michel Revel.
+debug: data [scraper]. element captured. authors. Ernest Winocour.
+debug: debug [scraper]. element results. authors. Carol L. Prives,Haim Aviv,Bruce M. Paterson,Bryan E. Roberts,Shmuel Rozenblatt,Michel Revel,Ernest Winocour.
+debug: data [scraper]. element captured. date. 02/01/1974.
+debug: debug [scraper]. element results. date. 02/01/1974.
+debug: data [scraper]. element captured. volume. 71.
+debug: debug [scraper]. element results. volume. 71.
+debug: data [scraper]. element captured. issue. 2.
+debug: debug [scraper]. element results. issue. 2.
+debug: data [scraper]. element captured. firstpage. 302.
+debug: debug [scraper]. element results. firstpage. 302.
+debug: data [scraper]. element captured. lastpage. 306.
+debug: debug [scraper]. element results. lastpage. 306.
+debug: data [scraper]. element capture failed. doi.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_doi']. doi.
+debug: debug [scraper]. element results. doi. .
+debug: data [scraper]. element captured. journal. Proceedings of the National Academy of Sciences.
+debug: debug [scraper]. element results. journal. Proceedings of the National Academy of Sciences.
+debug: data [scraper]. element captured. abstract. 
+                           Abstract
+                           Extracts of wheat germ are capable of synthesizing the major capsid protein of simian virus 40. Poly(A)-containing RNA from
+                              BS-C-1 cells infected with simian virus 40 directed the synthesis of a novel polypeptide that migrates in polyacrylamide gels
+                              together with the major capsid polypeptide of simian virus 40, VP-1. The patterns of the major tryptic peptides of purified
+                              VP-1 and the novel polypeptide synthesized in vitro were identical after two-dimensional paper electrophoresis. The novel polypeptide was not synthesized in response to poly(A)-rich
+                              RNA from uninfected cells or from virus-infected cells treated with cytosine arabinoside. Messenger RNA from infected cells
+                              purified by selective hybridization to DNA of simian virus 40 directs the synthesis of a major polypeptide of electrophoretic
+                              mobility similar to that of VP-1 of simian virus 40. This approach should prove useful in identifying additional products
+                              specified by DNA tumor viruses.
+                           
+                        .
+debug: debug [scraper]. element results. abstract. 
+                           Abstract
+                           Extracts of wheat germ are capable of synthesizing the major capsid protein of simian virus 40. Poly(A)-containing RNA from
+                              BS-C-1 cells infected with simian virus 40 directed the synthesis of a novel polypeptide that migrates in polyacrylamide gels
+                              together with the major capsid polypeptide of simian virus 40, VP-1. The patterns of the major tryptic peptides of purified
+                              VP-1 and the novel polypeptide synthesized in vitro were identical after two-dimensional paper electrophoresis. The novel polypeptide was not synthesized in response to poly(A)-rich
+                              RNA from uninfected cells or from virus-infected cells treated with cytosine arabinoside. Messenger RNA from infected cells
+                              purified by selective hybridization to DNA of simian virus 40 directs the synthesis of a major polypeptide of electrophoretic
+                              mobility similar to that of VP-1 of simian virus 40. This approach should prove useful in identifying additional products
+                              specified by DNA tumor viruses.
+                           
+                        .
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://www.pnas.org/content/71/2/302.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://www.pnas.org/content/71/2/302.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://www.pnas.org/content/71/2/302.
+debug: debug [scraper]. element results. fulltext_html. http://www.pnas.org/content/71/2/302.
+debug: data [scraper]. element capture failed. supplementary_material.
+debug: debug [scraper]. selector had no results. //a[@rel='supplemental-data']. supplementary_material.
+debug: debug [scraper]. element results. supplementary_material. .
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 13/15 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.pnas.org/content/109/24/9248
+debug: creating output directory: /Users/pm286/workspace/scrapetest/pnas/http_www.pnas.org_content_109_24_9248
+debug: info [scraper]. URL rendered. http://www.pnas.org/content/109/24/9248.
+debug: data [scraper]. element captured. publisher. National Acad Sciences.
+debug: debug [scraper]. element results. publisher. National Acad Sciences.
+debug: data [scraper]. element captured. title. Heart wall myofibers are arranged in minimal surfaces to optimize organ function.
+debug: debug [scraper]. element results. title. Heart wall myofibers are arranged in minimal surfaces to optimize organ function.
+debug: data [scraper]. element captured. authors. Peter Savadjiev.
+debug: data [scraper]. element captured. authors. Gustav J. Strijkers.
+debug: data [scraper]. element captured. authors. Adrianus J. Bakermans.
+debug: data [scraper]. element captured. authors. Emmanuel Piuze.
+debug: data [scraper]. element captured. authors. Steven W. Zucker.
+debug: data [scraper]. element captured. authors. Kaleem Siddiqi.
+debug: debug [scraper]. element results. authors. Peter Savadjiev,Gustav J. Strijkers,Adrianus J. Bakermans,Emmanuel Piuze,Steven W. Zucker,Kaleem Siddiqi.
+debug: data [scraper]. element captured. date. 06/12/2012.
+debug: debug [scraper]. element results. date. 06/12/2012.
+debug: data [scraper]. element captured. volume. 109.
+debug: debug [scraper]. element results. volume. 109.
+debug: data [scraper]. element captured. issue. 24.
+debug: debug [scraper]. element results. issue. 24.
+debug: data [scraper]. element captured. firstpage. 9248.
+debug: debug [scraper]. element results. firstpage. 9248.
+debug: data [scraper]. element captured. lastpage. 9253.
+debug: debug [scraper]. element results. lastpage. 9253.
+debug: data [scraper]. element captured. doi. 10.1073/pnas.1120785109.
+debug: debug [scraper]. element results. doi. 10.1073/pnas.1120785109.
+debug: data [scraper]. element captured. journal. Proceedings of the National Academy of Sciences.
+debug: debug [scraper]. element results. journal. Proceedings of the National Academy of Sciences.
+debug: data [scraper]. element captured. abstract. 
+                           Abstract
+                           Heart wall myofibers wind as helices around the ventricles, strengthening them in a manner analogous to the reinforcement
+                              of concrete cylindrical columns by spiral steel cables [Richart FE, et al. (1929) Univ of Illinois, Eng Exp Stn Bull 190].
+                              A multitude of such fibers, arranged smoothly and regularly, contract and relax as an integrated functional unit as the heart
+                              beats. To orchestrate this motion, fiber tangling must be avoided and pumping should be efficient. Current models of myofiber
+                              orientation across the heart wall suggest groupings into sheets or bands, but the precise geometry of bundles of myofibers
+                              is unknown. Here we show that this arrangement takes the form of a special minimal surface, the generalized helicoid [Blair
+                              DE, Vanstone JR (1978) Minimal Submanifolds and Geodesics 13–16], closing the gap between individual myofibers and their collective wall structure. The model holds across species,
+                              with a smooth variation in its three curvature parameters within the myocardial wall providing tight fits to diffusion magnetic
+                              resonance images from the rat, the dog, and the human. Mathematically it explains how myofibers are bundled in the heart wall
+                              while economizing fiber length and optimizing ventricular ejection volume as they contract. The generalized helicoid provides
+                              a unique foundation for analyzing the fibrous composite of the heart wall and should therefore find applications in heart
+                              tissue engineering and in the study of heart muscle diseases.
+                           
+                        .
+debug: debug [scraper]. element results. abstract. 
+                           Abstract
+                           Heart wall myofibers wind as helices around the ventricles, strengthening them in a manner analogous to the reinforcement
+                              of concrete cylindrical columns by spiral steel cables [Richart FE, et al. (1929) Univ of Illinois, Eng Exp Stn Bull 190].
+                              A multitude of such fibers, arranged smoothly and regularly, contract and relax as an integrated functional unit as the heart
+                              beats. To orchestrate this motion, fiber tangling must be avoided and pumping should be efficient. Current models of myofiber
+                              orientation across the heart wall suggest groupings into sheets or bands, but the precise geometry of bundles of myofibers
+                              is unknown. Here we show that this arrangement takes the form of a special minimal surface, the generalized helicoid [Blair
+                              DE, Vanstone JR (1978) Minimal Submanifolds and Geodesics 13–16], closing the gap between individual myofibers and their collective wall structure. The model holds across species,
+                              with a smooth variation in its three curvature parameters within the myocardial wall providing tight fits to diffusion magnetic
+                              resonance images from the rat, the dog, and the human. Mathematically it explains how myofibers are bundled in the heart wall
+                              while economizing fiber length and optimizing ventricular ejection volume as they contract. The generalized helicoid provides
+                              a unique foundation for analyzing the fibrous composite of the heart wall and should therefore find applications in heart
+                              tissue engineering and in the study of heart muscle diseases.
+                           
+                        .
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://www.pnas.org/content/109/24/9248.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://www.pnas.org/content/109/24/9248.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://www.pnas.org/content/109/24/9248.
+debug: debug [scraper]. element results. fulltext_html. http://www.pnas.org/content/109/24/9248.
+debug: data [scraper]. element captured. supplementary_material. http://www.pnas.org/content/109/24/9248/suppl/DCSupplemental.
+debug: debug [scraper]. element results. supplementary_material. http://www.pnas.org/content/109/24/9248/suppl/DCSupplemental.
+debug: info [scraper]. download started. DCSupplemental.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 15/15 elements (0 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.pnas.org/content/111/24/8788
+debug: creating output directory: /Users/pm286/workspace/scrapetest/pnas/http_www.pnas.org_content_111_24_8788
+debug: info [scraper]. URL rendered. http://www.pnas.org/content/111/24/8788.
+debug: data [scraper]. element captured. publisher. National Acad Sciences.
+debug: debug [scraper]. element results. publisher. National Acad Sciences.
+debug: data [scraper]. element captured. title. Experimental evidence of massive-scale emotional contagion through social networks.
+debug: debug [scraper]. element results. title. Experimental evidence of massive-scale emotional contagion through social networks.
+debug: data [scraper]. element captured. authors. Adam D. I. Kramer.
+debug: data [scraper]. element captured. authors. Jamie E. Guillory.
+debug: data [scraper]. element captured. authors. Jeffrey T. Hancock.
+debug: debug [scraper]. element results. authors. Adam D. I. Kramer,Jamie E. Guillory,Jeffrey T. Hancock.
+debug: data [scraper]. element captured. date. 06/17/2014.
+debug: debug [scraper]. element results. date. 06/17/2014.
+debug: data [scraper]. element captured. volume. 111.
+debug: debug [scraper]. element results. volume. 111.
+debug: data [scraper]. element captured. issue. 24.
+debug: debug [scraper]. element results. issue. 24.
+debug: data [scraper]. element captured. firstpage. 8788.
+debug: debug [scraper]. element results. firstpage. 8788.
+debug: data [scraper]. element captured. lastpage. 8790.
+debug: debug [scraper]. element results. lastpage. 8790.
+debug: data [scraper]. element captured. doi. 10.1073/pnas.1320040111.
+debug: debug [scraper]. element results. doi. 10.1073/pnas.1320040111.
+debug: data [scraper]. element captured. journal. Proceedings of the National Academy of Sciences.
+debug: debug [scraper]. element results. journal. Proceedings of the National Academy of Sciences.
+debug: data [scraper]. element captured. abstract. 
+                           Abstract
+                           Emotional states can be transferred to others via emotional contagion, leading people to experience the same emotions without
+                              their awareness. Emotional contagion is well established in laboratory experiments, with people transferring positive and
+                              negative emotions to others. Data from a large real-world social network, collected over a 20-y period suggests that longer-lasting
+                              moods (e.g., depression, happiness) can be transferred through networks [Fowler JH, Christakis NA (2008) BMJ 337:a2338], although the results are controversial. In an experiment with people who use Facebook, we test whether emotional
+                              contagion occurs outside of in-person interaction between individuals by reducing the amount of emotional content in the News
+                              Feed. When positive expressions were reduced, people produced fewer positive posts and more negative posts; when negative
+                              expressions were reduced, the opposite pattern occurred. These results indicate that emotions expressed by others on Facebook
+                              influence our own emotions, constituting experimental evidence for massive-scale contagion via social networks. This work
+                              also suggests that, in contrast to prevailing assumptions, in-person interaction and nonverbal cues are not strictly necessary
+                              for emotional contagion, and that the observation of others’ positive experiences constitutes a positive experience for people.
+                           
+                        .
+debug: debug [scraper]. element results. abstract. 
+                           Abstract
+                           Emotional states can be transferred to others via emotional contagion, leading people to experience the same emotions without
+                              their awareness. Emotional contagion is well established in laboratory experiments, with people transferring positive and
+                              negative emotions to others. Data from a large real-world social network, collected over a 20-y period suggests that longer-lasting
+                              moods (e.g., depression, happiness) can be transferred through networks [Fowler JH, Christakis NA (2008) BMJ 337:a2338], although the results are controversial. In an experiment with people who use Facebook, we test whether emotional
+                              contagion occurs outside of in-person interaction between individuals by reducing the amount of emotional content in the News
+                              Feed. When positive expressions were reduced, people produced fewer positive posts and more negative posts; when negative
+                              expressions were reduced, the opposite pattern occurred. These results indicate that emotions expressed by others on Facebook
+                              influence our own emotions, constituting experimental evidence for massive-scale contagion via social networks. This work
+                              also suggests that, in contrast to prevailing assumptions, in-person interaction and nonverbal cues are not strictly necessary
+                              for emotional contagion, and that the observation of others’ positive experiences constitutes a positive experience for people.
+                           
+                        .
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://www.pnas.org/content/111/24/8788.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://www.pnas.org/content/111/24/8788.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://www.pnas.org/content/111/24/8788.
+debug: debug [scraper]. element results. fulltext_html. http://www.pnas.org/content/111/24/8788.
+debug: data [scraper]. element capture failed. supplementary_material.
+debug: debug [scraper]. selector had no results. //a[@rel='supplemental-data']. supplementary_material.
+debug: debug [scraper]. element results. supplementary_material. .
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 14/15 elements (1 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.pnas.org/content/111/29/10779.1
+debug: creating output directory: /Users/pm286/workspace/scrapetest/pnas/http_www.pnas.org_content_111_29_10779.1
+debug: info [scraper]. URL rendered. http://www.pnas.org/content/111/29/10779.1.
+debug: data [scraper]. element captured. publisher. National Acad Sciences.
+debug: debug [scraper]. element results. publisher. National Acad Sciences.
+debug: data [scraper]. element captured. title. Editorial Expression of Concern: Experimental evidence of massivescale emotional contagion through social networks.
+debug: debug [scraper]. element results. title. Editorial Expression of Concern: Experimental evidence of massivescale emotional contagion through social networks.
+debug: data [scraper]. element capture failed. authors.
+debug: debug [scraper]. selector had no results. //meta[@name='citation_author']. authors.
+debug: debug [scraper]. element results. authors. .
+debug: data [scraper]. element captured. date. 07/22/2014.
+debug: debug [scraper]. element results. date. 07/22/2014.
+debug: data [scraper]. element captured. volume. 111.
+debug: debug [scraper]. element results. volume. 111.
+debug: data [scraper]. element captured. issue. 29.
+debug: debug [scraper]. element results. issue. 29.
+debug: data [scraper]. element captured. firstpage. 10779.
+debug: debug [scraper]. element results. firstpage. 10779.
+debug: data [scraper]. element captured. lastpage. 10779.
+debug: debug [scraper]. element results. lastpage. 10779.
+debug: data [scraper]. element captured. doi. 10.1073/pnas.1412469111.
+debug: debug [scraper]. element results. doi. 10.1073/pnas.1412469111.
+debug: data [scraper]. element captured. journal. Proceedings of the National Academy of Sciences.
+debug: debug [scraper]. element results. journal. Proceedings of the National Academy of Sciences.
+debug: data [scraper]. element capture failed. abstract.
+debug: debug [scraper]. selector had no results. //div[@class='section abstract']. abstract.
+debug: debug [scraper]. element results. abstract. .
+debug: data [scraper]. element captured. language. en.
+debug: debug [scraper]. element results. language. en.
+debug: data [scraper]. element captured. fulltext_pdf. http://www.pnas.org/content/111/29/10779.1.full.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://www.pnas.org/content/111/29/10779.1.full.pdf.
+debug: data [scraper]. element captured. fulltext_html. http://www.pnas.org/content/111/29/10779.1.
+debug: debug [scraper]. element results. fulltext_html. http://www.pnas.org/content/111/29/10779.1.
+debug: data [scraper]. element capture failed. supplementary_material.
+debug: debug [scraper]. selector had no results. //a[@rel='supplemental-data']. supplementary_material.
+debug: debug [scraper]. element results. supplementary_material. .
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 12/15 elements (3 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.pnas.org/content/111/35/12758
+debug: creating output directory: /Users/pm286/workspace/scrapetest/pnas/http_www.pnas.org_content_111_35_12758
+info: all tasks completed
+dynamic-0-3:sandbox pm286$ 
+

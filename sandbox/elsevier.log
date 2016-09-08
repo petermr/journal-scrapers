@@ -1,0 +1,148 @@
+dynamic-0-3:sandbox pm286$ quickscrape -o ../../scrapetest/elsevier -r ../test/elsevier_test_urls.txt  -d ../scrapers/ -i 20 -l debug -f elsevier.log
+debug: creating output directory: ../../scrapetest/elsevier
+info: quickscrape 0.4.7 launched with...
+info: - URLs from file: undefined
+info: - Scraperdir: /Users/pm286/workspace/journal-scrapers/scrapers
+info: - Rate limit: 20 per minute
+info: - Log level: debug
+info: urls to scrape: 10
+info: processing URL: http://www.sciencedirect.com/science/article/pii/S1353113103001093
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elsevier/http_www.sciencedirect.com_science_article_pii_S1353113103001093
+debug: info [scraper]. URL rendered. http://www.sciencedirect.com/science/article/pii/S1353113103001093.
+debug: data [scraper]. element capture failed. title.
+debug: debug [scraper]. attribute was not valid. content. /html/head/title.
+debug: debug [scraper]. element results. title. .
+debug: data [scraper]. element captured. fulltext_html. http://www.sciencedirect.com/science/article/pii/S1353113103001093.
+debug: debug [scraper]. element results. fulltext_html. http://www.sciencedirect.com/science/article/pii/S1353113103001093.
+debug: data [scraper]. element captured. fulltext_pdf. http://www.sciencedirect.com/science/article/pii/S1353113103001093/pdfft?md5=d4d315e490acf8329101ece98c4b1a82&pid=1-s2.0-S1353113103001093-main.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://www.sciencedirect.com/science/article/pii/S1353113103001093/pdfft?md5=d4d315e490acf8329101ece98c4b1a82&pid=1-s2.0-S1353113103001093-main.pdf.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 2/3 elements (1 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.sciencedirect.com/science/article/pii/S123028131500029X
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elsevier/http_www.sciencedirect.com_science_article_pii_S123028131500029X
+debug: info [scraper]. URL rendered. http://www.sciencedirect.com/science/article/pii/S123028131500029X.
+debug: data [scraper]. element capture failed. title.
+debug: debug [scraper]. attribute was not valid. content. /html/head/title.
+debug: debug [scraper]. element results. title. .
+debug: data [scraper]. element captured. fulltext_html. http://www.sciencedirect.com/science/article/pii/S123028131500029X.
+debug: debug [scraper]. element results. fulltext_html. http://www.sciencedirect.com/science/article/pii/S123028131500029X.
+debug: data [scraper]. element captured. fulltext_pdf. http://www.sciencedirect.com/science/article/pii/S123028131500029X/pdfft?md5=4913401032d779cfa5a7b5b5a385ce72&pid=1-s2.0-S123028131500029X-main.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://www.sciencedirect.com/science/article/pii/S123028131500029X/pdfft?md5=4913401032d779cfa5a7b5b5a385ce72&pid=1-s2.0-S123028131500029X-main.pdf.
+debug: info [scraper]. download started. fulltext.pdf.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 2/3 elements (1 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.sciencedirect.com/science/article/pii/S1155170404974721
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elsevier/http_www.sciencedirect.com_science_article_pii_S1155170404974721
+debug: info [scraper]. URL rendered. http://www.sciencedirect.com/science/article/pii/S1155170404974721.
+debug: data [scraper]. element capture failed. title.
+debug: debug [scraper]. attribute was not valid. content. /html/head/title.
+debug: debug [scraper]. element results. title. .
+debug: data [scraper]. element captured. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1155170404974721.
+debug: debug [scraper]. element results. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1155170404974721.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //*[contains(@id, 'pdfLink')]. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 1/3 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.sciencedirect.com/science/article/pii/S1162908804000787
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elsevier/http_www.sciencedirect.com_science_article_pii_S1162908804000787
+debug: info [scraper]. URL rendered. http://www.sciencedirect.com/science/article/pii/S1162908804000787.
+debug: data [scraper]. element capture failed. title.
+debug: debug [scraper]. attribute was not valid. content. /html/head/title.
+debug: debug [scraper]. element results. title. .
+debug: data [scraper]. element captured. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1162908804000787.
+debug: debug [scraper]. element results. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1162908804000787.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //*[contains(@id, 'pdfLink')]. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 1/3 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.sciencedirect.com/science/article/pii/S115813600600096X
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elsevier/http_www.sciencedirect.com_science_article_pii_S115813600600096X
+debug: info [scraper]. URL rendered. http://www.sciencedirect.com/science/article/pii/S115813600600096X.
+debug: data [scraper]. element capture failed. title.
+debug: debug [scraper]. attribute was not valid. content. /html/head/title.
+debug: debug [scraper]. element results. title. .
+debug: data [scraper]. element captured. fulltext_html. http://www.sciencedirect.com/science/article/pii/S115813600600096X.
+debug: debug [scraper]. element results. fulltext_html. http://www.sciencedirect.com/science/article/pii/S115813600600096X.
+debug: data [scraper]. element captured. fulltext_pdf. http://www.sciencedirect.com/science/article/pii/S115813600600096X/pdfft?md5=7a812cfd6388d2bb6b0ebc3258c4afa6&pid=1-s2.0-S115813600600096X-main.pdf.
+debug: debug [scraper]. element results. fulltext_pdf. http://www.sciencedirect.com/science/article/pii/S115813600600096X/pdfft?md5=7a812cfd6388d2bb6b0ebc3258c4afa6&pid=1-s2.0-S115813600600096X-main.pdf.
+debug: info [scraper]. download started. fulltext.pdf.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 2/3 elements (1 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.sciencedirect.com/science/article/pii/S1132055912700662
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elsevier/http_www.sciencedirect.com_science_article_pii_S1132055912700662
+debug: info [scraper]. URL rendered. http://www.sciencedirect.com/science/article/pii/S1132055912700662.
+debug: data [scraper]. element capture failed. title.
+debug: debug [scraper]. attribute was not valid. content. /html/head/title.
+debug: debug [scraper]. element results. title. .
+debug: data [scraper]. element captured. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1132055912700662.
+debug: debug [scraper]. element results. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1132055912700662.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //*[contains(@id, 'pdfLink')]. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 1/3 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.sciencedirect.com/science/article/pii/S1138207408700265
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elsevier/http_www.sciencedirect.com_science_article_pii_S1138207408700265
+debug: info [scraper]. URL rendered. http://www.sciencedirect.com/science/article/pii/S1138207408700265.
+debug: data [scraper]. element capture failed. title.
+debug: debug [scraper]. attribute was not valid. content. /html/head/title.
+debug: debug [scraper]. element results. title. .
+debug: data [scraper]. element captured. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1138207408700265.
+debug: debug [scraper]. element results. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1138207408700265.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //*[contains(@id, 'pdfLink')]. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 1/3 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.sciencedirect.com/science/article/pii/S1098214099802069
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elsevier/http_www.sciencedirect.com_science_article_pii_S1098214099802069
+debug: info [scraper]. URL rendered. http://www.sciencedirect.com/science/article/pii/S1098214099802069.
+debug: data [scraper]. element capture failed. title.
+debug: debug [scraper]. attribute was not valid. content. /html/head/title.
+debug: debug [scraper]. element results. title. .
+debug: data [scraper]. element captured. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1098214099802069.
+debug: debug [scraper]. element results. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1098214099802069.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //*[contains(@id, 'pdfLink')]. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 1/3 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.sciencedirect.com/science/article/pii/S1364661397890547
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elsevier/http_www.sciencedirect.com_science_article_pii_S1364661397890547
+debug: info [scraper]. URL rendered. http://www.sciencedirect.com/science/article/pii/S1364661397890547.
+debug: data [scraper]. element capture failed. title.
+debug: debug [scraper]. attribute was not valid. content. /html/head/title.
+debug: debug [scraper]. element results. title. .
+debug: data [scraper]. element captured. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1364661397890547.
+debug: debug [scraper]. element results. fulltext_html. http://www.sciencedirect.com/www.sciencedirect.com/science/article/pii/S1364661397890547.
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //*[contains(@id, 'pdfLink')]. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 1/3 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://www.sciencedirect.com/science/article/pii/S1499404606600973
+debug: creating output directory: /Users/pm286/workspace/scrapetest/elsevier/http_www.sciencedirect.com_science_article_pii_S1499404606600973
+info: all tasks completed
+dynamic-0-3:sandbox pm286$ 
+

@@ -1,0 +1,82 @@
+dynamic-0-3:sandbox pm286$ quickscrape -o ../../scrapetest/acs -r ../test/acs_test_urls.txt  -d ../scrapers/ -i 20 -l debug --logfile acs.log
+debug: creating output directory: ../../scrapetest/acs
+info: Saving logs to ./../../scrapetest/acs/acs.log
+info: quickscrape 0.4.7 launched with...
+info: - URLs from file: undefined
+info: - Scraperdir: /Users/pm286/workspace/journal-scrapers/scrapers
+info: - Rate limit: 20 per minute
+info: - Log level: debug
+info: urls to scrape: 2
+info: processing URL: http://pubs.acs.org/doi/abs/10.1021/jacs.5b07764
+debug: creating output directory: /Users/pm286/workspace/scrapetest/acs/http_pubs.acs.org_doi_abs_10.1021_jacs.5b07764
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://pubs.acs.org/doi/abs/10.1021/jacs.5b07764, HTTP GET
+[debug] [phantom] Navigation requested: url=http://pubs.acs.org/doi/abs/10.1021/jacs.5b07764, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://pubs.acs.org/doi/abs/10.1021/jacs.5b07764?cookieSet=1, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://pubs.acs.org/doi/abs/10.1021/jacs.5b07764, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://pubs.acs.org/doi/abs/10.1021/jacs.5b07764"
+[debug] [phantom] Navigation requested: url=http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Navigation requested: url=http://s7.addthis.com/static/sh.70a42bd59f68e6caa20cf9f5.html#rand=0.5492360391654074&iit=1473350721081&tmr=load=1473350720935&core=1473350720987&main=1473350721077&ifr=1473350721084&cb=0&cdn=0&md=0&kw=&ab=-&dh=pubs.acs.org&dr=&du=http://pubs.acs.org/doi/abs/10.1021/jacs.5b07764&href=http://pubs.acs.org/doi/abs/10.1021/jacs.5b07764&dt=Highly Regio- and Enantioselective Alkoxycarbonylative Amination of Terminal Allenes Catalyzed by a Spiroketal-Based Diphosphine/Pd(II) Complex - Journal of the American Chemical Society (ACS Publications)&dbg=0&cap=tc=0&ab=0&inst=1&jsl=1&prod=undefined&lng=en&ogt=&pc=men&pub=ra-553ffb6a26ba3f77&ssl=0&sid=57d18c407e0cd54b&srpl=1&srf=0.01&srx=1&ver=300&xck=0&xtr=0&og=&csi=undefined&rev=v7.5.1-wp&ct=1&xld=1&xd=1, type=Other, willNavigate=true, isMainFrame=false
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://pubs.acs.org/doi/abs/10.1021/jacs.5b07764 (HTTP 200)
+debug: info [scraper]. URL rendered. http://pubs.acs.org/doi/abs/10.1021/jacs.5b07764.
+debug: data [scraper]. element captured. publisher. American Chemical Society.
+debug: debug [scraper]. element results. publisher. American Chemical Society.
+debug: data [scraper]. element captured. title. Highly Regio- and Enantioselective Alkoxycarbonylative Amination of Terminal Allenes Catalyzed by a Spiroketal-Based Diphosphine/Pd(II) Complex.
+debug: debug [scraper]. element results. title. Highly Regio- and Enantioselective Alkoxycarbonylative Amination of Terminal Allenes Catalyzed by a Spiroketal-Based Diphosphine/Pd(II) Complex.
+debug: data [scraper]. element captured. authors. Jiawang Liu.
+debug: data [scraper]. element captured. authors. Zhaobin Han.
+debug: data [scraper]. element captured. authors. Xiaoming Wang.
+debug: data [scraper]. element captured. authors. Zheng Wang.
+debug: data [scraper]. element captured. authors. Kuiling Ding.
+debug: debug [scraper]. element results. authors. Jiawang Liu,Zhaobin Han,Xiaoming Wang,Zheng Wang,Kuiling Ding.
+debug: data [scraper]. element captured. date. Publication Date (Web): September 17, 2015.
+debug: debug [scraper]. element results. date. Publication Date (Web): September 17, 2015.
+debug: data [scraper]. element captured. volume. 137.
+debug: debug [scraper]. element results. volume. 137.
+debug: data [scraper]. element captured. doi. 10.1021/jacs.5b07764.
+debug: debug [scraper]. element results. doi. 10.1021/jacs.5b07764.
+debug: data [scraper]. element captured. description. An enantioselective alkoxycarbonylation–amination cascade process of terminal allenes with CO, methanol, and arylamines has been developed. It proceeds under mild conditions (room temperature, ambient pressure CO) via oxidative Pd(II) catalysis using an aromatic spiroketal-based diphosphine (SKP) as a chiral ligand and a Cu(II) salt as an oxidant and affords a wide range of α-methylene-β-arylamino acid esters (36 examples) in good yields with excellent enantioselectivity (up to 96% ee) and high regioselectivity (branched/linear > 92:8). Preliminary mechanistic studies suggested that the reaction is likely to proceed through alkoxycarbonylpalladation of the allene followed by an amination process. The synthetic utility of the protocol is showcased in the asymmetric construction of a cycloheptene-fused chiral β-lactam..
+debug: data [scraper]. element captured. description.
+debug: debug [scraper]. element results. description. An enantioselective alkoxycarbonylation–amination cascade process of terminal allenes with CO, methanol, and arylamines has been developed. It proceeds under mild conditions (room temperature, ambient pressure CO) via oxidative Pd(II) catalysis using an aromatic spiroketal-based diphosphine (SKP) as a chiral ligand and a Cu(II) salt as an oxidant and affords a wide range of α-methylene-β-arylamino acid esters (36 examples) in good yields with excellent enantioselectivity (up to 96% ee) and high regioselectivity (branched/linear > 92:8). Preliminary mechanistic studies suggested that the reaction is likely to proceed through alkoxycarbonylpalladation of the allene followed by an amination process. The synthetic utility of the protocol is showcased in the asymmetric construction of a cycloheptene-fused chiral β-lactam.,.
+debug: data [scraper]. element captured. journal. J. Am. Chem. Soc..
+debug: data [scraper]. element captured. journal. Chemistry - A European Journal.
+debug: data [scraper]. element captured. journal. ChemInform.
+debug: data [scraper]. element captured. journal. Org. Biomol. Chem..
+debug: debug [scraper]. element results. journal. J. Am. Chem. Soc.,Chemistry - A European Journal,ChemInform,Org. Biomol. Chem..
+debug: data [scraper]. element captured. abstract. An enantioselective alkoxycarbonylation–amination cascade process of terminal allenes with CO, methanol, and arylamines has been developed. It proceeds under mild conditions (room temperature, ambient pressure CO) via oxidative Pd(II) catalysis using an aromatic spiroketal-based diphosphine (SKP) as a chiral ligand and a Cu(II) salt as an oxidant and affords a wide range of α-methylene-β-arylamino acid esters (36 examples) in good yields with excellent enantioselectivity (up to 96% ee) and high regioselectivity (branched/linear > 92:8). Preliminary mechanistic studies suggested that the reaction is likely to proceed through alkoxycarbonylpalladation of the allene followed by an amination process. The synthetic utility of the protocol is showcased in the asymmetric construction of a cycloheptene-fused chiral β-lactam..
+debug: debug [scraper]. element results. abstract. An enantioselective alkoxycarbonylation–amination cascade process of terminal allenes with CO, methanol, and arylamines has been developed. It proceeds under mild conditions (room temperature, ambient pressure CO) via oxidative Pd(II) catalysis using an aromatic spiroketal-based diphosphine (SKP) as a chiral ligand and a Cu(II) salt as an oxidant and affords a wide range of α-methylene-β-arylamino acid esters (36 examples) in good yields with excellent enantioselectivity (up to 96% ee) and high regioselectivity (branched/linear > 92:8). Preliminary mechanistic studies suggested that the reaction is likely to proceed through alkoxycarbonylpalladation of the allene followed by an amination process. The synthetic utility of the protocol is showcased in the asymmetric construction of a cycloheptene-fused chiral β-lactam..
+debug: data [scraper]. element captured. abstract2. http://pubs.acs.org/doi/abs/10.1021/Abstract.
+debug: debug [scraper]. element results. abstract2. http://pubs.acs.org/doi/abs/10.1021/Abstract.
+debug: data [scraper]. element captured. language. EN.
+debug: debug [scraper]. element results. language. EN.
+debug: data [scraper]. element capture failed. fulltext_html.
+debug: debug [scraper]. selector had no results. //a[@title='View the Full Text HTML']. fulltext_html.
+debug: debug [scraper]. element results. fulltext_html. .
+debug: data [scraper]. element capture failed. fulltext_pdf.
+debug: debug [scraper]. selector had no results. //a[@title='Download the PDF Full Text']. fulltext_pdf.
+debug: debug [scraper]. element results. fulltext_pdf. .
+debug: data [scraper]. element capture failed. supplementary_material.
+debug: debug [scraper]. selector had no results. //a[title='View Supporting Information']. supplementary_material.
+debug: debug [scraper]. element results. supplementary_material. .
+debug: data [scraper]. element captured. figure. http://pubs.acs.org/appl/literatum/publisher/achs/journals/content/jacsat/2015/jacsat.2015.137.issue-49/jacs.5b07764/20151210/images/medium/ja-2015-07764r_0009.gif.
+debug: debug [scraper]. element results. figure. http://pubs.acs.org/appl/literatum/publisher/achs/journals/content/jacsat/2015/jacsat.2015.137.issue-49/jacs.5b07764/20151210/images/medium/ja-2015-07764r_0009.gif.
+debug: data [scraper]. element captured. copyright. Copyright © 2015 American Chemical Society.
+debug: debug [scraper]. element results. copyright. Copyright © 2015 American Chemical Society.
+[info] [phantom] Step anonymous 3/3: done in 3807ms.
+[info] [phantom] Done 3 steps in 3807ms
+debug: info [scraper]. download started. ja-2015-07764r_0009.gif.
+debug: info [scraper]. download started. Abstract.
+info: URL processed: captured 13/16 elements (3 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://pubs.acs.org/doi/abs/10.1021/jacs.5b09827
+debug: creating output directory: /Users/pm286/workspace/scrapetest/acs/http_pubs.acs.org_doi_abs_10.1021_jacs.5b09827
+info: all tasks completed
+

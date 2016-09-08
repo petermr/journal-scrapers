@@ -1,0 +1,501 @@
+debug: creating output directory: /Users/pm286/workspace/scrapetest/wiley/http_onlinelibrary.wiley.com_doi_10.1002_smi.2536_full
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/smi.2536/full.
+debug: data [scraper]. element captured. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/smi.2536/pdf.
+debug: debug [scraper]. element results. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/smi.2536/pdf.
+debug: data [scraper]. element capture failed. publisher.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'publisher')]. publisher.
+debug: debug [scraper]. element results. publisher. .
+debug: data [scraper]. element captured. journal_name. Stress and Health.
+debug: debug [scraper]. element results. journal_name. Stress and Health.
+debug: data [scraper]. element captured. journal_issn. 1532-2998.
+debug: debug [scraper]. element results. journal_issn. 1532-2998.
+debug: data [scraper]. element captured. volume. 30.
+debug: debug [scraper]. element results. volume. 30.
+debug: data [scraper]. element captured. issue. 3.
+debug: debug [scraper]. element results. issue. 3.
+debug: data [scraper]. element captured. firstpage. 259.
+debug: debug [scraper]. element results. firstpage. 259.
+debug: data [scraper]. element captured. title. Creating Technological Boundaries to Protect Bedtime: Examining Work–Home Boundary Management, Psychological Detachment and Sleep.
+debug: debug [scraper]. element results. title. Creating Technological Boundaries to Protect Bedtime: Examining Work–Home Boundary Management, Psychological Detachment and Sleep.
+debug: data [scraper]. element captured. keywords. work–home boundary management.
+debug: data [scraper]. element captured. keywords. psychological detachment.
+debug: data [scraper]. element captured. keywords. sleep.
+debug: data [scraper]. element captured. keywords. workplace technology.
+debug: data [scraper]. element captured. keywords. boundary crossing.
+debug: debug [scraper]. element results. keywords. work–home boundary management,psychological detachment,sleep,workplace technology,boundary crossing.
+debug: data [scraper]. element captured. author_name. Barber, Larissa K..
+debug: data [scraper]. element captured. author_name. Northern Illinois University Dekalb IL USA.
+debug: data [scraper]. element captured. author_name. Jenkins, Jade S..
+debug: data [scraper]. element captured. author_name. Northern Illinois University Dekalb IL USA.
+debug: debug [scraper]. element results. author_name. Barber, Larissa K.,Northern Illinois University Dekalb IL USA,Jenkins, Jade S.,Northern Illinois University Dekalb IL USA.
+debug: data [scraper]. element captured. author_institution. Northern Illinois University Dekalb IL USA.
+debug: data [scraper]. element captured. author_institution. Northern Illinois University Dekalb IL USA.
+debug: debug [scraper]. element results. author_institution. Northern Illinois University Dekalb IL USA,Northern Illinois University Dekalb IL USA.
+debug: data [scraper]. element captured. date_published. 2014/08/01.
+debug: debug [scraper]. element results. date_published. 2014/08/01.
+debug: data [scraper]. element captured. doi. 10.1002/smi.2536.
+debug: debug [scraper]. element results. doi. 10.1002/smi.2536.
+debug: data [scraper]. element captured. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/smi.2536/full.
+debug: debug [scraper]. element results. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/smi.2536/full.
+debug: data [scraper]. element captured. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/smi.2536/abstract.
+debug: debug [scraper]. element results. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/smi.2536/abstract.
+debug: data [scraper]. element capture failed. figures_image.
+debug: debug [scraper]. selector had no results. //*[contains(@id, '-fig-')]/a[contains(@class, 'figZoom')]. figures_image.
+debug: debug [scraper]. element results. figures_image. .
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/smi.2536/pdf.
+debug: data [scraper]. element captured. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/smi.2536/asset/smi2536.pdf?v=1&t=isul6i2p&s=252780b24074991de4686c7b783e788c3f241665.
+debug: debug [scraper]. element results. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/smi.2536/asset/smi2536.pdf?v=1&t=isul6i2p&s=252780b24074991de4686c7b783e788c3f241665.
+debug: info [scraper]. download started. abstract.html.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 15/17 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://onlinelibrary.wiley.com/doi/10.1002/icd.1868/full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/wiley/http_onlinelibrary.wiley.com_doi_10.1002_icd.1868_full
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/icd.1868/full.
+debug: data [scraper]. element captured. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/icd.1868/pdf.
+debug: debug [scraper]. element results. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/icd.1868/pdf.
+debug: data [scraper]. element capture failed. publisher.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'publisher')]. publisher.
+debug: debug [scraper]. element results. publisher. .
+debug: data [scraper]. element captured. journal_name. Infant and Child Development.
+debug: debug [scraper]. element results. journal_name. Infant and Child Development.
+debug: data [scraper]. element captured. journal_issn. 1522-7219.
+debug: debug [scraper]. element results. journal_issn. 1522-7219.
+debug: data [scraper]. element captured. volume. 24.
+debug: debug [scraper]. element results. volume. 24.
+debug: data [scraper]. element captured. issue. 1.
+debug: debug [scraper]. element results. issue. 1.
+debug: data [scraper]. element captured. firstpage. 1.
+debug: debug [scraper]. element results. firstpage. 1.
+debug: data [scraper]. element captured. title. Parents&apos; Emotion‐Related Beliefs, Behaviours, and Skills Predict Children&apos;s Recognition of Emotion.
+debug: debug [scraper]. element results. title. Parents&apos; Emotion‐Related Beliefs, Behaviours, and Skills Predict Children&apos;s Recognition of Emotion.
+debug: data [scraper]. element captured. keywords. emotion.
+debug: data [scraper]. element captured. keywords. socialization.
+debug: data [scraper]. element captured. keywords. parents/parenting.
+debug: data [scraper]. element captured. keywords. parent–child communication.
+debug: debug [scraper]. element results. keywords. emotion,socialization,parents/parenting,parent–child communication.
+debug: data [scraper]. element captured. author_name. Castro, Vanessa L..
+debug: data [scraper]. element captured. author_name. North Carolina State University Raleigh NC USA.
+debug: data [scraper]. element captured. author_name. Halberstadt, Amy G..
+debug: data [scraper]. element captured. author_name. North Carolina State University Raleigh NC USA.
+debug: data [scraper]. element captured. author_name. Lozada, Fantasy T..
+debug: data [scraper]. element captured. author_name. University of Michigan Ann Arbor MI USA.
+debug: data [scraper]. element captured. author_name. Craig, Ashley B..
+debug: data [scraper]. element captured. author_name. 3‐C Institute for Social Development Cary NC USA.
+debug: debug [scraper]. element results. author_name. Castro, Vanessa L.,North Carolina State University Raleigh NC USA,Halberstadt, Amy G.,North Carolina State University Raleigh NC USA,Lozada, Fantasy T.,University of Michigan Ann Arbor MI USA,Craig, Ashley B.,3‐C Institute for Social Development Cary NC USA.
+debug: data [scraper]. element captured. author_institution. North Carolina State University Raleigh NC USA.
+debug: data [scraper]. element captured. author_institution. North Carolina State University Raleigh NC USA.
+debug: data [scraper]. element captured. author_institution. University of Michigan Ann Arbor MI USA.
+debug: data [scraper]. element captured. author_institution. 3‐C Institute for Social Development Cary NC USA.
+debug: debug [scraper]. element results. author_institution. North Carolina State University Raleigh NC USA,North Carolina State University Raleigh NC USA,University of Michigan Ann Arbor MI USA,3‐C Institute for Social Development Cary NC USA.
+debug: data [scraper]. element captured. date_published. 2015/01/01.
+debug: debug [scraper]. element results. date_published. 2015/01/01.
+debug: data [scraper]. element captured. doi. 10.1002/icd.1868.
+debug: debug [scraper]. element results. doi. 10.1002/icd.1868.
+debug: data [scraper]. element captured. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/icd.1868/full.
+debug: debug [scraper]. element results. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/icd.1868/full.
+debug: data [scraper]. element captured. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/icd.1868/abstract.
+debug: debug [scraper]. element results. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/icd.1868/abstract.
+debug: data [scraper]. element capture failed. figures_image.
+debug: debug [scraper]. selector had no results. //*[contains(@id, '-fig-')]/a[contains(@class, 'figZoom')]. figures_image.
+debug: debug [scraper]. element results. figures_image. .
+debug: info [scraper]. download started. abstract.html.
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/icd.1868/pdf.
+debug: data [scraper]. element captured. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/icd.1868/asset/icd1868.pdf?v=1&t=isul6p7u&s=760b3dc2e842719450b77eb436586feada04af04.
+debug: debug [scraper]. element results. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/icd.1868/asset/icd1868.pdf?v=1&t=isul6p7u&s=760b3dc2e842719450b77eb436586feada04af04.
+debug: info [scraper]. download started. fulltext.pdf.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 15/17 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://onlinelibrary.wiley.com/doi/10.1002/icd.1876/full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/wiley/http_onlinelibrary.wiley.com_doi_10.1002_icd.1876_full
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/icd.1876/full.
+debug: data [scraper]. element captured. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/icd.1876/pdf.
+debug: debug [scraper]. element results. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/icd.1876/pdf.
+debug: data [scraper]. element capture failed. publisher.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'publisher')]. publisher.
+debug: debug [scraper]. element results. publisher. .
+debug: data [scraper]. element captured. journal_name. Infant and Child Development.
+debug: debug [scraper]. element results. journal_name. Infant and Child Development.
+debug: data [scraper]. element captured. journal_issn. 1522-7219.
+debug: debug [scraper]. element results. journal_issn. 1522-7219.
+debug: data [scraper]. element captured. volume. 24.
+debug: debug [scraper]. element results. volume. 24.
+debug: data [scraper]. element captured. issue. 1.
+debug: debug [scraper]. element results. issue. 1.
+debug: data [scraper]. element captured. firstpage. 79.
+debug: debug [scraper]. element results. firstpage. 79.
+debug: data [scraper]. element captured. title. Changes in Attachment‐Related Behavioural Problems of Internationally Adopted Toddlers in Finland: Results from the FinAdo Study.
+debug: debug [scraper]. element results. title. Changes in Attachment‐Related Behavioural Problems of Internationally Adopted Toddlers in Finland: Results from the FinAdo Study.
+debug: data [scraper]. element captured. keywords. international adoption.
+debug: data [scraper]. element captured. keywords. toddlers.
+debug: data [scraper]. element captured. keywords. problem behaviour.
+debug: data [scraper]. element captured. keywords. FinAdo study.
+debug: data [scraper]. element captured. keywords. attachment.
+debug: debug [scraper]. element results. keywords. international adoption,toddlers,problem behaviour,FinAdo study,attachment.
+debug: data [scraper]. element captured. author_name. Raaska, Hanna.
+debug: data [scraper]. element captured. author_name. Helsinki University Central Hospital Helsinki Finland.
+debug: data [scraper]. element captured. author_name. University of Turku Turku Finland.
+debug: data [scraper]. element captured. author_name. Elovainio, Marko.
+debug: data [scraper]. element captured. author_name. National Institute for Health and Welfare Helsinki Finland.
+debug: data [scraper]. element captured. author_name. University of Helsinki Helsinki Finland.
+debug: data [scraper]. element captured. author_name. Lapinleimu, Helena.
+debug: data [scraper]. element captured. author_name. Turku University Central Hospital Turku Finland.
+debug: data [scraper]. element captured. author_name. University of Turku Turku Finland.
+debug: data [scraper]. element captured. author_name. Matomäki, Jaakko.
+debug: data [scraper]. element captured. author_name. Turku University Central Hospital Turku Finland.
+debug: data [scraper]. element captured. author_name. Sinkkonen, Jari.
+debug: data [scraper]. element captured. author_name. Save the Children Association Helsinki Finland.
+debug: data [scraper]. element captured. author_name. University of Turku Turku Finland.
+debug: debug [scraper]. element results. author_name. Raaska, Hanna,Helsinki University Central Hospital Helsinki Finland,University of Turku Turku Finland,Elovainio, Marko,National Institute for Health and Welfare Helsinki Finland,University of Helsinki Helsinki Finland,Lapinleimu, Helena,Turku University Central Hospital Turku Finland,University of Turku Turku Finland,Matomäki, Jaakko,Turku University Central Hospital Turku Finland,Sinkkonen, Jari,Save the Children Association Helsinki Finland,University of Turku Turku Finland.
+debug: data [scraper]. element captured. author_institution. Helsinki University Central Hospital Helsinki Finland.
+debug: data [scraper]. element captured. author_institution. University of Turku Turku Finland.
+debug: data [scraper]. element captured. author_institution. National Institute for Health and Welfare Helsinki Finland.
+debug: data [scraper]. element captured. author_institution. University of Helsinki Helsinki Finland.
+debug: data [scraper]. element captured. author_institution. Turku University Central Hospital Turku Finland.
+debug: data [scraper]. element captured. author_institution. University of Turku Turku Finland.
+debug: data [scraper]. element captured. author_institution. Turku University Central Hospital Turku Finland.
+debug: data [scraper]. element captured. author_institution. Save the Children Association Helsinki Finland.
+debug: data [scraper]. element captured. author_institution. University of Turku Turku Finland.
+debug: debug [scraper]. element results. author_institution. Helsinki University Central Hospital Helsinki Finland,University of Turku Turku Finland,National Institute for Health and Welfare Helsinki Finland,University of Helsinki Helsinki Finland,Turku University Central Hospital Turku Finland,University of Turku Turku Finland,Turku University Central Hospital Turku Finland,Save the Children Association Helsinki Finland,University of Turku Turku Finland.
+debug: data [scraper]. element captured. date_published. 2015/01/01.
+debug: debug [scraper]. element results. date_published. 2015/01/01.
+debug: data [scraper]. element captured. doi. 10.1002/icd.1876.
+debug: debug [scraper]. element results. doi. 10.1002/icd.1876.
+debug: data [scraper]. element captured. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/icd.1876/full.
+debug: debug [scraper]. element results. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/icd.1876/full.
+debug: data [scraper]. element captured. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/icd.1876/abstract.
+debug: debug [scraper]. element results. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/icd.1876/abstract.
+debug: data [scraper]. element capture failed. figures_image.
+debug: debug [scraper]. selector had no results. //*[contains(@id, '-fig-')]/a[contains(@class, 'figZoom')]. figures_image.
+debug: debug [scraper]. element results. figures_image. .
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/icd.1876/pdf.
+debug: data [scraper]. element captured. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/icd.1876/asset/icd1876.pdf?v=1&t=isuld7ct&s=e4ee93f34704542a20cd19ef00c336f3b95812d8.
+debug: debug [scraper]. element results. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/icd.1876/asset/icd1876.pdf?v=1&t=isuld7ct&s=e4ee93f34704542a20cd19ef00c336f3b95812d8.
+debug: info [scraper]. download started. abstract.html.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 15/17 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://onlinelibrary.wiley.com/doi/10.1002/mhw.30026/full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/wiley/http_onlinelibrary.wiley.com_doi_10.1002_mhw.30026_full
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/mhw.30026/full.
+debug: data [scraper]. element captured. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/mhw.30026/pdf.
+debug: debug [scraper]. element results. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/mhw.30026/pdf.
+debug: data [scraper]. element capture failed. publisher.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'publisher')]. publisher.
+debug: debug [scraper]. element results. publisher. .
+debug: data [scraper]. element captured. journal_name. Mental Health Weekly.
+debug: debug [scraper]. element results. journal_name. Mental Health Weekly.
+debug: data [scraper]. element captured. journal_issn. 1556-7583.
+debug: debug [scraper]. element results. journal_issn. 1556-7583.
+debug: data [scraper]. element captured. volume. 25.
+debug: debug [scraper]. element results. volume. 25.
+debug: data [scraper]. element captured. issue. 1.
+debug: debug [scraper]. element results. issue. 1.
+debug: data [scraper]. element captured. firstpage. 1.
+debug: debug [scraper]. element results. firstpage. 1.
+debug: data [scraper]. element captured. title. Colorado will pursue much‐watched effort to expand integration.
+debug: debug [scraper]. element results. title. Colorado will pursue much‐watched effort to expand integration.
+debug: data [scraper]. element capture failed. keywords.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'citation_keywords')]. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name. Enos, Gary.
+debug: debug [scraper]. element results. author_name. Enos, Gary.
+debug: data [scraper]. element capture failed. author_institution.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'citation_author_institution')]. author_institution.
+debug: debug [scraper]. element results. author_institution. .
+debug: data [scraper]. element captured. date_published. 2015/01/05.
+debug: debug [scraper]. element results. date_published. 2015/01/05.
+debug: data [scraper]. element captured. doi. 10.1002/mhw.30026.
+debug: debug [scraper]. element results. doi. 10.1002/mhw.30026.
+debug: data [scraper]. element captured. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/mhw.30026/full.
+debug: debug [scraper]. element results. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/mhw.30026/full.
+debug: data [scraper]. element captured. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/mhw.30026/abstract.
+debug: debug [scraper]. element results. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/mhw.30026/abstract.
+debug: data [scraper]. element capture failed. figures_image.
+debug: debug [scraper]. selector had no results. //*[contains(@id, '-fig-')]/a[contains(@class, 'figZoom')]. figures_image.
+debug: debug [scraper]. element results. figures_image. .
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/mhw.30026/pdf.
+debug: data [scraper]. element captured. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/mhw.30026/asset/mhw30026.pdf?v=1&t=isuld9wx&s=f6ebc142b88660b38dca2dfd24259fd7c953c6ef.
+debug: debug [scraper]. element results. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/mhw.30026/asset/mhw30026.pdf?v=1&t=isuld9wx&s=f6ebc142b88660b38dca2dfd24259fd7c953c6ef.
+debug: info [scraper]. download started. abstract.html.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 13/17 elements (4 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://onlinelibrary.wiley.com/doi/10.1002/cbl.30034/full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/wiley/http_onlinelibrary.wiley.com_doi_10.1002_cbl.30034_full
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/cbl.30034/full.
+debug: data [scraper]. element captured. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/cbl.30034/pdf.
+debug: debug [scraper]. element results. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/cbl.30034/pdf.
+debug: data [scraper]. element capture failed. publisher.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'publisher')]. publisher.
+debug: debug [scraper]. element results. publisher. .
+debug: data [scraper]. element captured. journal_name. The Brown University Child and Adolescent Behavior Letter.
+debug: debug [scraper]. element results. journal_name. The Brown University Child and Adolescent Behavior Letter.
+debug: data [scraper]. element captured. journal_issn. 1556-7575.
+debug: debug [scraper]. element results. journal_issn. 1556-7575.
+debug: data [scraper]. element captured. volume. 31.
+debug: debug [scraper]. element results. volume. 31.
+debug: data [scraper]. element captured. issue. 4.
+debug: debug [scraper]. element results. issue. 4.
+debug: data [scraper]. element captured. firstpage. 8.
+debug: debug [scraper]. element results. firstpage. 8.
+debug: data [scraper]. element captured. title. Screening for behavioral and emotional problems in primary care.
+debug: debug [scraper]. element results. title. Screening for behavioral and emotional problems in primary care.
+debug: data [scraper]. element capture failed. keywords.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'citation_keywords')]. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name. Fritz, Gregory K..
+debug: debug [scraper]. element results. author_name. Fritz, Gregory K..
+debug: data [scraper]. element capture failed. author_institution.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'citation_author_institution')]. author_institution.
+debug: debug [scraper]. element results. author_institution. .
+debug: data [scraper]. element captured. date_published. 2015/04/01.
+debug: debug [scraper]. element results. date_published. 2015/04/01.
+debug: data [scraper]. element captured. doi. 10.1002/cbl.30034.
+debug: debug [scraper]. element results. doi. 10.1002/cbl.30034.
+debug: data [scraper]. element captured. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/cbl.30034/full.
+debug: debug [scraper]. element results. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/cbl.30034/full.
+debug: data [scraper]. element captured. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/cbl.30034/abstract.
+debug: debug [scraper]. element results. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/cbl.30034/abstract.
+debug: data [scraper]. element capture failed. figures_image.
+debug: debug [scraper]. selector had no results. //*[contains(@id, '-fig-')]/a[contains(@class, 'figZoom')]. figures_image.
+debug: debug [scraper]. element results. figures_image. .
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/cbl.30034/pdf.
+debug: data [scraper]. element captured. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/cbl.30034/asset/cbl30034.pdf?v=1&t=isuldcgm&s=7443fc065e00d870d60ba42bdc7b29253e02e488.
+debug: debug [scraper]. element results. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/cbl.30034/asset/cbl30034.pdf?v=1&t=isuldcgm&s=7443fc065e00d870d60ba42bdc7b29253e02e488.
+debug: info [scraper]. download started. abstract.html.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 13/17 elements (4 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://onlinelibrary.wiley.com/doi/10.1002/cpu.30048/full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/wiley/http_onlinelibrary.wiley.com_doi_10.1002_cpu.30048_full
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/cpu.30048/full.
+debug: data [scraper]. element captured. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/cpu.30048/pdf.
+debug: debug [scraper]. element results. pdf_container. http://onlinelibrary.wiley.com/doi/10.1002/cpu.30048/pdf.
+debug: data [scraper]. element capture failed. publisher.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'publisher')]. publisher.
+debug: debug [scraper]. element results. publisher. .
+debug: data [scraper]. element captured. journal_name. The Brown University Child &amp; Adolescent Psychopharmacology Update.
+debug: debug [scraper]. element results. journal_name. The Brown University Child &amp; Adolescent Psychopharmacology Update.
+debug: data [scraper]. element captured. journal_issn. 1556-7567.
+debug: debug [scraper]. element results. journal_issn. 1556-7567.
+debug: data [scraper]. element captured. volume. 17.
+debug: debug [scraper]. element results. volume. 17.
+debug: data [scraper]. element captured. issue. 6.
+debug: debug [scraper]. element results. issue. 6.
+debug: data [scraper]. element captured. firstpage. 7.
+debug: debug [scraper]. element results. firstpage. 7.
+debug: data [scraper]. element captured. title. Research Roundup.
+debug: debug [scraper]. element results. title. Research Roundup.
+debug: data [scraper]. element capture failed. keywords.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'citation_keywords')]. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element capture failed. author_name.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'citation_author')]. author_name.
+debug: debug [scraper]. element results. author_name. .
+debug: data [scraper]. element capture failed. author_institution.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'citation_author_institution')]. author_institution.
+debug: debug [scraper]. element results. author_institution. .
+debug: data [scraper]. element captured. date_published. 2015/06/01.
+debug: debug [scraper]. element results. date_published. 2015/06/01.
+debug: data [scraper]. element captured. doi. 10.1002/cpu.30048.
+debug: debug [scraper]. element results. doi. 10.1002/cpu.30048.
+debug: data [scraper]. element captured. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/cpu.30048/full.
+debug: debug [scraper]. element results. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1002/cpu.30048/full.
+debug: data [scraper]. element captured. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/cpu.30048/abstract.
+debug: debug [scraper]. element results. abstract_html. http://onlinelibrary.wiley.com/doi/10.1002/cpu.30048/abstract.
+debug: data [scraper]. element capture failed. figures_image.
+debug: debug [scraper]. selector had no results. //*[contains(@id, '-fig-')]/a[contains(@class, 'figZoom')]. figures_image.
+debug: debug [scraper]. element results. figures_image. .
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1002/cpu.30048/pdf.
+debug: data [scraper]. element captured. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/cpu.30048/asset/cpu30048.pdf?v=1&t=isuldftt&s=fda6e408ee706e0bde97f55cd1ea9c7b4ea936ee.
+debug: debug [scraper]. element results. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1002/cpu.30048/asset/cpu30048.pdf?v=1&t=isuldftt&s=fda6e408ee706e0bde97f55cd1ea9c7b4ea936ee.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. abstract.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 12/17 elements (5 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://onlinelibrary.wiley.com/doi/10.1111/ajsp.12077/full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/wiley/http_onlinelibrary.wiley.com_doi_10.1111_ajsp.12077_full
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1111/ajsp.12077/full.
+debug: data [scraper]. element captured. pdf_container. http://onlinelibrary.wiley.com/doi/10.1111/ajsp.12077/pdf.
+debug: debug [scraper]. element results. pdf_container. http://onlinelibrary.wiley.com/doi/10.1111/ajsp.12077/pdf.
+debug: data [scraper]. element capture failed. publisher.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'publisher')]. publisher.
+debug: debug [scraper]. element results. publisher. .
+debug: data [scraper]. element captured. journal_name. Asian Journal of Social Psychology.
+debug: debug [scraper]. element results. journal_name. Asian Journal of Social Psychology.
+debug: data [scraper]. element captured. journal_issn. 1467-839X.
+debug: debug [scraper]. element results. journal_issn. 1467-839X.
+debug: data [scraper]. element captured. volume. 18.
+debug: debug [scraper]. element results. volume. 18.
+debug: data [scraper]. element captured. issue. 1.
+debug: debug [scraper]. element results. issue. 1.
+debug: data [scraper]. element captured. firstpage. 52.
+debug: debug [scraper]. element results. firstpage. 52.
+debug: data [scraper]. element captured. title. Perceived social structural relations and group stereotypes: A test of the Stereotype Content Model in Malaysia.
+debug: debug [scraper]. element results. title. Perceived social structural relations and group stereotypes: A test of the Stereotype Content Model in Malaysia.
+debug: data [scraper]. element captured. keywords. Malaysia.
+debug: data [scraper]. element captured. keywords. social structure.
+debug: data [scraper]. element captured. keywords. stereotypes.
+debug: debug [scraper]. element results. keywords. Malaysia,social structure,stereotypes.
+debug: data [scraper]. element captured. author_name. Janssens, Heleen.
+debug: data [scraper]. element captured. author_name. Utrecht University Ercomer Utrecht The Netherlands.
+debug: data [scraper]. element captured. author_name. Verkuyten, Maykel.
+debug: data [scraper]. element captured. author_name. Utrecht University Ercomer Utrecht The Netherlands.
+debug: data [scraper]. element captured. author_name. Khan, Aqeel.
+debug: data [scraper]. element captured. author_name. Universiti Teknologi Malaysia Faculty of Education Johor Malaysia.
+debug: debug [scraper]. element results. author_name. Janssens, Heleen,Utrecht University Ercomer Utrecht The Netherlands,Verkuyten, Maykel,Utrecht University Ercomer Utrecht The Netherlands,Khan, Aqeel,Universiti Teknologi Malaysia Faculty of Education Johor Malaysia.
+debug: data [scraper]. element captured. author_institution. Utrecht University Ercomer Utrecht The Netherlands.
+debug: data [scraper]. element captured. author_institution. Utrecht University Ercomer Utrecht The Netherlands.
+debug: data [scraper]. element captured. author_institution. Universiti Teknologi Malaysia Faculty of Education Johor Malaysia.
+debug: debug [scraper]. element results. author_institution. Utrecht University Ercomer Utrecht The Netherlands,Utrecht University Ercomer Utrecht The Netherlands,Universiti Teknologi Malaysia Faculty of Education Johor Malaysia.
+debug: data [scraper]. element captured. date_published. 2015/03/01.
+debug: debug [scraper]. element results. date_published. 2015/03/01.
+debug: data [scraper]. element captured. doi. 10.1111/ajsp.12077.
+debug: debug [scraper]. element results. doi. 10.1111/ajsp.12077.
+debug: data [scraper]. element captured. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1111/ajsp.12077/full.
+debug: debug [scraper]. element results. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1111/ajsp.12077/full.
+debug: data [scraper]. element captured. abstract_html. http://onlinelibrary.wiley.com/doi/10.1111/ajsp.12077/abstract.
+debug: debug [scraper]. element results. abstract_html. http://onlinelibrary.wiley.com/doi/10.1111/ajsp.12077/abstract.
+debug: data [scraper]. element capture failed. figures_image.
+debug: debug [scraper]. selector had no results. //*[contains(@id, '-fig-')]/a[contains(@class, 'figZoom')]. figures_image.
+debug: debug [scraper]. element results. figures_image. .
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1111/ajsp.12077/pdf.
+debug: data [scraper]. element captured. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1111/ajsp.12077/asset/ajsp12077.pdf?v=1&t=isuldk1x&s=a467e8016437e2001298c2e8fac5cec2481ca5ef.
+debug: debug [scraper]. element results. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1111/ajsp.12077/asset/ajsp12077.pdf?v=1&t=isuldk1x&s=a467e8016437e2001298c2e8fac5cec2481ca5ef.
+debug: info [scraper]. download started. abstract.html.
+debug: info [scraper]. download started. fulltext.pdf.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 15/17 elements (2 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://onlinelibrary.wiley.com/doi/10.1111/desc.12177/full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/wiley/http_onlinelibrary.wiley.com_doi_10.1111_desc.12177_full
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1111/desc.12177/full.
+debug: data [scraper]. element captured. pdf_container. http://onlinelibrary.wiley.com/doi/10.1111/desc.12177/pdf.
+debug: debug [scraper]. element results. pdf_container. http://onlinelibrary.wiley.com/doi/10.1111/desc.12177/pdf.
+debug: data [scraper]. element capture failed. publisher.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'publisher')]. publisher.
+debug: debug [scraper]. element results. publisher. .
+debug: data [scraper]. element captured. journal_name. Developmental Science.
+debug: debug [scraper]. element results. journal_name. Developmental Science.
+debug: data [scraper]. element captured. journal_issn. 1467-7687.
+debug: debug [scraper]. element results. journal_issn. 1467-7687.
+debug: data [scraper]. element captured. volume. 18.
+debug: debug [scraper]. element results. volume. 18.
+debug: data [scraper]. element captured. issue. 1.
+debug: debug [scraper]. element results. issue. 1.
+debug: data [scraper]. element captured. firstpage. 38.
+debug: debug [scraper]. element results. firstpage. 38.
+debug: data [scraper]. element captured. title. Young children ‘solve for x’ using the Approximate Number System.
+debug: debug [scraper]. element results. title. Young children ‘solve for x’ using the Approximate Number System.
+debug: data [scraper]. element capture failed. keywords.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'citation_keywords')]. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name. Kibbe, Melissa M..
+debug: data [scraper]. element captured. author_name. Johns Hopkins University Department of Psychological & Brain Sciences USA.
+debug: data [scraper]. element captured. author_name. Feigenson, Lisa.
+debug: data [scraper]. element captured. author_name. Johns Hopkins University Department of Psychological & Brain Sciences USA.
+debug: debug [scraper]. element results. author_name. Kibbe, Melissa M.,Johns Hopkins University Department of Psychological & Brain Sciences USA,Feigenson, Lisa,Johns Hopkins University Department of Psychological & Brain Sciences USA.
+debug: data [scraper]. element captured. author_institution. Johns Hopkins University Department of Psychological & Brain Sciences USA.
+debug: data [scraper]. element captured. author_institution. Johns Hopkins University Department of Psychological & Brain Sciences USA.
+debug: debug [scraper]. element results. author_institution. Johns Hopkins University Department of Psychological & Brain Sciences USA,Johns Hopkins University Department of Psychological & Brain Sciences USA.
+debug: data [scraper]. element captured. date_published. 2015/01/01.
+debug: debug [scraper]. element results. date_published. 2015/01/01.
+debug: data [scraper]. element captured. doi. 10.1111/desc.12177.
+debug: debug [scraper]. element results. doi. 10.1111/desc.12177.
+debug: data [scraper]. element captured. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1111/desc.12177/full.
+debug: debug [scraper]. element results. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1111/desc.12177/full.
+debug: data [scraper]. element captured. abstract_html. http://onlinelibrary.wiley.com/doi/10.1111/desc.12177/abstract.
+debug: debug [scraper]. element results. abstract_html. http://onlinelibrary.wiley.com/doi/10.1111/desc.12177/abstract.
+debug: data [scraper]. element capture failed. figures_image.
+debug: debug [scraper]. selector had no results. //*[contains(@id, '-fig-')]/a[contains(@class, 'figZoom')]. figures_image.
+debug: debug [scraper]. element results. figures_image. .
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1111/desc.12177/pdf.
+debug: data [scraper]. element captured. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1111/desc.12177/asset/desc12177.pdf?v=1&t=isuldo3g&s=4374c72672015a1fa0c5ae7273ead2dbadcd8352.
+debug: debug [scraper]. element results. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1111/desc.12177/asset/desc12177.pdf?v=1&t=isuldo3g&s=4374c72672015a1fa0c5ae7273ead2dbadcd8352.
+debug: info [scraper]. download started. abstract.html.
+debug: info [scraper]. download started. fulltext.html.
+debug: info [scraper]. download started. fulltext.pdf.
+info: URL processed: captured 14/17 elements (3 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://onlinelibrary.wiley.com/doi/10.1111/jopy.12079/full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/wiley/http_onlinelibrary.wiley.com_doi_10.1111_jopy.12079_full
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1111/jopy.12079/full.
+debug: data [scraper]. element captured. pdf_container. http://onlinelibrary.wiley.com/doi/10.1111/jopy.12079/pdf.
+debug: debug [scraper]. element results. pdf_container. http://onlinelibrary.wiley.com/doi/10.1111/jopy.12079/pdf.
+debug: data [scraper]. element capture failed. publisher.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'publisher')]. publisher.
+debug: debug [scraper]. element results. publisher. .
+debug: data [scraper]. element captured. journal_name. Journal of Personality.
+debug: debug [scraper]. element results. journal_name. Journal of Personality.
+debug: data [scraper]. element captured. journal_issn. 1467-6494.
+debug: debug [scraper]. element results. journal_issn. 1467-6494.
+debug: data [scraper]. element captured. volume. 83.
+debug: debug [scraper]. element results. volume. 83.
+debug: data [scraper]. element captured. issue. 1.
+debug: debug [scraper]. element results. issue. 1.
+debug: data [scraper]. element captured. firstpage. 26.
+debug: debug [scraper]. element results. firstpage. 26.
+debug: data [scraper]. element captured. title. The Concept of Mental Toughness: Tests of Dimensionality, Nomological Network, and Traitness.
+debug: debug [scraper]. element results. title. The Concept of Mental Toughness: Tests of Dimensionality, Nomological Network, and Traitness.
+debug: data [scraper]. element capture failed. keywords.
+debug: debug [scraper]. selector had no results. //meta[contains(@name, 'citation_keywords')]. keywords.
+debug: debug [scraper]. element results. keywords. .
+debug: data [scraper]. element captured. author_name. Gucciardi, Daniel F..
+debug: data [scraper]. element captured. author_name. Curtin University South Australia.
+debug: data [scraper]. element captured. author_name. The University of Queensland South Australia.
+debug: data [scraper]. element captured. author_name. Hanton, Sheldon.
+debug: data [scraper]. element captured. author_name. Cardiff Metropolitan University South Australia.
+debug: data [scraper]. element captured. author_name. Gordon, Sandy.
+debug: data [scraper]. element captured. author_name. The University of Western Australia South Australia.
+debug: data [scraper]. element captured. author_name. Mallett, Clifford J..
+debug: data [scraper]. element captured. author_name. The University of Queensland South Australia.
+debug: data [scraper]. element captured. author_name. Temby, Philip.
+debug: data [scraper]. element captured. author_name. Defence Science and Technology Organization South Australia.
+debug: debug [scraper]. element results. author_name. Gucciardi, Daniel F.,Curtin University South Australia,The University of Queensland South Australia,Hanton, Sheldon,Cardiff Metropolitan University South Australia,Gordon, Sandy,The University of Western Australia South Australia,Mallett, Clifford J.,The University of Queensland South Australia,Temby, Philip,Defence Science and Technology Organization South Australia.
+debug: data [scraper]. element captured. author_institution. Curtin University South Australia.
+debug: data [scraper]. element captured. author_institution. The University of Queensland South Australia.
+debug: data [scraper]. element captured. author_institution. Cardiff Metropolitan University South Australia.
+debug: data [scraper]. element captured. author_institution. The University of Western Australia South Australia.
+debug: data [scraper]. element captured. author_institution. The University of Queensland South Australia.
+debug: data [scraper]. element captured. author_institution. Defence Science and Technology Organization South Australia.
+debug: debug [scraper]. element results. author_institution. Curtin University South Australia,The University of Queensland South Australia,Cardiff Metropolitan University South Australia,The University of Western Australia South Australia,The University of Queensland South Australia,Defence Science and Technology Organization South Australia.
+debug: data [scraper]. element captured. date_published. 2015/02/01.
+debug: debug [scraper]. element results. date_published. 2015/02/01.
+debug: data [scraper]. element captured. doi. 10.1111/jopy.12079.
+debug: debug [scraper]. element results. doi. 10.1111/jopy.12079.
+debug: data [scraper]. element captured. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1111/jopy.12079/full.
+debug: debug [scraper]. element results. fulltext_html. http://onlinelibrary.wiley.com/doi/10.1111/jopy.12079/full.
+debug: data [scraper]. element captured. abstract_html. http://onlinelibrary.wiley.com/doi/10.1111/jopy.12079/abstract.
+debug: debug [scraper]. element results. abstract_html. http://onlinelibrary.wiley.com/doi/10.1111/jopy.12079/abstract.
+debug: data [scraper]. element capture failed. figures_image.
+debug: debug [scraper]. selector had no results. //*[contains(@id, '-fig-')]/a[contains(@class, 'figZoom')]. figures_image.
+debug: debug [scraper]. element results. figures_image. .
+debug: info [scraper]. download started. abstract.html.
+debug: info [scraper]. URL rendered. http://onlinelibrary.wiley.com/doi/10.1111/jopy.12079/pdf.
+debug: data [scraper]. element captured. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1111/jopy.12079/asset/jopy12079.pdf?v=1&t=isuldth5&s=4b6b39d68576d7557957c5d8ade823270a0adbfe.
+debug: debug [scraper]. element results. fulltext_pdf. http://onlinelibrary.wiley.com/store/10.1111/jopy.12079/asset/jopy12079.pdf?v=1&t=isuldth5&s=4b6b39d68576d7557957c5d8ade823270a0adbfe.
+debug: info [scraper]. download started. fulltext.pdf.
+debug: info [scraper]. download started. fulltext.html.
+info: URL processed: captured 14/17 elements (3 captures failed)
+debug: writing results to file: results.json
+debug: changing back to top-level directory
+info: processing URL: http://onlinelibrary.wiley.com/doi/10.1111/anzs.12067/full
+debug: creating output directory: /Users/pm286/workspace/scrapetest/wiley/http_onlinelibrary.wiley.com_doi_10.1111_anzs.12067_full
+info: all tasks completed
+dynamic-0-3:sandbox pm286$ 
+
