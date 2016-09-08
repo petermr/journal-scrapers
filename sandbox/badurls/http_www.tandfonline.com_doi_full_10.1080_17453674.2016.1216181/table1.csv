@@ -1,0 +1,20 @@
+ ,All patients,Antidepressant prescription
+ , ,No,Yes
+Variable,n = 9,092,n = 8,149,n = 943
+Age, years,69 (9.8),69 (9.8),69 (10.1)
+Female, n (%),5,106 (56),4,402 (54),704 (75)
+Charnley class, n (%), , , 
+ A,4,176 (46),3,840 (47),336 (36)
+ B,1,149 (13),1,043 (13),106 (11)
+ C,3,767 (41),3,266 (40),501 (53)
+EQ-5D index, , , 
+ Preoperative,0.430 (0.308),0.443 (0.304),0.323 (0.322)
+ Postoperativea,0.792 (0.228),0.803 (0.220),0.701 (0.277)
+EQ VAS, , , 
+ Preoperative,55 (22),56 (22),49 (22)
+ Postoperativea,77 (20),78 (19),70 (23)
+Pain VAS, , , 
+ Preoperative,60 (17),60 (17),64 (16)
+ Postoperativea,14 (18),13 (17),18 (20)
+Satisfaction VAS, , , 
+ Postoperativea,16 (20),16 (20),19 (23)

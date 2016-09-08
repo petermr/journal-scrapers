@@ -1,6 +1,5 @@
 {
-  "url": "oxford.*\\.org",
-  "headless": true,
+  "url": "oxford.*\\.org|10\\.1093",
   "elements": {
     "publisher": {
       "selector": "//meta[@name='DC.Publisher']",
@@ -27,7 +26,7 @@
       "attribute": "content"
     },
     "fulltext_html": {
-      "selector": "//meta[@name='citation_fulltext_html_url']",
+      "selector": "//meta[@name='citation_full_html_url']",
       "attribute": "content",
       "download": {
         "rename": "fulltext.html"

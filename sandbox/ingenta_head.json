@@ -1,5 +1,6 @@
 {
-  "url": "royalsocietypublishing\\.org",
+  "url": "ingenta\\.com | 10\\.1891",
+  "headless":true,
   "elements": {
     "fulltext_pdf": {
       "selector": "//meta[@name='citation_pdf_url']",
@@ -9,7 +10,7 @@
       }
     },
     "fulltext_html": {
-      "selector": "//meta[@name='citation_full_html_url']",
+      "selector": "//meta[@name='citation_fulltext_html_url']",
       "attribute": "content",
       "download": {
         "rename": "fulltext.html"
@@ -24,7 +25,7 @@
       "attribute": "content"
     },
     "date": {
-      "selector": "//meta[@name='DC.Date']",
+      "selector": "//meta[@name='citation_date']",
       "attribute": "content"
     },
     "doi": {
@@ -43,13 +44,14 @@
       "selector": "//meta[@name='citation_firstpage']",
       "attribute": "content"
     },
+    "abstract_html": {
+      "selector": "//meta[@name='citation_abstract']",
+      "attribute": "html"
+    },
     "description": {
-      "selector": "//meta[@name='citation_abstract_html_url']",
-      "attribute": "content",
-      "download": {
-        "rename": "abstract.html"
-      }
-	  
+      "selector": "//meta[@name='description']",
+      "attribute": "content"
     }
+	
   }
 }

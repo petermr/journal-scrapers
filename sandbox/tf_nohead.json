@@ -1,6 +1,5 @@
 {
   "url": "http://www\\.tandfonline\\.com",
- "headless":true, 
  "elements": {
     "fulltext_pdf": {
       "selector": "//a[@class='pdf last' or @class='show-pdf']",

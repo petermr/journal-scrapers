@@ -1,5 +1,6 @@
 {
   "url": "\\w+\\.\\w+",
+  "comment": "added OR logic in fulltext_html selector PMR 20160905",
   "elements": {
     "fulltext_pdf": {
       "selector": "//meta[@name='citation_pdf_url']",
@@ -9,7 +10,7 @@
       }
     },
     "fulltext_html": {
-      "selector": "//meta[@name='citation_fulltext_html_url']",
+      "selector": "//meta[@name='citation_fulltext_html_url' or @name='citation_full_html_url']",
       "attribute": "content",
       "download": {
         "rename": "fulltext.html"
@@ -43,9 +44,14 @@
       "selector": "//meta[@name='citation_firstpage']",
       "attribute": "content"
     },
+    "abstract_html": {
+      "selector": "//meta[@name='citation_abstract']",
+      "attribute": "html"
+    },
     "description": {
       "selector": "//meta[@name='description']",
       "attribute": "content"
     }
+	
   }
 }
