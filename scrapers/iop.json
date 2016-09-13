@@ -1,5 +1,7 @@
 {
   "url": "iopscience\\.iop\\.org",
+  "comment":"basic scraper timed out so adding headless",
+  "headless":true,
   "elements": {
     "fulltext_pdf": {
       "selector": "//meta[@name='citation_pdf_url']",
